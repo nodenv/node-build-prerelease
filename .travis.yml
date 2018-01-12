@@ -1,0 +1,12 @@
+sudo: false
+language: node_js
+node_js: node
+os: linux
+branches:
+  only:
+    - master
+script:
+  - npm run --silent verify-definitions -- $TRAVIS_COMMIT_RANGE
+notifications:
+  email:
+    on_success: never
