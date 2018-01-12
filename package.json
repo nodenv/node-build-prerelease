@@ -1,0 +1,32 @@
+{
+  "name": "node-build-prerelease",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Install NodeJS prerelease versions",
+  "homepage": "https://github.com/nodenv/node-build-prerelease#readme",
+  "license": "MIT",
+  "author": "Jason Karns <jason@karns.name> (http://jason.karns.name)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodenv/node-build-prerelease.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodenv/node-build-prerelease/issues"
+  },
+  "directories": {
+    "test": "./test"
+  },
+  "scripts": {
+    "test": "bats ${CI:+--tap} test",
+    "verify-definitions": "script/verify-definitions",
+    "scrape-definitions": "nodenv update-version-defs --destination $PWD/share/node-build/",
+    "submit-definitions": "script/submit-definitions -r",
+    "publish:github": "git push --follow-tags && script/release-github",
+    "preversion": "script/release-precheck",
+    "version": "npm run publish:version",
+    "postversion": "npm run publish:github"
+  },
+  "devDependencies": {
+    "bats": "^0.4.2"
+  }
+}
