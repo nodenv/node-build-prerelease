@@ -21,10 +21,10 @@
     "verify-definitions": "script/verify-definitions",
     "scrape-definitions": "nodenv update-version-defs --destination $PWD/share/node-build/",
     "submit-definitions": "script/submit-definitions -r",
+    "publish:brew": "brew-publish $npm_package_name v$npm_package_version",
     "publish:github": "git push --follow-tags && script/release-github",
     "preversion": "script/release-precheck",
-    "version": "npm run publish:version",
-    "postversion": "npm run publish:github"
+    "postversion": "npm run publish:github && npm run publish:brew"
   },
   "devDependencies": {
     "bats": "^0.4.2"
