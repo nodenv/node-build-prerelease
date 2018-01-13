@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+# Usage: script/publish/brew <name> <version>
+#
+# - opens PR to update version in homebrew
+
+set -e
+
+pkg_name=${1:-$npm_package_name}
+pkg_version=${2:-$npm_package_version}
+
+brew-publish $pkg_name v$pkg_version
