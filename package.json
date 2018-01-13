@@ -27,6 +27,7 @@
     "postversion": "npm run publish:github && npm run publish:brew"
   },
   "devDependencies": {
+    "@nodenv/node-build-update-defs": "^2.2.0",
     "bats": "^0.4.2",
     "scripty": "^1.7.2"
   },
