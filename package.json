@@ -19,7 +19,6 @@
     "test": "./test"
   },
   "scripts": {
-    "test": "bats ${CI:+--tap} test",
     "verify-definitions": "scripty",
     "scrape-definitions": "nodenv update-version-defs --nodejs-pre --destination $PWD/share/node-build/",
     "submit-definitions": "scripty -r",
