@@ -18,12 +18,12 @@
   },
   "scripts": {
     "test": "bats ${CI:+--tap} test",
-    "verify-definitions": "script/verify-definitions",
+    "verify-definitions": "scripty",
     "scrape-definitions": "nodenv update-version-defs --destination $PWD/share/node-build/",
-    "submit-definitions": "script/submit-definitions -r",
+    "submit-definitions": "scripty -r",
     "publish:brew": "brew-publish $npm_package_name v$npm_package_version",
     "publish:github": "git push --follow-tags && script/release-github",
-    "preversion": "script/release-precheck",
+    "preversion": "scripty",
     "postversion": "npm run publish:github && npm run publish:brew"
   },
   "devDependencies": {
