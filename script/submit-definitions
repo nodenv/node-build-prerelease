@@ -6,7 +6,7 @@
 #
 # * inspired by: https://github.com/jasonkarns/brew-publish *
 
-set -e
+set -euo pipefail
 
 while getopts ":r" opt; do
   case $opt in

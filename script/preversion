@@ -6,7 +6,7 @@
 # - ensure currently on master branch
 # - ensure there are bin or definition changes to release
 
-set -e
+set -euo pipefail
 
 git fetch --quiet --tags origin master
 

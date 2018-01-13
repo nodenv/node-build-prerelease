@@ -3,9 +3,9 @@
 #
 # - opens PR to update version in homebrew
 
-set -e
+set -euo pipefail
 
 pkg_name=${1:-$npm_package_name}
 pkg_version=${2:-$npm_package_version}
 
-brew-publish $pkg_name v$pkg_version
+brew-publish "$pkg_name" "v$pkg_version"

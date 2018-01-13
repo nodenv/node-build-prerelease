@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Usage: script/verify-definitions <COMMIT-RANGE>
-set -e
+
+set -euo pipefail
 
 help_text() {
   sed -ne '/^#/!q;s/.\{1,2\}//;1d;p' < "$0"
