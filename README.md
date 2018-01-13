@@ -44,8 +44,8 @@ see [setting node_build_definitions][]
 
 For precise control over the installation, you can install it manually.
 
-    git clone https://github.com/nodenv/node-build.git
-    cd node-build
+    git clone https://github.com/nodenv/node-build-prerelease.git
+    cd node-build-prerelease
     ./install.sh
 
 This will install node-build-prerelease into `/usr/local`.
