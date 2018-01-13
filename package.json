@@ -27,6 +27,11 @@
     "postversion": "npm run publish:github && npm run publish:brew"
   },
   "devDependencies": {
-    "bats": "^0.4.2"
+    "bats": "^0.4.2",
+    "scripty": "^1.7.2"
+  },
+  "scripty": {
+    "path": "script",
+    "silent": true
   }
 }
