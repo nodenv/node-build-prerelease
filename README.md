@@ -13,7 +13,7 @@ Installing via Homebrew will make node-build aware of nodejs prereleases automat
 
 *This is the recommended method of installation if you installed nodenv or node-build with Homebrew.*
 
-    brew install nodenv/node-build-prerelease
+    brew install nodenv/nodenv/node-build-prerelease
 
 There is the added delay between when a new version of node-build-prerelease is released, and when the homebrew formula is updated to point to it.
 Typically this additional delay is only a matter of days and is well worth the simplicity of using homebrew to manage nodenv plugins.
