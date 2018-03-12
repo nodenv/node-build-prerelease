@@ -1,0 +1,12 @@
+binary aix-ppc64 "https://nodejs.org/download/rc/v8.10.0-rc.0/node-v8.10.0-rc.0-aix-ppc64.tar.gz#dfda3f05d672e00290b5d90c2d6b5c9541f8b939612e91e3d90067ca205d620f"
+binary darwin-x64 "https://nodejs.org/download/rc/v8.10.0-rc.0/node-v8.10.0-rc.0-darwin-x64.tar.gz#7942c5a383222c63ca41a21dd3c1b3a885b8bd3a424c595d6af376c0a075d143"
+binary linux-arm64 "https://nodejs.org/download/rc/v8.10.0-rc.0/node-v8.10.0-rc.0-linux-arm64.tar.gz#2dd1e4b17445d74f6c4febbd1858ce459d5dc0e52c7571e3dd86cea2511fd716"
+binary linux-armv6l "https://nodejs.org/download/rc/v8.10.0-rc.0/node-v8.10.0-rc.0-linux-armv6l.tar.gz#cebf744500f22b52408416f8265b29ea4f24fcc47b53b77baa52f2c4667f9725"
+binary linux-armv7l "https://nodejs.org/download/rc/v8.10.0-rc.0/node-v8.10.0-rc.0-linux-armv7l.tar.gz#ddf09b32847a808cde19d36f4780e7713d598259c1e90289b1fedf9de3060f8f"
+binary linux-ppc64le "https://nodejs.org/download/rc/v8.10.0-rc.0/node-v8.10.0-rc.0-linux-ppc64le.tar.gz#8da218ee203b781d6a27ccc5c663787e55266a13e3ad8108c85430c9bab8d45d"
+binary linux-s390x "https://nodejs.org/download/rc/v8.10.0-rc.0/node-v8.10.0-rc.0-linux-s390x.tar.gz#3966cca5eee98aa06fb9ad324e9dcde080c8ef6c1336bf2cce86837e40aa0272"
+binary linux-x64 "https://nodejs.org/download/rc/v8.10.0-rc.0/node-v8.10.0-rc.0-linux-x64.tar.gz#33c7e999227e11f93b20feb82bf8d3766826269e99145582850d79e3734a01f6"
+binary linux-x86 "https://nodejs.org/download/rc/v8.10.0-rc.0/node-v8.10.0-rc.0-linux-x86.tar.gz#214c5959e854b30bc481b9b8d8ff16301e7d020e9899d5199dd46ab607afa748"
+binary sunos-x86 "https://nodejs.org/download/rc/v8.10.0-rc.0/node-v8.10.0-rc.0-sunos-x86.tar.gz#fe8b53d57760708489fc4df6618902b178a5a67a4235052b194c60bd8092b5de"
+
+install_package "node-v8.10.0-rc.0" "https://nodejs.org/download/rc/v8.10.0-rc.0/node-v8.10.0-rc.0.tar.gz#a66759185bcc2e78de8b5b3e8a18cc06603855b739830978eaab3ce3c373d3a5"
