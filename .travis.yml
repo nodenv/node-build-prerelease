@@ -4,5 +4,6 @@ cache: npm
 
 jobs:
   include:
+    - stage: test
     - stage: verify definitions
       script: npm run verify-definitions -- $TRAVIS_COMMIT_RANGE
