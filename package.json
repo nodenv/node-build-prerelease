@@ -24,11 +24,11 @@
     "verify-definitions": "scripty",
     "scrape-definitions": "nodenv update-version-defs --nodejs-pre --destination $PWD/share/node-build/",
     "submit-definitions": "scripty -r",
-    "publish": "scripty",
-    "publish:brew": "scripty",
-    "publish:github": "scripty",
     "preversion": "scripty",
-    "postversion": "npm publish"
+    "postversion": "npm publish",
+    "prepublishOnly": "npm run publish:github && npm run publish:brew",
+    "publish:brew": "scripty",
+    "publish:github": "scripty"
   },
   "devDependencies": {
     "@nodenv/node-build-update-defs": "^2.2.0",
