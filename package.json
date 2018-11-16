@@ -20,14 +20,14 @@
   },
   "scripts": {
     "posttest": "npm run lint",
-    "lint": "shellcheck $(git ls-files | grep -E -e '^(bin|script)/' -e '\\.(ba)?sh$')",
+    "lint": "git ls-files bin script **/*.*sh | xargs shellcheck",
     "verify-definitions": "scripty",
     "scrape-definitions": "nodenv update-version-defs --nodejs-pre --destination $PWD/share/node-build/",
     "submit-definitions": "scripty -r",
     "preversion": "scripty",
     "postversion": "npm publish",
     "prepublishOnly": "npm run publish:github && npm run publish:brew",
-    "publish:brew": "scripty",
+    "publish:brew": "brew-publish",
     "publish:github": "scripty"
   },
   "devDependencies": {
