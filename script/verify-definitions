@@ -37,15 +37,12 @@ changed_files() {
 
 potentially_new_packages() {
   local commit_range="$1"
-  local files
 
-  mapfile -t files < <(changed_files "$commit_range")
-
-  [ ${#files[@]} -ne 0 ] && extract_urls "${files[@]}"
+  changed_files "$commit_range" | xargs cat | extract_urls
 }
 
 extract_urls() {
-  $(type -p ggrep grep | head -1) -hoe 'http[^"]\+#[^"]\+' "$@" | sort | uniq
+  $(type -p ggrep grep | head -1) -hoe 'http[^"]\+#[^"]\+' | sort | uniq
 }
 
 verify() {
