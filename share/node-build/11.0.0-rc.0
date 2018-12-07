@@ -1,0 +1,11 @@
+binary aix-ppc64 "https://nodejs.org/download/rc/v11.0.0-rc.0/node-v11.0.0-rc.0-aix-ppc64.tar.gz#d8ed81ce3c58f21060700ab635b6ba85856fe9d435eaf394bd9d49a248a136c3"
+binary darwin-x64 "https://nodejs.org/download/rc/v11.0.0-rc.0/node-v11.0.0-rc.0-darwin-x64.tar.gz#054a4234f64dc43a2a7cb10bc14650bd42c1916e2a08f4901161f1b51bbb045e"
+binary linux-arm64 "https://nodejs.org/download/rc/v11.0.0-rc.0/node-v11.0.0-rc.0-linux-arm64.tar.gz#9cab5a336a19f85b0a2e16d1443cc0d906488f38e75e99cdc0db34db6ad89c0a"
+binary linux-armv6l "https://nodejs.org/download/rc/v11.0.0-rc.0/node-v11.0.0-rc.0-linux-armv6l.tar.gz#e6c4140d2093f0ca454f6adb0a2dcabe7e8cf601874db1bcfd98016c11409cd7"
+binary linux-armv7l "https://nodejs.org/download/rc/v11.0.0-rc.0/node-v11.0.0-rc.0-linux-armv7l.tar.gz#9ed174be8db0b690f088a97901e21a97679219a34046bcfece07296d3c0e2fc3"
+binary linux-ppc64le "https://nodejs.org/download/rc/v11.0.0-rc.0/node-v11.0.0-rc.0-linux-ppc64le.tar.gz#d1a159c0d06a8b4ae5730d0a165165bce86362cf6aed0d299ffade8d8dea997b"
+binary linux-s390x "https://nodejs.org/download/rc/v11.0.0-rc.0/node-v11.0.0-rc.0-linux-s390x.tar.gz#6917fdcec66cb15b0b311ff8dd25a015691eb73e1e082c72b6c2519b47562d05"
+binary linux-x64 "https://nodejs.org/download/rc/v11.0.0-rc.0/node-v11.0.0-rc.0-linux-x64.tar.gz#4bebc1f75c1206c970b6fd5c6814be65bd4bd8796476826cb17fedd2205f399f"
+binary sunos-x64 "https://nodejs.org/download/rc/v11.0.0-rc.0/node-v11.0.0-rc.0-sunos-x64.tar.gz#e5be2f5e81736b7a03794c60222731b00f709105b73cfd4acd7d08f1b3c72a99"
+
+install_package "node-v11.0.0-rc.0" "https://nodejs.org/download/rc/v11.0.0-rc.0/node-v11.0.0-rc.0.tar.gz#d7965b9608e028f7ac1f7aa4808fc6fea1c5aac4c802eee3069ee962e2e4e350"
