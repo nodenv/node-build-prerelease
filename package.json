@@ -13,12 +13,14 @@
     "url": "https://github.com/nodenv/node-build-prerelease/issues"
   },
   "files": [
+    "script",
     "share"
   ],
   "directories": {
-    "test": "./test"
+    "test": "test"
   },
   "scripts": {
+    "postinstall": "script/postinstall",
     "posttest": "npm run lint",
     "lint": "git ls-files bin script **/*.*sh | xargs shellcheck",
     "verify-definitions": "scripty",
