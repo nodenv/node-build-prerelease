@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# Usage: script/verify-definitions <COMMIT-RANGE>
+# Usage: script/verify-definitions (-- FILES... | COMMIT_RANGE)
+#   script/verify-definitions -- foo        # verify specific files by name
+#   script/verify-definitions COMMIT_RANGE  # verify definitions modified in COMMIT_RANGE
 
 set -eufo pipefail
 IFS=$'\n\t'
@@ -40,42 +42,47 @@ changed_files() {
   git diff --name-only --diff-filter=ACMR "$commit_range" -- ./share/node-build
 }
 
-potentially_new_packages() {
-  local commit_range="$1"
-
-  changed_files "$commit_range" | xargs cat | extract_urls
-}
-
 extract_urls() {
   $(type -p ggrep grep | head -1) -hoEe 'http[^"]+#[^"]*' | sort | uniq
 }
 
+verify_files() {
+  xargs cat | extract_urls
+}
+
+potentially_new_packages() {
+  local commit_range="$1"
+
+  changed_files "$commit_range"
+}
+
 verify() {
   local url checksum file status=0
-  local commit_range="$1"
-  echo "Verifying changes from $commit_range"
-  changed_files "$commit_range"
-  for url in $(potentially_new_packages "$commit_range"); do
+  while read -r url; do
     checksum="${url#*#}"
     url="${url%#*}"
     echo "Verifying checksum for $url"
     file="${TMPDIR:-/tmp}/$checksum"
     download_and_verify "$url" "$file" "$checksum" || status=$?
-  done
+  done < <(xargs cat | extract_urls)
   return $status
 }
 
 case "${1-}" in
   '' )
-    echo "COMMIT-RANGE required" >&2
-    help_text >&2
-    exit 1
-    ;;
+    { echo "COMMIT_RANGE or FILES required"
+      help_text
+    } >&2
+    exit 1;;
   -h | --help )
     help_text
-    exit 0
+    ;;
+  -- )
+    echo "$@" | verify
     ;;
   * )
-    verify "$@"
+    echo "Verifying changes from $1"
+    changed_files "$1"
+    potentially_new_packages "$1" | verify
     ;;
 esac
