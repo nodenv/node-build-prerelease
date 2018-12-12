@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Usage: script/verify-definitions <COMMIT-RANGE>
 
-set -euo pipefail
+set -eufo pipefail
+IFS=$'\n\t'
 
 help_text() {
   sed -ne '/^#/!q;s/.\{1,2\}//;1d;p' < "$0"
@@ -24,8 +25,12 @@ download_and_verify() {
   local expected="$3"
   download_package "$url" "$file"
   checksum="$(compute_sha2 < "$file")"
-  if [ -n "$expected" ] && [ "$checksum" != "$expected" ]; then
-    echo "Error: $url doesn't match its checksum $expected" >&2
+  if [ "$checksum" != "$expected" ]; then
+    {
+      echo "Error: $url doesn't match its checksum:"
+      echo "  expected: $expected"
+      echo "    actual: $checksum"
+    } >&2
     return 1
   fi
 }
@@ -46,7 +51,7 @@ extract_urls() {
 }
 
 verify() {
-  local url checksum file
+  local url checksum file status=0
   local commit_range="$1"
   echo "Verifying changes from $commit_range"
   changed_files "$commit_range"
@@ -55,11 +60,12 @@ verify() {
     url="${url%#*}"
     echo "Verifying checksum for $url"
     file="${TMPDIR:-/tmp}/$checksum"
-    download_and_verify "$url" "$file" "$checksum"
+    download_and_verify "$url" "$file" "$checksum" || status=$?
   done
+  return $status
 }
 
-case "${1:-}" in
+case "${1-}" in
   '' )
     echo "COMMIT-RANGE required" >&2
     help_text >&2
