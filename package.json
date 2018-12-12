@@ -24,8 +24,9 @@
     "posttest": "npm run lint",
     "lint": "git ls-files bin script **/*.*sh | xargs shellcheck",
     "verify-definitions": "scripty",
-    "scrape-definitions": "nodenv update-version-defs --nodejs-pre --destination $PWD/share/node-build/",
-    "submit-definitions": "scripty -r",
+    "scrape-definitions": "nodenv-update-version-defs --nodejs-pre --chakracore-pre -d $PWD/share/node-build/",
+    "submit-definitions": "scripty",
+    "clean": "git clean -f -- share",
     "preversion": "scripty",
     "postversion": "npm publish",
     "prepublishOnly": "npm run publish:github && npm run publish:brew",
@@ -33,7 +34,7 @@
     "publish:github": "scripty"
   },
   "devDependencies": {
-    "@nodenv/node-build-update-defs": "^2.2.0",
+    "@nodenv/node-build-update-defs": "^2.4.0",
     "bats": "^0.4.2",
     "brew-publish": "^2.3.1",
     "scripty": "^1.8.0"
