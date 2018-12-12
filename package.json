@@ -24,7 +24,7 @@
     "posttest": "npm run lint",
     "lint": "git ls-files bin script **/*.*sh | xargs shellcheck",
     "verify-definitions": "scripty",
-    "scrape-definitions": "nodenv-update-version-defs --nodejs-pre --chakracore-pre -d $PWD/share/node-build/",
+    "scrape-definitions": "nodenv-update-version-defs --nodejs-pre --chakracore-pre --nodejs-nightly --chakracore-nightly -d $PWD/share/node-build/",
     "submit-definitions": "scripty",
     "clean": "git clean -f -- share",
     "preversion": "scripty",
