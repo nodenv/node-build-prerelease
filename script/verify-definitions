@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Usage: script/verify-definitions (-- FILES... | COMMIT_RANGE)
+# Usage: script/verify-definitions (- | -- FILES... | COMMIT_RANGE)
+#   script/verify-definitions -             # verify definition files listed on STDIN
 #   script/verify-definitions -- foo        # verify specific files by name
 #   script/verify-definitions COMMIT_RANGE  # verify definitions modified in COMMIT_RANGE
 
@@ -76,6 +77,9 @@ case "${1-}" in
     exit 1;;
   -h | --help )
     help_text
+    ;;
+  - )
+    verify
     ;;
   -- )
     echo "$@" | verify
