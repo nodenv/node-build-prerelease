@@ -1,0 +1,11 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v11.0.0-nightly20180826e10290cc67/node-v11.0.0-nightly20180826e10290cc67-aix-ppc64.tar.gz#84d235b5b614c8989b08d46284f31bfb426543874f72a769bf50dc9bea8e12a3"
+binary darwin-x64 "https://nodejs.org/download/nightly/v11.0.0-nightly20180826e10290cc67/node-v11.0.0-nightly20180826e10290cc67-darwin-x64.tar.gz#d6e9a8a9b3af0066185964103491820d3bfcffa3149da8647d0388176af69344"
+binary linux-arm64 "https://nodejs.org/download/nightly/v11.0.0-nightly20180826e10290cc67/node-v11.0.0-nightly20180826e10290cc67-linux-arm64.tar.gz#e366d962c7c17d38281d182d72d2d2d474173e7b699c4b82d72586c05ffb54b3"
+binary linux-armv6l "https://nodejs.org/download/nightly/v11.0.0-nightly20180826e10290cc67/node-v11.0.0-nightly20180826e10290cc67-linux-armv6l.tar.gz#9878a5564aa56dcfb407bd9dcc83d7771fadb351a002827225aadfa0eb43d39b"
+binary linux-armv7l "https://nodejs.org/download/nightly/v11.0.0-nightly20180826e10290cc67/node-v11.0.0-nightly20180826e10290cc67-linux-armv7l.tar.gz#2b2d55827c498a7bda4c4003c4d7c04dc7f997a25d3fba532a5bac92f5924c69"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v11.0.0-nightly20180826e10290cc67/node-v11.0.0-nightly20180826e10290cc67-linux-ppc64le.tar.gz#7b650c868a00cfbdf138940db0173d1d31e22dd31c0605d0636655fd0506fb28"
+binary linux-s390x "https://nodejs.org/download/nightly/v11.0.0-nightly20180826e10290cc67/node-v11.0.0-nightly20180826e10290cc67-linux-s390x.tar.gz#7a64057d6b78ea5e265112e97a527a7129500fd4c9d7106d7cfe89f96b4be774"
+binary linux-x64 "https://nodejs.org/download/nightly/v11.0.0-nightly20180826e10290cc67/node-v11.0.0-nightly20180826e10290cc67-linux-x64.tar.gz#d547f8d8acda73f1282e66a85707eb400af9940a9c7448d7545ac70d5204d410"
+binary sunos-x64 "https://nodejs.org/download/nightly/v11.0.0-nightly20180826e10290cc67/node-v11.0.0-nightly20180826e10290cc67-sunos-x64.tar.gz#ffe1e8eab7b10cd5619012f0ff9335f65fb35c033e3570ed53c8497883266f25"
+
+install_package "node-v11.0.0-nightly20180826e10290cc67" "https://nodejs.org/download/nightly/v11.0.0-nightly20180826e10290cc67/node-v11.0.0-nightly20180826e10290cc67.tar.gz#e184a7ee1bb5fb90455164ce1b9fc59036bda747f3c06492bad30e79053a5383"
