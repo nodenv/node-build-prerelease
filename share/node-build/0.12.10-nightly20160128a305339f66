@@ -1,0 +1,8 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v0.12.10-nightly20160128a305339f66/node-v0.12.10-nightly20160128a305339f66-darwin-x64.tar.gz#21fdb81464818d661c92df112728c8842a030f35f956ed51dec691fc28c53691"
+binary darwin-x86 "https://nodejs.org/download/nightly/v0.12.10-nightly20160128a305339f66/node-v0.12.10-nightly20160128a305339f66-darwin-x86.tar.gz#29d49ff7a24e4f9fe6178d5bb00591b2ab7b2f48759df1da213cbb4e6e6f89f9"
+binary linux-x64 "https://nodejs.org/download/nightly/v0.12.10-nightly20160128a305339f66/node-v0.12.10-nightly20160128a305339f66-linux-x64.tar.gz#167d3b0f5b419682332dfda01a41d3dc680779a542448ccf55891b718196d3c9"
+binary linux-x86 "https://nodejs.org/download/nightly/v0.12.10-nightly20160128a305339f66/node-v0.12.10-nightly20160128a305339f66-linux-x86.tar.gz#380c9d5781ef2af320e50c79e2853d1d6d5a267b67562a4fb52460b41170876c"
+binary sunos-x64 "https://nodejs.org/download/nightly/v0.12.10-nightly20160128a305339f66/node-v0.12.10-nightly20160128a305339f66-sunos-x64.tar.gz#a41fe066fd92cd16e494e210e231e75eb2ce6d0181cab21e09c67cb9f6dc7f1e"
+binary sunos-x86 "https://nodejs.org/download/nightly/v0.12.10-nightly20160128a305339f66/node-v0.12.10-nightly20160128a305339f66-sunos-x86.tar.gz#521ddd148947d5c75fc5266a08ed2028cfeaf5e6acbbc5c8195439c8030b2fc6"
+
+install_package "node-v0.12.10-nightly20160128a305339f66" "https://nodejs.org/download/nightly/v0.12.10-nightly20160128a305339f66/node-v0.12.10-nightly20160128a305339f66.tar.gz#c1c9193059b8bfed90731e8d9d2d705262d4e35e33a6b4e196abb22969259fea"
