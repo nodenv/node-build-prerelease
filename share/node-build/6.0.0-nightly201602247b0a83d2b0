@@ -1,0 +1,7 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v6.0.0-nightly201602247b0a83d2b0/node-v6.0.0-nightly201602247b0a83d2b0-darwin-x64.tar.gz#d3e079e4214110100a290a61874c373d7dbb45397685e135cb927d2364c33711"
+binary linux-arm64 "https://nodejs.org/download/nightly/v6.0.0-nightly201602247b0a83d2b0/node-v6.0.0-nightly201602247b0a83d2b0-linux-arm64.tar.gz#6ae61ced441b11e47bd2d5ef09c2ae030c7f04d9632dc4c7e06bceb669a722f6"
+binary linux-armv7l "https://nodejs.org/download/nightly/v6.0.0-nightly201602247b0a83d2b0/node-v6.0.0-nightly201602247b0a83d2b0-linux-armv7l.tar.gz#e78d02eca59bd7d5bada490e0e27d43ed0acf84b8291d838c69ce9712b99f508"
+binary linux-x64 "https://nodejs.org/download/nightly/v6.0.0-nightly201602247b0a83d2b0/node-v6.0.0-nightly201602247b0a83d2b0-linux-x64.tar.gz#3664c5281017ee23a30a0561209d9433269f696467fb184613dfcd0600f2c253"
+binary linux-x86 "https://nodejs.org/download/nightly/v6.0.0-nightly201602247b0a83d2b0/node-v6.0.0-nightly201602247b0a83d2b0-linux-x86.tar.gz#5ff1e812aa09aa84aed72c576a720309129a0e94889b1903a20a399fe4409860"
+
+install_package "node-v6.0.0-nightly201602247b0a83d2b0" "https://nodejs.org/download/nightly/v6.0.0-nightly201602247b0a83d2b0/node-v6.0.0-nightly201602247b0a83d2b0.tar.gz#01afa79a9404cb6cf4b0dcc6407c455b0b932c18c8ac210afe80b52399ce60dd"

@@ -1,0 +1,11 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v6.0.0-nightly20160116da550aa063/node-v6.0.0-nightly20160116da550aa063-darwin-x64.tar.gz#4110a00fdf5f0db44ad9218138d6e70109197bfaa00a3a280d9329c063c8c0ca"
+binary linux-arm64 "https://nodejs.org/download/nightly/v6.0.0-nightly20160116da550aa063/node-v6.0.0-nightly20160116da550aa063-linux-arm64.tar.gz#63a0be637bb83b562e48938dc4467b9c01bf00ff9c659da647beab493b9ef353"
+binary linux-armv6l "https://nodejs.org/download/nightly/v6.0.0-nightly20160116da550aa063/node-v6.0.0-nightly20160116da550aa063-linux-armv6l.tar.gz#c9751ce46695980a246caa1fec9bea3604f7ef610ab323bdbfb89f6c3cb869c8"
+binary linux-armv7l "https://nodejs.org/download/nightly/v6.0.0-nightly20160116da550aa063/node-v6.0.0-nightly20160116da550aa063-linux-armv7l.tar.gz#d1f54b89ae298e9f1c80137688f729f87607e44071a775c45edbc2b0523a38c3"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v6.0.0-nightly20160116da550aa063/node-v6.0.0-nightly20160116da550aa063-linux-ppc64le.tar.gz#c84be94ef4fdd7d4c076c80fb4dfacad99e078f4030f5284073105118c84632a"
+binary linux-x64 "https://nodejs.org/download/nightly/v6.0.0-nightly20160116da550aa063/node-v6.0.0-nightly20160116da550aa063-linux-x64.tar.gz#553cbccb6fa47f7032aa4d2bd625ae30dd984c232587030dbb3d26eb40dafdff"
+binary linux-x86 "https://nodejs.org/download/nightly/v6.0.0-nightly20160116da550aa063/node-v6.0.0-nightly20160116da550aa063-linux-x86.tar.gz#4ee48f13ff20eb2b805332a8491a597610d14ebd0e248fc1de0cdc3f51972318"
+binary sunos-x64 "https://nodejs.org/download/nightly/v6.0.0-nightly20160116da550aa063/node-v6.0.0-nightly20160116da550aa063-sunos-x64.tar.gz#010d17408a88fcd5b2fa8d104ef163b7ddbebc25ec357630a89f65ed5a1bb88a"
+binary sunos-x86 "https://nodejs.org/download/nightly/v6.0.0-nightly20160116da550aa063/node-v6.0.0-nightly20160116da550aa063-sunos-x86.tar.gz#64454dc7569d8aa8ffe23b460acee16365144763a564527b57aa956859c921b3"
+
+install_package "node-v6.0.0-nightly20160116da550aa063" "https://nodejs.org/download/nightly/v6.0.0-nightly20160116da550aa063/node-v6.0.0-nightly20160116da550aa063.tar.gz#25bffe5740b56815416235fb8770f619706572cf43c6b8fea768307bace69f12"
