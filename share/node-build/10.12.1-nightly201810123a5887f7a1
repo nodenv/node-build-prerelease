@@ -1,0 +1,11 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v10.12.1-nightly201810123a5887f7a1/node-v10.12.1-nightly201810123a5887f7a1-aix-ppc64.tar.gz#c78c492a27e84d5063baf0f9dbb4b4d40d6d9e90155e5cef13d984ffb7dd6d74"
+binary darwin-x64 "https://nodejs.org/download/nightly/v10.12.1-nightly201810123a5887f7a1/node-v10.12.1-nightly201810123a5887f7a1-darwin-x64.tar.gz#fedabe1e2dffe215a3e780d365337ed5b16d29e3a282a5d935fe9759b302b1ad"
+binary linux-arm64 "https://nodejs.org/download/nightly/v10.12.1-nightly201810123a5887f7a1/node-v10.12.1-nightly201810123a5887f7a1-linux-arm64.tar.gz#be6102af89c3a15f65eb688a25e98e8b415fda68a36f1ea1f1e56df5cce675cb"
+binary linux-armv6l "https://nodejs.org/download/nightly/v10.12.1-nightly201810123a5887f7a1/node-v10.12.1-nightly201810123a5887f7a1-linux-armv6l.tar.gz#43defa1cfff8b2e81903fb50385a69fc2b45bb43332698a6e12db9d28a2fbeba"
+binary linux-armv7l "https://nodejs.org/download/nightly/v10.12.1-nightly201810123a5887f7a1/node-v10.12.1-nightly201810123a5887f7a1-linux-armv7l.tar.gz#40b6c233103ca310a714b3e82a9895a4dfa24cd5c4e98a99987f64ef99016bc7"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v10.12.1-nightly201810123a5887f7a1/node-v10.12.1-nightly201810123a5887f7a1-linux-ppc64le.tar.gz#3c97cf4a2923d8a944ae8557703884d7f8a7cadb87a97788beb81f51ef78c84e"
+binary linux-s390x "https://nodejs.org/download/nightly/v10.12.1-nightly201810123a5887f7a1/node-v10.12.1-nightly201810123a5887f7a1-linux-s390x.tar.gz#f31298b51524b19b336e18ea7b63b1794311fca17e4ae09895d395b30c379682"
+binary linux-x64 "https://nodejs.org/download/nightly/v10.12.1-nightly201810123a5887f7a1/node-v10.12.1-nightly201810123a5887f7a1-linux-x64.tar.gz#57234c99322254a2bb66bd1f18096d0cc3b870b49e924d38b1eaafde74fc0efa"
+binary sunos-x64 "https://nodejs.org/download/nightly/v10.12.1-nightly201810123a5887f7a1/node-v10.12.1-nightly201810123a5887f7a1-sunos-x64.tar.gz#3066868c6a2883f0b09b353ca6fa90589ab597160245c17d44c303f0c722db29"
+
+install_package "node-v10.12.1-nightly201810123a5887f7a1" "https://nodejs.org/download/nightly/v10.12.1-nightly201810123a5887f7a1/node-v10.12.1-nightly201810123a5887f7a1.tar.gz#be00a51adb472a41a4c06ee420595f20ded5c10046428f717c6298ecffd7f32e"
