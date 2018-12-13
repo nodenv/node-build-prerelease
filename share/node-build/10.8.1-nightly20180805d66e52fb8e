@@ -1,0 +1,11 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v10.8.1-nightly20180805d66e52fb8e/node-v10.8.1-nightly20180805d66e52fb8e-aix-ppc64.tar.gz#08f0aab95f6ee26e465d14213668f5dd44cbdaa8c75da38e8ab0cd320d8d04f4"
+binary darwin-x64 "https://nodejs.org/download/nightly/v10.8.1-nightly20180805d66e52fb8e/node-v10.8.1-nightly20180805d66e52fb8e-darwin-x64.tar.gz#48bd307a51df30706667dd841db7fd7ac5bc897c923bda6ef42b1633e3adae66"
+binary linux-arm64 "https://nodejs.org/download/nightly/v10.8.1-nightly20180805d66e52fb8e/node-v10.8.1-nightly20180805d66e52fb8e-linux-arm64.tar.gz#9ad3de69e82a7e46bf9bdaa4eff470ff288492e450e49c2bdc7a17dce00e5b45"
+binary linux-armv6l "https://nodejs.org/download/nightly/v10.8.1-nightly20180805d66e52fb8e/node-v10.8.1-nightly20180805d66e52fb8e-linux-armv6l.tar.gz#a7aaf7c915e866f0bd13637f97753c2c867e2c339f826a51e79c533dada6188b"
+binary linux-armv7l "https://nodejs.org/download/nightly/v10.8.1-nightly20180805d66e52fb8e/node-v10.8.1-nightly20180805d66e52fb8e-linux-armv7l.tar.gz#1cd926b3bbe9f0c5c6830aeb2126cdd64a598e8a543b86440edb449f48e7b412"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v10.8.1-nightly20180805d66e52fb8e/node-v10.8.1-nightly20180805d66e52fb8e-linux-ppc64le.tar.gz#9ae935b9908e8ce53156153995227299c32ce36981f7e2a50a827a105b5b165b"
+binary linux-s390x "https://nodejs.org/download/nightly/v10.8.1-nightly20180805d66e52fb8e/node-v10.8.1-nightly20180805d66e52fb8e-linux-s390x.tar.gz#77e3426e3a78416c91ecac37d1526bbaa945729da4a1b020d18650c5a13f7e00"
+binary linux-x64 "https://nodejs.org/download/nightly/v10.8.1-nightly20180805d66e52fb8e/node-v10.8.1-nightly20180805d66e52fb8e-linux-x64.tar.gz#293cd7242b6ba37008374cbd775605a770dd0353088e6637d8537e4c0b7b5d32"
+binary sunos-x64 "https://nodejs.org/download/nightly/v10.8.1-nightly20180805d66e52fb8e/node-v10.8.1-nightly20180805d66e52fb8e-sunos-x64.tar.gz#cff7fdedbbb7fc493937f58a8f3ec457dabd63869c5e92cdfc7f09867a3bf955"
+
+install_package "node-v10.8.1-nightly20180805d66e52fb8e" "https://nodejs.org/download/nightly/v10.8.1-nightly20180805d66e52fb8e/node-v10.8.1-nightly20180805d66e52fb8e.tar.gz#164e4aac8484173b68f2adcfbf8c83ad6f4a424fb682ceaf62d82d21ca3c314a"
