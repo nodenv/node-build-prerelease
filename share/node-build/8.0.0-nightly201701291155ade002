@@ -1,0 +1,12 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v8.0.0-nightly201701291155ade002/node-v8.0.0-nightly201701291155ade002-aix-ppc64.tar.gz#37a7d72350e7b7e297f2d4ca8aa72f6a9e0a59845d33de2b458c4f9f6268aef0"
+binary darwin-x64 "https://nodejs.org/download/nightly/v8.0.0-nightly201701291155ade002/node-v8.0.0-nightly201701291155ade002-darwin-x64.tar.gz#5da9ebdb6ca4be1d505b195cbf5001b01d7d3ac4381945264241f9f085b773ad"
+binary linux-arm64 "https://nodejs.org/download/nightly/v8.0.0-nightly201701291155ade002/node-v8.0.0-nightly201701291155ade002-linux-arm64.tar.gz#da43f333a973f2a1f9c2d47d83210f6ab10aeb4edabd9e8494f2c148a76eba68"
+binary linux-armv6l "https://nodejs.org/download/nightly/v8.0.0-nightly201701291155ade002/node-v8.0.0-nightly201701291155ade002-linux-armv6l.tar.gz#b86a4a31b4a4837932849895fab828addadf8a4eafafa775ef0b0d7485909f97"
+binary linux-armv7l "https://nodejs.org/download/nightly/v8.0.0-nightly201701291155ade002/node-v8.0.0-nightly201701291155ade002-linux-armv7l.tar.gz#c0792a31bc07e77ebb1f4c1096426d1297903e6cf8d5bc7166ddf22b8cac9162"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v8.0.0-nightly201701291155ade002/node-v8.0.0-nightly201701291155ade002-linux-ppc64le.tar.gz#0b6a6caa388a15c3b3bda8ba950d5959a6a20e491edc832e48672b65507049f5"
+binary linux-ppc64 "https://nodejs.org/download/nightly/v8.0.0-nightly201701291155ade002/node-v8.0.0-nightly201701291155ade002-linux-ppc64.tar.gz#31a35fa0adc984fb49c5e7dc30fb573797dc54a7ea9be9d1eeff366772b8dabb"
+binary linux-s390x "https://nodejs.org/download/nightly/v8.0.0-nightly201701291155ade002/node-v8.0.0-nightly201701291155ade002-linux-s390x.tar.gz#0636dc06bf37ab8ef371236078609441ab1c43b229893b47efe094f06cc95d03"
+binary linux-x64 "https://nodejs.org/download/nightly/v8.0.0-nightly201701291155ade002/node-v8.0.0-nightly201701291155ade002-linux-x64.tar.gz#7bbf9c16ff0d40ef0c8c087950e3b492be0bdd364fe33d47dc984042bf027b46"
+binary linux-x86 "https://nodejs.org/download/nightly/v8.0.0-nightly201701291155ade002/node-v8.0.0-nightly201701291155ade002-linux-x86.tar.gz#40152729297609567559b60c76ce66ec07611195b358d859777dfbd5fb7185bc"
+
+install_package "node-v8.0.0-nightly201701291155ade002" "https://nodejs.org/download/nightly/v8.0.0-nightly201701291155ade002/node-v8.0.0-nightly201701291155ade002.tar.gz#d3534e92157b29e530c1187e9e798c4c9dcf960a93fb867450fb3bb41af4eb83"

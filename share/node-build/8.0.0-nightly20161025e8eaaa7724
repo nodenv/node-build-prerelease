@@ -1,0 +1,13 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v8.0.0-nightly20161025e8eaaa7724/node-v8.0.0-nightly20161025e8eaaa7724-aix-ppc64.tar.gz#088fb44e6d04417f6e3eee76c54c6e28a34ef073dc9a568a12b8e53c790553e3"
+binary darwin-x64 "https://nodejs.org/download/nightly/v8.0.0-nightly20161025e8eaaa7724/node-v8.0.0-nightly20161025e8eaaa7724-darwin-x64.tar.gz#a3b5a1a306a1cbc1bd626aa57106cf16a4c396da145da61538f1ed2e56f51863"
+binary linux-arm64 "https://nodejs.org/download/nightly/v8.0.0-nightly20161025e8eaaa7724/node-v8.0.0-nightly20161025e8eaaa7724-linux-arm64.tar.gz#b4bd73d7f91dfaa66eddc5946edaced88ca77d1f497a8f7ce5c6ed7b0f0b1403"
+binary linux-armv6l "https://nodejs.org/download/nightly/v8.0.0-nightly20161025e8eaaa7724/node-v8.0.0-nightly20161025e8eaaa7724-linux-armv6l.tar.gz#3cc79aa3f402c4fb7b937f276df6e9e489803bc2156e86ac0533187f8a83d97d"
+binary linux-armv7l "https://nodejs.org/download/nightly/v8.0.0-nightly20161025e8eaaa7724/node-v8.0.0-nightly20161025e8eaaa7724-linux-armv7l.tar.gz#b4e439d7ef2d524913597c04326c56c071c497e2be99885507ea6800effb55ac"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v8.0.0-nightly20161025e8eaaa7724/node-v8.0.0-nightly20161025e8eaaa7724-linux-ppc64le.tar.gz#cccabd0a7513d84d1fb6da3b8334640d473d84ef988b26be9708838e61800144"
+binary linux-ppc64 "https://nodejs.org/download/nightly/v8.0.0-nightly20161025e8eaaa7724/node-v8.0.0-nightly20161025e8eaaa7724-linux-ppc64.tar.gz#475c41824468956af742ea7e28af34ffb6ff6af11ede853f0fac3a93e92d419c"
+binary linux-s390x "https://nodejs.org/download/nightly/v8.0.0-nightly20161025e8eaaa7724/node-v8.0.0-nightly20161025e8eaaa7724-linux-s390x.tar.gz#08abb88a45f326e3bb6a443356b8f01572def87a06297503d5622de59d5c56f6"
+binary linux-x64 "https://nodejs.org/download/nightly/v8.0.0-nightly20161025e8eaaa7724/node-v8.0.0-nightly20161025e8eaaa7724-linux-x64.tar.gz#2d91f353dfe967c29c8a1b115a06c2461c9ca1acab4bb45026f3f06926fc527c"
+binary linux-x86 "https://nodejs.org/download/nightly/v8.0.0-nightly20161025e8eaaa7724/node-v8.0.0-nightly20161025e8eaaa7724-linux-x86.tar.gz#c3730606eac7dde8ebfe967a76933c139b2a669147595392083316569c2ebba4"
+binary sunos-x86 "https://nodejs.org/download/nightly/v8.0.0-nightly20161025e8eaaa7724/node-v8.0.0-nightly20161025e8eaaa7724-sunos-x86.tar.gz#c58fe05dc1d186cff2b3df74f6fc8fb2fd650cd48aa155c209e1715eae43f7d6"
+
+install_package "node-v8.0.0-nightly20161025e8eaaa7724" "https://nodejs.org/download/nightly/v8.0.0-nightly20161025e8eaaa7724/node-v8.0.0-nightly20161025e8eaaa7724.tar.gz#7c37d097c5e0163d63851622c0be37eca827e7da57b27ace05f92693854c3533"
