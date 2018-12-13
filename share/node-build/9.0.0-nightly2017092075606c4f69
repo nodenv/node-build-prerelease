@@ -1,0 +1,13 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v9.0.0-nightly2017092075606c4f69/node-v9.0.0-nightly2017092075606c4f69-aix-ppc64.tar.gz#f902ab28986ad2d71cd9e4e9d0df06b1f9355986f68180038ab6f867f4437d76"
+binary darwin-x64 "https://nodejs.org/download/nightly/v9.0.0-nightly2017092075606c4f69/node-v9.0.0-nightly2017092075606c4f69-darwin-x64.tar.gz#8aba38e36570bf2e88c37c2f04ad3614eefa876f2291ca25f023b99b8a5ff8bc"
+binary linux-arm64 "https://nodejs.org/download/nightly/v9.0.0-nightly2017092075606c4f69/node-v9.0.0-nightly2017092075606c4f69-linux-arm64.tar.gz#88321a75e6fbbf15ea0abe23ef416f9adf1c90f73f218cb5cc2b1865b0357798"
+binary linux-armv7l "https://nodejs.org/download/nightly/v9.0.0-nightly2017092075606c4f69/node-v9.0.0-nightly2017092075606c4f69-linux-armv7l.tar.gz#1d9ab271cd3f20b6b9eb8fe569e129ab2f59baf19fca77e39b713acd703683e5"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v9.0.0-nightly2017092075606c4f69/node-v9.0.0-nightly2017092075606c4f69-linux-ppc64le.tar.gz#27ad1191844b039f96115468a2b18501b1ad91cc95506b4f31fda6648d18c76a"
+binary linux-ppc64 "https://nodejs.org/download/nightly/v9.0.0-nightly2017092075606c4f69/node-v9.0.0-nightly2017092075606c4f69-linux-ppc64.tar.gz#a7109af6947d1df73f36fec62b50029f62d5b780c35b50ab637ab8a54bd4cf13"
+binary linux-s390x "https://nodejs.org/download/nightly/v9.0.0-nightly2017092075606c4f69/node-v9.0.0-nightly2017092075606c4f69-linux-s390x.tar.gz#51a9bfcd62ad7f97afb7f158a6e21ea84fc9a2794d400af7dac935d3d61e1687"
+binary linux-x64 "https://nodejs.org/download/nightly/v9.0.0-nightly2017092075606c4f69/node-v9.0.0-nightly2017092075606c4f69-linux-x64.tar.gz#8d54902e534060b7fa845bcc73a787e464e6d842f4dec38c7da3d1e52297fc73"
+binary linux-x86 "https://nodejs.org/download/nightly/v9.0.0-nightly2017092075606c4f69/node-v9.0.0-nightly2017092075606c4f69-linux-x86.tar.gz#c19b73012f7656657a1ae94c1fe33f6e39605cac020132f7903fc4101da00a92"
+binary sunos-x64 "https://nodejs.org/download/nightly/v9.0.0-nightly2017092075606c4f69/node-v9.0.0-nightly2017092075606c4f69-sunos-x64.tar.gz#9ffd948db31fe323c31b010169a5863c1f47044accafa150a0dd58787ddfefe4"
+binary sunos-x86 "https://nodejs.org/download/nightly/v9.0.0-nightly2017092075606c4f69/node-v9.0.0-nightly2017092075606c4f69-sunos-x86.tar.gz#adf5d6d38cf68ac661c1030a749d525e86b51077bea6b758fd6da06b184f2220"
+
+install_package "node-v9.0.0-nightly2017092075606c4f69" "https://nodejs.org/download/nightly/v9.0.0-nightly2017092075606c4f69/node-v9.0.0-nightly2017092075606c4f69.tar.gz#a93286ac371b30eda62dffa088e84530020bac8c8af27e07dbde255811280e7c"
