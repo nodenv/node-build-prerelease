@@ -1,0 +1,11 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v10.5.1-nightly20180623e0bcb6aa17/node-v10.5.1-nightly20180623e0bcb6aa17-aix-ppc64.tar.gz#c84857bf2a792c6d20f260574f3de4455d5ece55c242e0f267f4c5ac9084bcc0"
+binary darwin-x64 "https://nodejs.org/download/nightly/v10.5.1-nightly20180623e0bcb6aa17/node-v10.5.1-nightly20180623e0bcb6aa17-darwin-x64.tar.gz#df33c7da9cdc8f024cd698b55beec871e8b1e5157bd85d53aadcf94325dcc657"
+binary linux-arm64 "https://nodejs.org/download/nightly/v10.5.1-nightly20180623e0bcb6aa17/node-v10.5.1-nightly20180623e0bcb6aa17-linux-arm64.tar.gz#5f21bf8def5edbd17ba4b67da893293fc311ac5af04899db589aff583022fc6d"
+binary linux-armv6l "https://nodejs.org/download/nightly/v10.5.1-nightly20180623e0bcb6aa17/node-v10.5.1-nightly20180623e0bcb6aa17-linux-armv6l.tar.gz#05d408312929dbcd4d128b11ffb0b3fc50ed751d9d1c42b47b7a957e10d0aa94"
+binary linux-armv7l "https://nodejs.org/download/nightly/v10.5.1-nightly20180623e0bcb6aa17/node-v10.5.1-nightly20180623e0bcb6aa17-linux-armv7l.tar.gz#29378f2f3f01bd6a4110976e58c27ab5011f76a84d64493a97e9cf8de7eeaa7e"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v10.5.1-nightly20180623e0bcb6aa17/node-v10.5.1-nightly20180623e0bcb6aa17-linux-ppc64le.tar.gz#2dbbf0374a456e7b5a072c0ac68f6f9253d1e57df98f92c429da2aa6c2b2e179"
+binary linux-s390x "https://nodejs.org/download/nightly/v10.5.1-nightly20180623e0bcb6aa17/node-v10.5.1-nightly20180623e0bcb6aa17-linux-s390x.tar.gz#e81c256f7a58da3057c9f52f21f48a69118e843e9e35bda9ae96ce6f9e85263c"
+binary linux-x64 "https://nodejs.org/download/nightly/v10.5.1-nightly20180623e0bcb6aa17/node-v10.5.1-nightly20180623e0bcb6aa17-linux-x64.tar.gz#9c2309923d534e001c5746447d12c86b965acd87846f8b3e7be0368e9e0b2ba3"
+binary sunos-x64 "https://nodejs.org/download/nightly/v10.5.1-nightly20180623e0bcb6aa17/node-v10.5.1-nightly20180623e0bcb6aa17-sunos-x64.tar.gz#947879f7ee953edb6dc6be56192273fecba791fe14504d6cd2d100b087e349b8"
+
+install_package "node-v10.5.1-nightly20180623e0bcb6aa17" "https://nodejs.org/download/nightly/v10.5.1-nightly20180623e0bcb6aa17/node-v10.5.1-nightly20180623e0bcb6aa17.tar.gz#451ddbb91d0c00d10ec517f9b94776cf4d85d7774b246809a9e586d727ddfcb2"
