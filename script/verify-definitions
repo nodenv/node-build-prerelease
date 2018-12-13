@@ -64,9 +64,13 @@ verify() {
     url="${url%#*}"
     echo "Verifying checksum for $url"
     file="${TMPDIR:-/tmp}/$checksum"
-    download_and_verify "$url" "$file" "$checksum" || status=$?
+    download_and_verify "$url" "$file" "$checksum" || (( status += 1))
   done < <(xargs cat | extract_urls)
-  return $status
+
+  if [ "$status" != 0 ]; then
+    echo "failures: $status"
+    return 1
+  fi
 }
 
 case "${1-}" in
