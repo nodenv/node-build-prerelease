@@ -1,0 +1,13 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary darwin-x64 "https://nodejs.org/download/nightly/v5.11.1-nightly2016042999920480ae/node-v5.11.1-nightly2016042999920480ae-darwin-x64.tar.gz#939d7a21eb216aece896b60a8d1d1fb21c50a46193971de281008db4a3f7f8d0"
+binary linux-arm64 "https://nodejs.org/download/nightly/v5.11.1-nightly2016042999920480ae/node-v5.11.1-nightly2016042999920480ae-linux-arm64.tar.gz#120b92ad14efec54c36d8129ce9f25c64a70d6bf82df30561e8a0968cc1eee94"
+binary linux-armv7l "https://nodejs.org/download/nightly/v5.11.1-nightly2016042999920480ae/node-v5.11.1-nightly2016042999920480ae-linux-armv7l.tar.gz#d31da6fb37a69b73377a9eacd7268d52431cd9fbf80d696bf1ed8fdf02a79f5f"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v5.11.1-nightly2016042999920480ae/node-v5.11.1-nightly2016042999920480ae-linux-ppc64le.tar.gz#5377d01fca7896a65a0b77538f09658c1947dcd78ccdeb6506374d9ba6348cb8"
+binary linux-x64 "https://nodejs.org/download/nightly/v5.11.1-nightly2016042999920480ae/node-v5.11.1-nightly2016042999920480ae-linux-x64.tar.gz#24f108a106fdb6d1f0cc0cf403bc5032034ba8796e34f98f2c69f6a0f05f5781"
+binary linux-x86 "https://nodejs.org/download/nightly/v5.11.1-nightly2016042999920480ae/node-v5.11.1-nightly2016042999920480ae-linux-x86.tar.gz#877c19e3eeb78ffc8a1ec5bcef2fd16b88c9a4d08b9f7dadd168982088e540c7"
+binary sunos-x64 "https://nodejs.org/download/nightly/v5.11.1-nightly2016042999920480ae/node-v5.11.1-nightly2016042999920480ae-sunos-x64.tar.gz#4dea1ea0b7b570bcf56199f49a1b70a91c961485fa21f5510a6f2ac1bdb348ee"
+binary sunos-x86 "https://nodejs.org/download/nightly/v5.11.1-nightly2016042999920480ae/node-v5.11.1-nightly2016042999920480ae-sunos-x86.tar.gz#ffbb4174eb038734d2b5e7f1f705e4979fda72327df102b40dc3558e9824da42"
+
+install_package "v5.11.1-nightly2016042999920480ae"

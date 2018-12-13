@@ -1,0 +1,14 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary aix-ppc64 "https://nodejs.org/download/nightly/v11.0.0-nightly2018080119aa41c6fc/node-v11.0.0-nightly2018080119aa41c6fc-aix-ppc64.tar.gz#efc49e73f21bdb5d0abc9d1bccb0fe49d7260411cffd2ba2bee7ba81f21f0531"
+binary darwin-x64 "https://nodejs.org/download/nightly/v11.0.0-nightly2018080119aa41c6fc/node-v11.0.0-nightly2018080119aa41c6fc-darwin-x64.tar.gz#a2433b93768e10b3fd11f1f681fd194cf32c051d8d1416c5e6017eca0eb0cc94"
+binary linux-arm64 "https://nodejs.org/download/nightly/v11.0.0-nightly2018080119aa41c6fc/node-v11.0.0-nightly2018080119aa41c6fc-linux-arm64.tar.gz#e637610d39454913c2aef283751cc1a5c5700726add33d34da4d3b22de785307"
+binary linux-armv6l "https://nodejs.org/download/nightly/v11.0.0-nightly2018080119aa41c6fc/node-v11.0.0-nightly2018080119aa41c6fc-linux-armv6l.tar.gz#b3baeec1cd31721a5b3b6030686d803ab7f2b9a0a81a0ec61940538aaf4e6ea7"
+binary linux-armv7l "https://nodejs.org/download/nightly/v11.0.0-nightly2018080119aa41c6fc/node-v11.0.0-nightly2018080119aa41c6fc-linux-armv7l.tar.gz#0aa4c261555036fb191f7d0bb358e72e473f8e67cb1ca1f0049b8c963f6b4caf"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v11.0.0-nightly2018080119aa41c6fc/node-v11.0.0-nightly2018080119aa41c6fc-linux-ppc64le.tar.gz#656d2f80f1dbfc7a14538bf1bf8fcdd0b08c2f0b5b76aee006f0b7e89a2064a1"
+binary linux-s390x "https://nodejs.org/download/nightly/v11.0.0-nightly2018080119aa41c6fc/node-v11.0.0-nightly2018080119aa41c6fc-linux-s390x.tar.gz#e75dac39a9f63fd88827c42a6d83b1e7e122e7240d5a5bf72105a509d1ae17ac"
+binary linux-x64 "https://nodejs.org/download/nightly/v11.0.0-nightly2018080119aa41c6fc/node-v11.0.0-nightly2018080119aa41c6fc-linux-x64.tar.gz#892231b29909a00e01d41684766e037c97cb440c4de27d01df683d5cc3fc9219"
+binary sunos-x64 "https://nodejs.org/download/nightly/v11.0.0-nightly2018080119aa41c6fc/node-v11.0.0-nightly2018080119aa41c6fc-sunos-x64.tar.gz#e4fd72715fc4f366e4463df99e9f98845645d1468ef2fd6fa440b2fb1eb3df23"
+
+install_package "v11.0.0-nightly2018080119aa41c6fc"

@@ -1,0 +1,13 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary aix-ppc64 "https://nodejs.org/download/nightly/v6.9.5-nightly2017013187ac44974a/node-v6.9.5-nightly2017013187ac44974a-aix-ppc64.tar.gz#3db015b326c3ffe224eb0ec17106c81104a0a93d4c673d00ea837a4f2d92a87b"
+binary linux-arm64 "https://nodejs.org/download/nightly/v6.9.5-nightly2017013187ac44974a/node-v6.9.5-nightly2017013187ac44974a-linux-arm64.tar.gz#72a20516715eb9317143ad4a12af904677eb4823c9ca79c0690a672a74601295"
+binary linux-armv7l "https://nodejs.org/download/nightly/v6.9.5-nightly2017013187ac44974a/node-v6.9.5-nightly2017013187ac44974a-linux-armv7l.tar.gz#0a4417791aae9e758002ba2a4029593e2ec992e6ab8b4ff0284e52a517e39897"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v6.9.5-nightly2017013187ac44974a/node-v6.9.5-nightly2017013187ac44974a-linux-ppc64le.tar.gz#386aa12d3cdf6d27e1e0455e52493ce4fd84f584a2d08e7691d6812bd1163e1c"
+binary linux-ppc64 "https://nodejs.org/download/nightly/v6.9.5-nightly2017013187ac44974a/node-v6.9.5-nightly2017013187ac44974a-linux-ppc64.tar.gz#b356a4fe20f7022f0b6858a0671d6e1354943935d290b7b9eee083539f4d5ad5"
+binary linux-s390x "https://nodejs.org/download/nightly/v6.9.5-nightly2017013187ac44974a/node-v6.9.5-nightly2017013187ac44974a-linux-s390x.tar.gz#550fcacd203f341c1ec83f8f09878db94b89db4d2ba545ecb10a391931f6b802"
+binary linux-x64 "https://nodejs.org/download/nightly/v6.9.5-nightly2017013187ac44974a/node-v6.9.5-nightly2017013187ac44974a-linux-x64.tar.gz#96e1244d1b016e62bdc4ab38ddacd78af369c75bf23ab48e0b0d5c51ac1727ff"
+binary linux-x86 "https://nodejs.org/download/nightly/v6.9.5-nightly2017013187ac44974a/node-v6.9.5-nightly2017013187ac44974a-linux-x86.tar.gz#7196366277b66a4b5b39895b17908ff2037533e346a0bf7bd490177ea7483530"
+
+install_package "v6.9.5-nightly2017013187ac44974a"

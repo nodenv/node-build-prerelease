@@ -1,0 +1,11 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary linux-arm64 "https://nodejs.org/download/nightly/v6.0.0-nightly20160307449684752c/node-v6.0.0-nightly20160307449684752c-linux-arm64.tar.gz#5ad336e8b4d615eead5d939f6454f11766eea80589782beac7eeacf66f799fda"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v6.0.0-nightly20160307449684752c/node-v6.0.0-nightly20160307449684752c-linux-ppc64le.tar.gz#8b46b00a10c219d6f56ac8c6222eccb63df1b47fef1c2ff4feadceada102b3b8"
+binary linux-x64 "https://nodejs.org/download/nightly/v6.0.0-nightly20160307449684752c/node-v6.0.0-nightly20160307449684752c-linux-x64.tar.gz#f07d4c2f50715f4ee1ea8e3ab9f1d5985f9bad7b32e4507a01c01c595436847e"
+binary linux-x86 "https://nodejs.org/download/nightly/v6.0.0-nightly20160307449684752c/node-v6.0.0-nightly20160307449684752c-linux-x86.tar.gz#1f7d96ad142b8689d36fc54adae331a15fc96e0988bc76054e54341d66ce1c0b"
+binary sunos-x64 "https://nodejs.org/download/nightly/v6.0.0-nightly20160307449684752c/node-v6.0.0-nightly20160307449684752c-sunos-x64.tar.gz#fa0d5ccb0c5bd13ebadf68dd211a7ed54bfb771317d20403d1216a90c00e6221"
+binary sunos-x86 "https://nodejs.org/download/nightly/v6.0.0-nightly20160307449684752c/node-v6.0.0-nightly20160307449684752c-sunos-x86.tar.gz#9819da29cbf89d790a70050ef93f8f0c726a8f66ae2603e975644b6c54744004"
+
+install_package "v6.0.0-nightly20160307449684752c"

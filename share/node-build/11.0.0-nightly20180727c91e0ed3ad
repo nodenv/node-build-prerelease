@@ -1,0 +1,13 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary aix-ppc64 "https://nodejs.org/download/nightly/v11.0.0-nightly20180727c91e0ed3ad/node-v11.0.0-nightly20180727c91e0ed3ad-aix-ppc64.tar.gz#e4d9082b54a1c90c853ab3904e1948e7cdc816506860a3518501f609e1abde4f"
+binary linux-arm64 "https://nodejs.org/download/nightly/v11.0.0-nightly20180727c91e0ed3ad/node-v11.0.0-nightly20180727c91e0ed3ad-linux-arm64.tar.gz#f317b7e483934632c2d7e892328b9f0cb0dbd8d812035a8de508cc0878719d84"
+binary linux-armv6l "https://nodejs.org/download/nightly/v11.0.0-nightly20180727c91e0ed3ad/node-v11.0.0-nightly20180727c91e0ed3ad-linux-armv6l.tar.gz#de1a834e70f1864bec159fa8bf5ece9a0a46263e060cbbb70d22aee8e5cb8627"
+binary linux-armv7l "https://nodejs.org/download/nightly/v11.0.0-nightly20180727c91e0ed3ad/node-v11.0.0-nightly20180727c91e0ed3ad-linux-armv7l.tar.gz#f6f3af682e29881b0b59eb5b0a006adcc86f1767bcc90bd403977412ea718100"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v11.0.0-nightly20180727c91e0ed3ad/node-v11.0.0-nightly20180727c91e0ed3ad-linux-ppc64le.tar.gz#984e6a513d9270632f76bb40157545f566a601cbb477a94b2335772ce0895506"
+binary linux-s390x "https://nodejs.org/download/nightly/v11.0.0-nightly20180727c91e0ed3ad/node-v11.0.0-nightly20180727c91e0ed3ad-linux-s390x.tar.gz#20e3ab1645bd4575f79f0179fcdffb8a92279f00824adc8e4880a5694dee2dbf"
+binary linux-x64 "https://nodejs.org/download/nightly/v11.0.0-nightly20180727c91e0ed3ad/node-v11.0.0-nightly20180727c91e0ed3ad-linux-x64.tar.gz#844ff06b2ed22899c08330418c4ee0d25ef6e866b493cd5c217ed8e56676a28c"
+binary sunos-x64 "https://nodejs.org/download/nightly/v11.0.0-nightly20180727c91e0ed3ad/node-v11.0.0-nightly20180727c91e0ed3ad-sunos-x64.tar.gz#5f2ecef452e8a0fe4169c48437956767fe951c47e9a2c0d9fd935ac94f231b80"
+
+install_package "v11.0.0-nightly20180727c91e0ed3ad"

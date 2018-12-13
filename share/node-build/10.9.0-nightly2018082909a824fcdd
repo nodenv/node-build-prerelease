@@ -1,0 +1,13 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary aix-ppc64 "https://nodejs.org/download/nightly/v10.9.0-nightly2018082909a824fcdd/node-v10.9.0-nightly2018082909a824fcdd-aix-ppc64.tar.gz#baa0629413929146526765a776fb8d9ac85a2ac54ba22c1955396351963c246d"
+binary linux-arm64 "https://nodejs.org/download/nightly/v10.9.0-nightly2018082909a824fcdd/node-v10.9.0-nightly2018082909a824fcdd-linux-arm64.tar.gz#00d3bca2b4a8276df1eff0b2cc9483ebacda258aa4434c9ef2b396adcf571350"
+binary linux-armv6l "https://nodejs.org/download/nightly/v10.9.0-nightly2018082909a824fcdd/node-v10.9.0-nightly2018082909a824fcdd-linux-armv6l.tar.gz#77b452cbd49529702e3692c3f3d5b173af44e411171985faf4ce8479860a85d7"
+binary linux-armv7l "https://nodejs.org/download/nightly/v10.9.0-nightly2018082909a824fcdd/node-v10.9.0-nightly2018082909a824fcdd-linux-armv7l.tar.gz#07f49109fc85e78975bf54b18546b8f42c8596088e0e5326aad00c6d74225db2"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v10.9.0-nightly2018082909a824fcdd/node-v10.9.0-nightly2018082909a824fcdd-linux-ppc64le.tar.gz#f46be711526a8e77ec2da20f20085979dad86458c1f814e80dd2278ff10ef32f"
+binary linux-s390x "https://nodejs.org/download/nightly/v10.9.0-nightly2018082909a824fcdd/node-v10.9.0-nightly2018082909a824fcdd-linux-s390x.tar.gz#5561d45fa059a58166822f489ffe1dc48b7cea821011b605e59b8e9a4c53d541"
+binary linux-x64 "https://nodejs.org/download/nightly/v10.9.0-nightly2018082909a824fcdd/node-v10.9.0-nightly2018082909a824fcdd-linux-x64.tar.gz#c991af9208138ee9d5bacf6677beb50f75a6ac87e1b41e4cfa02c00efb6817af"
+binary sunos-x64 "https://nodejs.org/download/nightly/v10.9.0-nightly2018082909a824fcdd/node-v10.9.0-nightly2018082909a824fcdd-sunos-x64.tar.gz#3010c9978969d0904697d2c2a5cbfc5204dbf61ff074074334e935d5150a7d85"
+
+install_package "v10.9.0-nightly2018082909a824fcdd"
