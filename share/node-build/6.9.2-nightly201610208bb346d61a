@@ -1,0 +1,12 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v6.9.2-nightly201610208bb346d61a/node-v6.9.2-nightly201610208bb346d61a-aix-ppc64.tar.gz#449bf15a74353f78864e96cd94467d6b7cb1b860b6e4b34576402a69e2399f60"
+binary darwin-x64 "https://nodejs.org/download/nightly/v6.9.2-nightly201610208bb346d61a/node-v6.9.2-nightly201610208bb346d61a-darwin-x64.tar.gz#1ed1ed0fa361ca8955eef2753dc4ab42a22059f03eea9f38753b5d3422477fb3"
+binary linux-arm64 "https://nodejs.org/download/nightly/v6.9.2-nightly201610208bb346d61a/node-v6.9.2-nightly201610208bb346d61a-linux-arm64.tar.gz#b3842bda56c22216e4955ff976f56fa4f07bb66edb02a7aaedb1b28d09c0f593"
+binary linux-armv6l "https://nodejs.org/download/nightly/v6.9.2-nightly201610208bb346d61a/node-v6.9.2-nightly201610208bb346d61a-linux-armv6l.tar.gz#0b9c801c11c85315728b948ee5d33e31b31baacfa00213a6a1ce295a15fad5f7"
+binary linux-armv7l "https://nodejs.org/download/nightly/v6.9.2-nightly201610208bb346d61a/node-v6.9.2-nightly201610208bb346d61a-linux-armv7l.tar.gz#04d039ebae0acd57eb152b3e03f2002eec54686217b757b2617896f31d6ea06e"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v6.9.2-nightly201610208bb346d61a/node-v6.9.2-nightly201610208bb346d61a-linux-ppc64le.tar.gz#ec14a925551145b1ec7360bd9269613095e194bc595910769ed0930e68e71bbc"
+binary linux-ppc64 "https://nodejs.org/download/nightly/v6.9.2-nightly201610208bb346d61a/node-v6.9.2-nightly201610208bb346d61a-linux-ppc64.tar.gz#2545823dc8f767d1c0739010aff87516c425679bdf148876d7bbceafb543761d"
+binary linux-s390x "https://nodejs.org/download/nightly/v6.9.2-nightly201610208bb346d61a/node-v6.9.2-nightly201610208bb346d61a-linux-s390x.tar.gz#a00ae1a0f62720748e74ccc5a0fb2d3ef8635628fefc62f62c383028a66d5a77"
+binary linux-x64 "https://nodejs.org/download/nightly/v6.9.2-nightly201610208bb346d61a/node-v6.9.2-nightly201610208bb346d61a-linux-x64.tar.gz#d70003dd2d4efd3426d883e726d912a3690a9fa25f68dbdeea605723b211e143"
+binary linux-x86 "https://nodejs.org/download/nightly/v6.9.2-nightly201610208bb346d61a/node-v6.9.2-nightly201610208bb346d61a-linux-x86.tar.gz#4a67597709551bcc63d6aecd9b29d1c20dd2fdc14b7d6fdc9dc4338635eb020d"
+
+install_package "node-v6.9.2-nightly201610208bb346d61a" "https://nodejs.org/download/nightly/v6.9.2-nightly201610208bb346d61a/node-v6.9.2-nightly201610208bb346d61a.tar.gz#ab240600f2607efa2a004ccec294f7ca18ad8de4314940e514d2db949a1c8433"

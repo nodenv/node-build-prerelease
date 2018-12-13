@@ -1,0 +1,12 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v6.4.1-nightly20160823a146e683dd/node-v6.4.1-nightly20160823a146e683dd-darwin-x64.tar.gz#5d1be44210a80b7de39c2d0ebc60f326967f86da53b6ca4b1d11f217a3201f0f"
+binary linux-arm64 "https://nodejs.org/download/nightly/v6.4.1-nightly20160823a146e683dd/node-v6.4.1-nightly20160823a146e683dd-linux-arm64.tar.gz#6637684848d2a58dc89c5563b55710bd67dea310ed0a07c04059728651a9bdf4"
+binary linux-armv6l "https://nodejs.org/download/nightly/v6.4.1-nightly20160823a146e683dd/node-v6.4.1-nightly20160823a146e683dd-linux-armv6l.tar.gz#b15c2c87f0a84a68ac93086a9e68f05cbb1fbed96468fbe12c6cc05b25ac09a5"
+binary linux-armv7l "https://nodejs.org/download/nightly/v6.4.1-nightly20160823a146e683dd/node-v6.4.1-nightly20160823a146e683dd-linux-armv7l.tar.gz#2f0e759e716837d35962c4eb9d4b718f27df65c3f32619083da68a82a12266f5"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v6.4.1-nightly20160823a146e683dd/node-v6.4.1-nightly20160823a146e683dd-linux-ppc64le.tar.gz#6c03748cd77186eb44a935d1e3f9e3a299014dfec5aaef792cfaa0433f53dc38"
+binary linux-ppc64 "https://nodejs.org/download/nightly/v6.4.1-nightly20160823a146e683dd/node-v6.4.1-nightly20160823a146e683dd-linux-ppc64.tar.gz#64c19572cf6d0c391a9d40ec1716a6f424988df1c11e86cfc927a0a6c24f2310"
+binary linux-x64 "https://nodejs.org/download/nightly/v6.4.1-nightly20160823a146e683dd/node-v6.4.1-nightly20160823a146e683dd-linux-x64.tar.gz#b66f63325c0f82082407fd5f24e3d37f70490e3dac34ef5e9ffe28e9a2efa514"
+binary linux-x86 "https://nodejs.org/download/nightly/v6.4.1-nightly20160823a146e683dd/node-v6.4.1-nightly20160823a146e683dd-linux-x86.tar.gz#2b17ca683ea897c5c514c1c2f827efae69469eff3ff262b0dc7c5f66d15d58ec"
+binary sunos-x64 "https://nodejs.org/download/nightly/v6.4.1-nightly20160823a146e683dd/node-v6.4.1-nightly20160823a146e683dd-sunos-x64.tar.gz#d86af73497d2d2113f6d0dea434738cc2689ce0aa941b8de8628d0e3cdb0f708"
+binary sunos-x86 "https://nodejs.org/download/nightly/v6.4.1-nightly20160823a146e683dd/node-v6.4.1-nightly20160823a146e683dd-sunos-x86.tar.gz#b4b5fa8ddf22929b74cbfdd308bad6344a7aaa09c0b951573d8df70f6392349e"
+
+install_package "node-v6.4.1-nightly20160823a146e683dd" "https://nodejs.org/download/nightly/v6.4.1-nightly20160823a146e683dd/node-v6.4.1-nightly20160823a146e683dd.tar.gz#c4e82188c6516072afeab2793bc53d97585fbd96c3b4eb4baf4ec072b8c6907b"

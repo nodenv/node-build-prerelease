@@ -1,0 +1,11 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v6.0.0-nightly201601250f8e63caff/node-v6.0.0-nightly201601250f8e63caff-darwin-x64.tar.gz#7deee2e373265f9d50398076f0ee3ac7527d85a9b314f4cc84b9e99cbd146bca"
+binary linux-arm64 "https://nodejs.org/download/nightly/v6.0.0-nightly201601250f8e63caff/node-v6.0.0-nightly201601250f8e63caff-linux-arm64.tar.gz#1d7fe19831a5b9740beb13a26ebd441f27f0c72f0e2ba29f272523d83a44ae41"
+binary linux-armv6l "https://nodejs.org/download/nightly/v6.0.0-nightly201601250f8e63caff/node-v6.0.0-nightly201601250f8e63caff-linux-armv6l.tar.gz#4777fc93b3eeb3fba8019f679d49105449452671fd18204f7c95e5dcbfcfff86"
+binary linux-armv7l "https://nodejs.org/download/nightly/v6.0.0-nightly201601250f8e63caff/node-v6.0.0-nightly201601250f8e63caff-linux-armv7l.tar.gz#bcce9e51986b9b44c6e5032ddedfe42758dc5170fda7d595783f935ee1ed191d"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v6.0.0-nightly201601250f8e63caff/node-v6.0.0-nightly201601250f8e63caff-linux-ppc64le.tar.gz#2994768b7a8b869831cc0cc7a270433ecc9cf85cf3ae9095bed88f8525bee99d"
+binary linux-x64 "https://nodejs.org/download/nightly/v6.0.0-nightly201601250f8e63caff/node-v6.0.0-nightly201601250f8e63caff-linux-x64.tar.gz#22a93671078a39f2898e2a346dfff80e1f2ebec05065c99a9cfb7a7e583a4a35"
+binary linux-x86 "https://nodejs.org/download/nightly/v6.0.0-nightly201601250f8e63caff/node-v6.0.0-nightly201601250f8e63caff-linux-x86.tar.gz#5ccea9572fdf93408711f85a9caee89b47d1856f4c2a14ebcb74504953d7c03e"
+binary sunos-x64 "https://nodejs.org/download/nightly/v6.0.0-nightly201601250f8e63caff/node-v6.0.0-nightly201601250f8e63caff-sunos-x64.tar.gz#0092fb455ffc62d4b6a35cee55ea53dfc403e1b4777ce6537b053b9c87a9d55d"
+binary sunos-x86 "https://nodejs.org/download/nightly/v6.0.0-nightly201601250f8e63caff/node-v6.0.0-nightly201601250f8e63caff-sunos-x86.tar.gz#30c81451263f6e3f027a9d29196f0a416d8ab4d9bec72b3081c0d00ea739bed8"
+
+install_package "node-v6.0.0-nightly201601250f8e63caff" "https://nodejs.org/download/nightly/v6.0.0-nightly201601250f8e63caff/node-v6.0.0-nightly201601250f8e63caff.tar.gz#99744e966230402cf2a30d89d58df3e7499c42eefab442c23f046c6bb3e7c3c2"

@@ -1,0 +1,11 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v6.0.0-nightly2016012496934cbb30/node-v6.0.0-nightly2016012496934cbb30-darwin-x64.tar.gz#47769dc0fee99736f5b9371a69892cb56ddc3b18eb394f73d593490cf63eb5ef"
+binary linux-arm64 "https://nodejs.org/download/nightly/v6.0.0-nightly2016012496934cbb30/node-v6.0.0-nightly2016012496934cbb30-linux-arm64.tar.gz#8553842d5476bf0d87b031072308fd769b851c7cc93955045077db93543ae934"
+binary linux-armv6l "https://nodejs.org/download/nightly/v6.0.0-nightly2016012496934cbb30/node-v6.0.0-nightly2016012496934cbb30-linux-armv6l.tar.gz#1e5197482b96400f7555270fd9fcbd6465bb467b6be76eef42b60cf8a94b59ae"
+binary linux-armv7l "https://nodejs.org/download/nightly/v6.0.0-nightly2016012496934cbb30/node-v6.0.0-nightly2016012496934cbb30-linux-armv7l.tar.gz#1ca115915bee3a395a06c021d68efa8a9dfac56c2152f47c53e926f210cfc856"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v6.0.0-nightly2016012496934cbb30/node-v6.0.0-nightly2016012496934cbb30-linux-ppc64le.tar.gz#6892c4a1b219c426871dfe20f497b707b2fdfdcee34ae1c6431b0cfa49ed60b1"
+binary linux-x64 "https://nodejs.org/download/nightly/v6.0.0-nightly2016012496934cbb30/node-v6.0.0-nightly2016012496934cbb30-linux-x64.tar.gz#cd203a935fee561aee27ce70c8ca4d7a4bd060f9c0487420efbff32ad3028694"
+binary linux-x86 "https://nodejs.org/download/nightly/v6.0.0-nightly2016012496934cbb30/node-v6.0.0-nightly2016012496934cbb30-linux-x86.tar.gz#d13a6709c657c591816ed48f8bdf3afd7ba9f10b35bbf87419288963ca0e134f"
+binary sunos-x64 "https://nodejs.org/download/nightly/v6.0.0-nightly2016012496934cbb30/node-v6.0.0-nightly2016012496934cbb30-sunos-x64.tar.gz#77dd1a764e947ef0221ecbf81be257a3d99d24da53fc07a513699e9f22249fa5"
+binary sunos-x86 "https://nodejs.org/download/nightly/v6.0.0-nightly2016012496934cbb30/node-v6.0.0-nightly2016012496934cbb30-sunos-x86.tar.gz#3155d7f7360b6e3fbdd620d13582428509044d90a4f85abcd08c108c2e908f76"
+
+install_package "node-v6.0.0-nightly2016012496934cbb30" "https://nodejs.org/download/nightly/v6.0.0-nightly2016012496934cbb30/node-v6.0.0-nightly2016012496934cbb30.tar.gz#544a7de47d1c77371e96bd220587a2f2d026717ce1c9d8c6fffffe1a9a7e42ec"

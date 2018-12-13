@@ -1,0 +1,10 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v6.3.1-nightly201607134480b14fda/node-v6.3.1-nightly201607134480b14fda-darwin-x64.tar.gz#013fe914c9fe9001496a53a6a7bab0e70410d2c7e34f2608a376d1d38637360c"
+binary linux-arm64 "https://nodejs.org/download/nightly/v6.3.1-nightly201607134480b14fda/node-v6.3.1-nightly201607134480b14fda-linux-arm64.tar.gz#63fc5b1d45f91a356cce4dff71d461721aac8537be99b1fc07548b1d546377b2"
+binary linux-armv6l "https://nodejs.org/download/nightly/v6.3.1-nightly201607134480b14fda/node-v6.3.1-nightly201607134480b14fda-linux-armv6l.tar.gz#dcc0a72764a7597958ba363016db23cf9ed2990f8c40e87fd535bd898c7dc9be"
+binary linux-armv7l "https://nodejs.org/download/nightly/v6.3.1-nightly201607134480b14fda/node-v6.3.1-nightly201607134480b14fda-linux-armv7l.tar.gz#4b66d22914f42079eb967ff18d29dd1e40211593c9278baed48c527031b7d033"
+binary linux-x64 "https://nodejs.org/download/nightly/v6.3.1-nightly201607134480b14fda/node-v6.3.1-nightly201607134480b14fda-linux-x64.tar.gz#d72d57e242b6263288f5de95c599077223e539e4a8637a9da2608b12eead7636"
+binary linux-x86 "https://nodejs.org/download/nightly/v6.3.1-nightly201607134480b14fda/node-v6.3.1-nightly201607134480b14fda-linux-x86.tar.gz#dd5a2d1a7116e7c36f6b9ababbf05bfaa27716d6fd3cdc9a7cfdfa948c58e95a"
+binary sunos-x64 "https://nodejs.org/download/nightly/v6.3.1-nightly201607134480b14fda/node-v6.3.1-nightly201607134480b14fda-sunos-x64.tar.gz#14a8e4c760cf56af797d57a29438502763a8f8e4759c503b6495a905e5221ca2"
+binary sunos-x86 "https://nodejs.org/download/nightly/v6.3.1-nightly201607134480b14fda/node-v6.3.1-nightly201607134480b14fda-sunos-x86.tar.gz#5ab8e2110e5de74a7210cf3d3e5fe1ea88b3b202edd441123bc42733b30b8eec"
+
+install_package "node-v6.3.1-nightly201607134480b14fda" "https://nodejs.org/download/nightly/v6.3.1-nightly201607134480b14fda/node-v6.3.1-nightly201607134480b14fda.tar.gz#57cda46db46954b8131c1219137bee4a75003da9904193614aa50877499b02e3"
