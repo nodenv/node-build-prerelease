@@ -1,0 +1,11 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v5.4.2-nightly20160117e855b596f4/node-v5.4.2-nightly20160117e855b596f4-darwin-x64.tar.gz#3933a87214a06cb3a60c14f18221e1f2d8b6b5fa7ec0a421347fda913d00c347"
+binary linux-arm64 "https://nodejs.org/download/nightly/v5.4.2-nightly20160117e855b596f4/node-v5.4.2-nightly20160117e855b596f4-linux-arm64.tar.gz#7dc6cf5d928bf1353db33cb96789e74ce8ce3ea6c895ec1e20d833609ce2cf04"
+binary linux-armv6l "https://nodejs.org/download/nightly/v5.4.2-nightly20160117e855b596f4/node-v5.4.2-nightly20160117e855b596f4-linux-armv6l.tar.gz#35c5e6f9afada66effaf27f394015cd4c84effdcdd5c4c730cfde60e3016f4f1"
+binary linux-armv7l "https://nodejs.org/download/nightly/v5.4.2-nightly20160117e855b596f4/node-v5.4.2-nightly20160117e855b596f4-linux-armv7l.tar.gz#ab67ad421f720842edbef39cb3753fabfa6cce7323f3ac175707c0b51841f6d3"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v5.4.2-nightly20160117e855b596f4/node-v5.4.2-nightly20160117e855b596f4-linux-ppc64le.tar.gz#b73bc5cbc44050a0285a6c1a5e794bf195ebce889a3e7776d0998521ef3eb920"
+binary linux-x64 "https://nodejs.org/download/nightly/v5.4.2-nightly20160117e855b596f4/node-v5.4.2-nightly20160117e855b596f4-linux-x64.tar.gz#0083808d104a59940196c2b15d3abf6158eaf1c6c402936053c4bb0e52dd1b2f"
+binary linux-x86 "https://nodejs.org/download/nightly/v5.4.2-nightly20160117e855b596f4/node-v5.4.2-nightly20160117e855b596f4-linux-x86.tar.gz#8063a2e2628a44d42164b84a7abae2c891a678036f5e19263af0b906bf63dcc2"
+binary sunos-x64 "https://nodejs.org/download/nightly/v5.4.2-nightly20160117e855b596f4/node-v5.4.2-nightly20160117e855b596f4-sunos-x64.tar.gz#95e3413564f83d5e50c9b98d9cef0b1b15fcf2ffbb327fd314934771768d68c7"
+binary sunos-x86 "https://nodejs.org/download/nightly/v5.4.2-nightly20160117e855b596f4/node-v5.4.2-nightly20160117e855b596f4-sunos-x86.tar.gz#619e079284ccd374ad06147a446d838e6e20482d183cbd3797828e2739af4da6"
+
+install_package "node-v5.4.2-nightly20160117e855b596f4" "https://nodejs.org/download/nightly/v5.4.2-nightly20160117e855b596f4/node-v5.4.2-nightly20160117e855b596f4.tar.gz#5374e3a445f5ee3ea9ce65d17711d7efc29029e4ade9d8e7954021467fd080ed"

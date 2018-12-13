@@ -1,0 +1,11 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v5.7.1-nightly20160229c83725c604/node-v5.7.1-nightly20160229c83725c604-darwin-x64.tar.gz#f20e59abe669e54593f8f03f92ce5ee924ba989d137ee53eb158fb4ad31266d5"
+binary linux-arm64 "https://nodejs.org/download/nightly/v5.7.1-nightly20160229c83725c604/node-v5.7.1-nightly20160229c83725c604-linux-arm64.tar.gz#70e9b0cf2da9a2bf1a54087d827ab26bfc25d873081b87ffe0681e17bee2e826"
+binary linux-armv6l "https://nodejs.org/download/nightly/v5.7.1-nightly20160229c83725c604/node-v5.7.1-nightly20160229c83725c604-linux-armv6l.tar.gz#c8363e2a735df2564ed8cf519ca880ccebe91541d4d6dcb5c3a9223b318ea8b6"
+binary linux-armv7l "https://nodejs.org/download/nightly/v5.7.1-nightly20160229c83725c604/node-v5.7.1-nightly20160229c83725c604-linux-armv7l.tar.gz#1a23afbc514b006d77b5611a2e185bcaf83571b200da022b76fdd27534069202"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v5.7.1-nightly20160229c83725c604/node-v5.7.1-nightly20160229c83725c604-linux-ppc64le.tar.gz#b42af955ed7b5aebd633aa8d18d0fe6bcf9d34ffa9edf7e3e8ac9ffef49e5232"
+binary linux-x64 "https://nodejs.org/download/nightly/v5.7.1-nightly20160229c83725c604/node-v5.7.1-nightly20160229c83725c604-linux-x64.tar.gz#5b4d18dcf2a02794a60b1b827ddc343b07f3b9ccfc80b41016f55fa96b4d1443"
+binary linux-x86 "https://nodejs.org/download/nightly/v5.7.1-nightly20160229c83725c604/node-v5.7.1-nightly20160229c83725c604-linux-x86.tar.gz#bdbed4c8e254efc7b5bf01e6b8b4e8df878c146d54d5f835cad1286863dc507d"
+binary sunos-x64 "https://nodejs.org/download/nightly/v5.7.1-nightly20160229c83725c604/node-v5.7.1-nightly20160229c83725c604-sunos-x64.tar.gz#9e7ab98f6008e7a91be0f5c632a46b40ce991a50adc41cbdef1242ebedc7bc86"
+binary sunos-x86 "https://nodejs.org/download/nightly/v5.7.1-nightly20160229c83725c604/node-v5.7.1-nightly20160229c83725c604-sunos-x86.tar.gz#69f74a76ececdea7c2f9df65fb49895be8f645fcab0d46373e30bd9dec8bbcac"
+
+install_package "node-v5.7.1-nightly20160229c83725c604" "https://nodejs.org/download/nightly/v5.7.1-nightly20160229c83725c604/node-v5.7.1-nightly20160229c83725c604.tar.gz#717a03898942eef8219ec4242e3124b89b395e76cae346760f406d7b0b93d7bc"

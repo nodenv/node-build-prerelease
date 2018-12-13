@@ -1,0 +1,11 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v5.7.2-nightly2016030401c331ea37/node-v5.7.2-nightly2016030401c331ea37-darwin-x64.tar.gz#cb97234e4abc63ef172abbbdb3ef918c727d9c83e31495e25c3adc91ff300784"
+binary linux-arm64 "https://nodejs.org/download/nightly/v5.7.2-nightly2016030401c331ea37/node-v5.7.2-nightly2016030401c331ea37-linux-arm64.tar.gz#b58a9b0c74115115afb73400a4f92cb0504021ab7957fba03ba3ed020c38e659"
+binary linux-armv6l "https://nodejs.org/download/nightly/v5.7.2-nightly2016030401c331ea37/node-v5.7.2-nightly2016030401c331ea37-linux-armv6l.tar.gz#8b8fed7e207908eb8c375d909f6fb9ed99e98a94d05f4f7ed7ef207d62f75280"
+binary linux-armv7l "https://nodejs.org/download/nightly/v5.7.2-nightly2016030401c331ea37/node-v5.7.2-nightly2016030401c331ea37-linux-armv7l.tar.gz#da6d36c85d2bdb44f2f79f5a76b990cde1de661b5d31488ee536c1f55bbaa74a"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v5.7.2-nightly2016030401c331ea37/node-v5.7.2-nightly2016030401c331ea37-linux-ppc64le.tar.gz#3bcb7199a76186dbf8e6e1fefc5d173c6eadf9a2d0a5e330673b2056303d48f0"
+binary linux-x64 "https://nodejs.org/download/nightly/v5.7.2-nightly2016030401c331ea37/node-v5.7.2-nightly2016030401c331ea37-linux-x64.tar.gz#fae78fcd8031cda65a03fdf07dc927cdf7fb82413263698b7ff6f6d976fc0cd2"
+binary linux-x86 "https://nodejs.org/download/nightly/v5.7.2-nightly2016030401c331ea37/node-v5.7.2-nightly2016030401c331ea37-linux-x86.tar.gz#70c033998637591f45a9afafa779f05d72af8bef5d608225e1f2bfaff9594115"
+binary sunos-x64 "https://nodejs.org/download/nightly/v5.7.2-nightly2016030401c331ea37/node-v5.7.2-nightly2016030401c331ea37-sunos-x64.tar.gz#1ba75646f5bb651e7dad589d5b9d779e7bc2d585ad77270bffd8df55c0c74d00"
+binary sunos-x86 "https://nodejs.org/download/nightly/v5.7.2-nightly2016030401c331ea37/node-v5.7.2-nightly2016030401c331ea37-sunos-x86.tar.gz#081aead7b2026b95a4315cc7b031fe46ed72a1ccfdbae10497d0b58c3188d467"
+
+install_package "node-v5.7.2-nightly2016030401c331ea37" "https://nodejs.org/download/nightly/v5.7.2-nightly2016030401c331ea37/node-v5.7.2-nightly2016030401c331ea37.tar.gz#ef3dcab86775d9920270a972c84edd2550a4d558b5714f64e6e184e292d0ab0b"

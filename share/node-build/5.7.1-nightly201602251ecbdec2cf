@@ -1,0 +1,11 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v5.7.1-nightly201602251ecbdec2cf/node-v5.7.1-nightly201602251ecbdec2cf-darwin-x64.tar.gz#baf1bf8163ac0daa530f032c435d7431a954268237a1717f874ed2d94c50bbf8"
+binary linux-arm64 "https://nodejs.org/download/nightly/v5.7.1-nightly201602251ecbdec2cf/node-v5.7.1-nightly201602251ecbdec2cf-linux-arm64.tar.gz#e6e65af372f3b8dd36817adf6caa9cdb0e0d0e7f2837c5bdf3cdc9f9327dfa97"
+binary linux-armv6l "https://nodejs.org/download/nightly/v5.7.1-nightly201602251ecbdec2cf/node-v5.7.1-nightly201602251ecbdec2cf-linux-armv6l.tar.gz#fd3824e3fe7c7e39bad6a24fd99888dfb8b785450a5a6f868e71ccc9a29e13ea"
+binary linux-armv7l "https://nodejs.org/download/nightly/v5.7.1-nightly201602251ecbdec2cf/node-v5.7.1-nightly201602251ecbdec2cf-linux-armv7l.tar.gz#6b20ee3fa12cdf3491f6446e95c7e50362bbba0c9dc8542aa1a9e93256168c27"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v5.7.1-nightly201602251ecbdec2cf/node-v5.7.1-nightly201602251ecbdec2cf-linux-ppc64le.tar.gz#ac13cc808f1cf3e4f1d1b5469c5f9c871dc4608bb522376af65b7d84d07d0262"
+binary linux-x64 "https://nodejs.org/download/nightly/v5.7.1-nightly201602251ecbdec2cf/node-v5.7.1-nightly201602251ecbdec2cf-linux-x64.tar.gz#1138ac1cbd0143660e039860248ef3b7460946a3f59d309ffc706f6fdf22e69b"
+binary linux-x86 "https://nodejs.org/download/nightly/v5.7.1-nightly201602251ecbdec2cf/node-v5.7.1-nightly201602251ecbdec2cf-linux-x86.tar.gz#1a7bf1f666a5602798e46f61a759e3ad2102cbc9070a6cca337700b48c92fcd7"
+binary sunos-x64 "https://nodejs.org/download/nightly/v5.7.1-nightly201602251ecbdec2cf/node-v5.7.1-nightly201602251ecbdec2cf-sunos-x64.tar.gz#e555bcdd8bafbcc335635c1160b00f9f25910e9fe47c60e3867a8636717b9886"
+binary sunos-x86 "https://nodejs.org/download/nightly/v5.7.1-nightly201602251ecbdec2cf/node-v5.7.1-nightly201602251ecbdec2cf-sunos-x86.tar.gz#401086a16f7d9297617f311e250cf5b43d2aa9e9e1ac1189f1408b292dcaff36"
+
+install_package "node-v5.7.1-nightly201602251ecbdec2cf" "https://nodejs.org/download/nightly/v5.7.1-nightly201602251ecbdec2cf/node-v5.7.1-nightly201602251ecbdec2cf.tar.gz#5d97ca23ad4a6515cac813103ca849a0754f5885ad000696b1de877cf00c6db5"
