@@ -1,0 +1,11 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v10.0.0-nightly201712294117e22cf3/node-v10.0.0-nightly201712294117e22cf3-aix-ppc64.tar.gz#b833722940a5a2a7b5673576c6a8fdbe5fb4591077c272a7a1355db1cdd5f790"
+binary darwin-x64 "https://nodejs.org/download/nightly/v10.0.0-nightly201712294117e22cf3/node-v10.0.0-nightly201712294117e22cf3-darwin-x64.tar.gz#e783aed06c15b4d4887d4fd984ae87e03dd90cb19abe62b3d9c3c8e65c249d2b"
+binary linux-arm64 "https://nodejs.org/download/nightly/v10.0.0-nightly201712294117e22cf3/node-v10.0.0-nightly201712294117e22cf3-linux-arm64.tar.gz#02d1909717c9b82e444bf4c314b746f91b6fe0286f7dbb4def486601d45d4b38"
+binary linux-armv7l "https://nodejs.org/download/nightly/v10.0.0-nightly201712294117e22cf3/node-v10.0.0-nightly201712294117e22cf3-linux-armv7l.tar.gz#083097fa6ba8364b3cb06958ea8c9f3bbdbd5914321f9b91fb0d0babdd3893c4"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v10.0.0-nightly201712294117e22cf3/node-v10.0.0-nightly201712294117e22cf3-linux-ppc64le.tar.gz#0e4aaeeb74a22aba48cf8ba0d23b1f6b232eed0ca2a5d1f8bce9db57c14742d1"
+binary linux-s390x "https://nodejs.org/download/nightly/v10.0.0-nightly201712294117e22cf3/node-v10.0.0-nightly201712294117e22cf3-linux-s390x.tar.gz#225c7a4cfe854027f6ac5a6984baac387033442079aa3102c7fc24bef8dddfab"
+binary linux-x86 "https://nodejs.org/download/nightly/v10.0.0-nightly201712294117e22cf3/node-v10.0.0-nightly201712294117e22cf3-linux-x86.tar.gz#244b01b1f05f75287a8b53dde531d28899fc136adc24d3199d42faa5690ace35"
+binary sunos-x64 "https://nodejs.org/download/nightly/v10.0.0-nightly201712294117e22cf3/node-v10.0.0-nightly201712294117e22cf3-sunos-x64.tar.gz#dfdff8148b66dfdaf4717a61944063dc9c83b13d49055ae16713e9237c10914a"
+binary sunos-x86 "https://nodejs.org/download/nightly/v10.0.0-nightly201712294117e22cf3/node-v10.0.0-nightly201712294117e22cf3-sunos-x86.tar.gz#fc4b8c1703e507e427a1648d7443f8808b7b5f1262ef9a9325227b714fa2bcc1"
+
+install_package "node-v10.0.0-nightly201712294117e22cf3" "https://nodejs.org/download/nightly/v10.0.0-nightly201712294117e22cf3/node-v10.0.0-nightly201712294117e22cf3.tar.gz#354f0988f6972ea29a9947c00b33499f7f2481d5dd4702dca4f524505baa80c1"
