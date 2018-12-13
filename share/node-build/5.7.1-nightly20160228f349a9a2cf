@@ -1,0 +1,11 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v5.7.1-nightly20160228f349a9a2cf/node-v5.7.1-nightly20160228f349a9a2cf-darwin-x64.tar.gz#377b5666244b25730c2a971ba07df9fd55ead631ff1af6ba3b58acb04aeb3b88"
+binary linux-arm64 "https://nodejs.org/download/nightly/v5.7.1-nightly20160228f349a9a2cf/node-v5.7.1-nightly20160228f349a9a2cf-linux-arm64.tar.gz#48b83291456500eab90ca87828c97e783f5a1970338570660dc7f157199ccad6"
+binary linux-armv6l "https://nodejs.org/download/nightly/v5.7.1-nightly20160228f349a9a2cf/node-v5.7.1-nightly20160228f349a9a2cf-linux-armv6l.tar.gz#1cebf470f2f17e4dc12816e98825486e45a661b8f3259caa83c0382d3659e6bc"
+binary linux-armv7l "https://nodejs.org/download/nightly/v5.7.1-nightly20160228f349a9a2cf/node-v5.7.1-nightly20160228f349a9a2cf-linux-armv7l.tar.gz#e3ebc4ea7ded21efc55439523640d0690d8f63d77c20f4f4ba9ca18c5e7e9ce5"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v5.7.1-nightly20160228f349a9a2cf/node-v5.7.1-nightly20160228f349a9a2cf-linux-ppc64le.tar.gz#782f3917a3868dd4a05a525bb9e11a2e399a49ab82576a9b83645c524220b656"
+binary linux-x64 "https://nodejs.org/download/nightly/v5.7.1-nightly20160228f349a9a2cf/node-v5.7.1-nightly20160228f349a9a2cf-linux-x64.tar.gz#1b0208625b2554e4c11638a3135d74d69f456ab4aa2b1482cecbcc67fffb0624"
+binary linux-x86 "https://nodejs.org/download/nightly/v5.7.1-nightly20160228f349a9a2cf/node-v5.7.1-nightly20160228f349a9a2cf-linux-x86.tar.gz#0ef1a86f10fab0938a0c791bd884108cf0e84a97f4af9b3d14eaa919c52f84c1"
+binary sunos-x64 "https://nodejs.org/download/nightly/v5.7.1-nightly20160228f349a9a2cf/node-v5.7.1-nightly20160228f349a9a2cf-sunos-x64.tar.gz#9b2a6235892e47a31c08191b894ce53c47636979316b232f3aed62d0c8021b56"
+binary sunos-x86 "https://nodejs.org/download/nightly/v5.7.1-nightly20160228f349a9a2cf/node-v5.7.1-nightly20160228f349a9a2cf-sunos-x86.tar.gz#976b3c37ddfbc04743167a7cd798fe15ec09a86568492614f38b1c939b223f04"
+
+install_package "node-v5.7.1-nightly20160228f349a9a2cf" "https://nodejs.org/download/nightly/v5.7.1-nightly20160228f349a9a2cf/node-v5.7.1-nightly20160228f349a9a2cf.tar.gz#e8f44f3085893d1a1f2cbff7091b844420c4fd941a94ad0ca1fe2c4e709f6d54"

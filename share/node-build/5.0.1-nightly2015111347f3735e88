@@ -1,0 +1,9 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v5.0.1-nightly2015111347f3735e88/node-v5.0.1-nightly2015111347f3735e88-darwin-x64.tar.gz#6a21cae66e043e075819bf319ba5069a28082c92528e3a9c7b586505909fe2a6"
+binary linux-arm64 "https://nodejs.org/download/nightly/v5.0.1-nightly2015111347f3735e88/node-v5.0.1-nightly2015111347f3735e88-linux-arm64.tar.gz#6238f2702cfc43a2f4b8d058c0000b71ae7cca009f8af7075caa0f049fe59c4b"
+binary linux-armv6l "https://nodejs.org/download/nightly/v5.0.1-nightly2015111347f3735e88/node-v5.0.1-nightly2015111347f3735e88-linux-armv6l.tar.gz#d0bc90eb12ba15f6b748b5074ed18d2dbbe2080a030688726442df3851e8a13d"
+binary linux-armv7l "https://nodejs.org/download/nightly/v5.0.1-nightly2015111347f3735e88/node-v5.0.1-nightly2015111347f3735e88-linux-armv7l.tar.gz#2d79f2a9e6e910f77d3b03a59ccd6dd62d60632d7e7215fef9913aaafb57ddfe"
+binary linux-x86 "https://nodejs.org/download/nightly/v5.0.1-nightly2015111347f3735e88/node-v5.0.1-nightly2015111347f3735e88-linux-x86.tar.gz#04c31bac343bf85fbd9d44949aef69b272fbb87cad312405d788f11497ce3e43"
+binary sunos-x64 "https://nodejs.org/download/nightly/v5.0.1-nightly2015111347f3735e88/node-v5.0.1-nightly2015111347f3735e88-sunos-x64.tar.gz#e37f9ff0ac9e1c4ac5063b527a1fd417d8dc0d9fbb3e72471cabc4603ae81346"
+binary sunos-x86 "https://nodejs.org/download/nightly/v5.0.1-nightly2015111347f3735e88/node-v5.0.1-nightly2015111347f3735e88-sunos-x86.tar.gz#fcdcbc9b503134f0309988cb8bfe573930446f066eb311032c5b84885c244997"
+
+install_package "node-v5.0.1-nightly2015111347f3735e88" "https://nodejs.org/download/nightly/v5.0.1-nightly2015111347f3735e88/node-v5.0.1-nightly2015111347f3735e88.tar.gz#9df6e256448523ecc76cbb41387decfb08e74a654751bd1c2449d7ff2f54a9fe"

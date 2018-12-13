@@ -1,0 +1,11 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v5.10.2-nightly201604196d9c0c9aa7/node-v5.10.2-nightly201604196d9c0c9aa7-darwin-x64.tar.gz#6731b6a60aeae9a7770ec9ce3b86d7895ddd63d62037c1c400de031b7411244b"
+binary linux-arm64 "https://nodejs.org/download/nightly/v5.10.2-nightly201604196d9c0c9aa7/node-v5.10.2-nightly201604196d9c0c9aa7-linux-arm64.tar.gz#faed60aa42c54a327c3e28936bfd430e6b757782fdcfab84927645ef42281c8f"
+binary linux-armv6l "https://nodejs.org/download/nightly/v5.10.2-nightly201604196d9c0c9aa7/node-v5.10.2-nightly201604196d9c0c9aa7-linux-armv6l.tar.gz#4a49018bddbe26b445c5a9ffd6ff20cabc75187a40190a6f4739d48972d2d747"
+binary linux-armv7l "https://nodejs.org/download/nightly/v5.10.2-nightly201604196d9c0c9aa7/node-v5.10.2-nightly201604196d9c0c9aa7-linux-armv7l.tar.gz#63f8f92a071e827f1b085b6e9ac3481fcbf8e50270f4a32654a745aae2164b1a"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v5.10.2-nightly201604196d9c0c9aa7/node-v5.10.2-nightly201604196d9c0c9aa7-linux-ppc64le.tar.gz#415d45bbdc688519d3d0f8297ed3c488e0edddbd2f2cb4af7b66d9f9ee43ce42"
+binary linux-x64 "https://nodejs.org/download/nightly/v5.10.2-nightly201604196d9c0c9aa7/node-v5.10.2-nightly201604196d9c0c9aa7-linux-x64.tar.gz#280e01ea75a43ac9bc8df56e0a6851e7066df9011ddbc1a9681dd7cf64a7fa99"
+binary linux-x86 "https://nodejs.org/download/nightly/v5.10.2-nightly201604196d9c0c9aa7/node-v5.10.2-nightly201604196d9c0c9aa7-linux-x86.tar.gz#9fece412287676a891da869ddd844d795044297725fae82939ecf0134a044cdd"
+binary sunos-x64 "https://nodejs.org/download/nightly/v5.10.2-nightly201604196d9c0c9aa7/node-v5.10.2-nightly201604196d9c0c9aa7-sunos-x64.tar.gz#b962807bab4b925111475678761b52396659c8832161b77c9ac73b1139b1e666"
+binary sunos-x86 "https://nodejs.org/download/nightly/v5.10.2-nightly201604196d9c0c9aa7/node-v5.10.2-nightly201604196d9c0c9aa7-sunos-x86.tar.gz#d459b90dda89804bd719740beb86d546917dbb7ff8b7c617ff97cb89135bb104"
+
+install_package "node-v5.10.2-nightly201604196d9c0c9aa7" "https://nodejs.org/download/nightly/v5.10.2-nightly201604196d9c0c9aa7/node-v5.10.2-nightly201604196d9c0c9aa7.tar.gz#788960516a2aab519bc301bc420363f66516232905719ce9232035d05abb5762"

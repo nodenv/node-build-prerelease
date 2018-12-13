@@ -1,0 +1,11 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v5.11.1-nightly2016050199920480ae/node-v5.11.1-nightly2016050199920480ae-darwin-x64.tar.gz#13e17fc7cf100e6c601ad3281fdd2e0790da228bb06249bc4d33cf3a1c0a5f1a"
+binary linux-arm64 "https://nodejs.org/download/nightly/v5.11.1-nightly2016050199920480ae/node-v5.11.1-nightly2016050199920480ae-linux-arm64.tar.gz#8de0ea174bac73daac9a94f958e04c10a6d8d68e8eaa792358a3ae2828b37099"
+binary linux-armv6l "https://nodejs.org/download/nightly/v5.11.1-nightly2016050199920480ae/node-v5.11.1-nightly2016050199920480ae-linux-armv6l.tar.gz#426cc90ea9f707455c4a6f4bb2f51ced266a748ad2986b0fe21f30679726d919"
+binary linux-armv7l "https://nodejs.org/download/nightly/v5.11.1-nightly2016050199920480ae/node-v5.11.1-nightly2016050199920480ae-linux-armv7l.tar.gz#2e9e1c9f0cfe4fd01ef6ad7b85135b0dd9c79a8103741ebd3e3a88854def5f49"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v5.11.1-nightly2016050199920480ae/node-v5.11.1-nightly2016050199920480ae-linux-ppc64le.tar.gz#ddde21acf41f51e2b0c1d80897941cdb9b7679dadefebae87dc834fe5f0df431"
+binary linux-x64 "https://nodejs.org/download/nightly/v5.11.1-nightly2016050199920480ae/node-v5.11.1-nightly2016050199920480ae-linux-x64.tar.gz#607db5dcd5d21ee0783fd0a7da51c113a47da3f251fbc5f089a88c5b4b4b2630"
+binary linux-x86 "https://nodejs.org/download/nightly/v5.11.1-nightly2016050199920480ae/node-v5.11.1-nightly2016050199920480ae-linux-x86.tar.gz#d4003a9861aeaec9fb93d18b4ae2f45d511422e86c22e6cded3776cc673b4023"
+binary sunos-x64 "https://nodejs.org/download/nightly/v5.11.1-nightly2016050199920480ae/node-v5.11.1-nightly2016050199920480ae-sunos-x64.tar.gz#b7c70ef2d4c7256ac3bef5b8d1d81f5c9e351ee8917e621780f7805b72fe810e"
+binary sunos-x86 "https://nodejs.org/download/nightly/v5.11.1-nightly2016050199920480ae/node-v5.11.1-nightly2016050199920480ae-sunos-x86.tar.gz#cba4a395eae1133a87a7987edc001e1eca6f190d13b779bdc2baf269d2b57389"
+
+install_package "node-v5.11.1-nightly2016050199920480ae" "https://nodejs.org/download/nightly/v5.11.1-nightly2016050199920480ae/node-v5.11.1-nightly2016050199920480ae.tar.gz#d9e8ec259ef2f44e13402a1eec6bedb1d81672776f87630feffe833e7ae4d522"

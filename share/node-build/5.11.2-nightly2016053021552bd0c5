@@ -1,0 +1,12 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v5.11.2-nightly2016053021552bd0c5/node-v5.11.2-nightly2016053021552bd0c5-darwin-x64.tar.gz#01760269bfc8d3f419ddb0b9d9d2952045db42315895ceeefa04ab4fdd9b3459"
+binary linux-arm64 "https://nodejs.org/download/nightly/v5.11.2-nightly2016053021552bd0c5/node-v5.11.2-nightly2016053021552bd0c5-linux-arm64.tar.gz#d8c9965d651abe4d136030c12b53c85ed92e6d9a8bd317780d91fdfa12a1cfa3"
+binary linux-armv6l "https://nodejs.org/download/nightly/v5.11.2-nightly2016053021552bd0c5/node-v5.11.2-nightly2016053021552bd0c5-linux-armv6l.tar.gz#ebacf5d399820c1f4a1613a6c3ea65291ee3ae74cd1c4ac4a698322a64f9ddd5"
+binary linux-armv7l "https://nodejs.org/download/nightly/v5.11.2-nightly2016053021552bd0c5/node-v5.11.2-nightly2016053021552bd0c5-linux-armv7l.tar.gz#c9d893f41290f5142edd09166283edc48f90de027884c880bba03b9b6352bd1a"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v5.11.2-nightly2016053021552bd0c5/node-v5.11.2-nightly2016053021552bd0c5-linux-ppc64le.tar.gz#984f4e5ca909482690d279a9f2067bbae162e080d8cfd6d32c04a64eaf67b652"
+binary linux-ppc64 "https://nodejs.org/download/nightly/v5.11.2-nightly2016053021552bd0c5/node-v5.11.2-nightly2016053021552bd0c5-linux-ppc64.tar.gz#01d131fa369eab72d1f19aef75310f053acddcd65184e564d32ff43a9327874b"
+binary linux-x64 "https://nodejs.org/download/nightly/v5.11.2-nightly2016053021552bd0c5/node-v5.11.2-nightly2016053021552bd0c5-linux-x64.tar.gz#ac87d42f098a2c2e5ece3c1605cf9d1f0c185b79c44c1a8f5cd00ea61f36e8b7"
+binary linux-x86 "https://nodejs.org/download/nightly/v5.11.2-nightly2016053021552bd0c5/node-v5.11.2-nightly2016053021552bd0c5-linux-x86.tar.gz#d64e4567a27217fdefdada60ea97136cf5dc6171e9a3a221c33b29dbabc123d5"
+binary sunos-x64 "https://nodejs.org/download/nightly/v5.11.2-nightly2016053021552bd0c5/node-v5.11.2-nightly2016053021552bd0c5-sunos-x64.tar.gz#c4d1aae7458623928548c5518d6b47a737f09a85eafb2f4f6ad7470605486d85"
+binary sunos-x86 "https://nodejs.org/download/nightly/v5.11.2-nightly2016053021552bd0c5/node-v5.11.2-nightly2016053021552bd0c5-sunos-x86.tar.gz#e0ea10720bea2e370a9b7f89204ba3ade7d2dbc389ab77a2853f30c201391f1e"
+
+install_package "node-v5.11.2-nightly2016053021552bd0c5" "https://nodejs.org/download/nightly/v5.11.2-nightly2016053021552bd0c5/node-v5.11.2-nightly2016053021552bd0c5.tar.gz#984f4913d013a118f46f853283e325c252deaaa4196ff4e355a672f1cd7e1423"
