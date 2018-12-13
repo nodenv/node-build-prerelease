@@ -1,0 +1,14 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary aix-ppc64 "https://nodejs.org/download/nightly/v10.6.1-nightly20180709eaea66e3c0/node-v10.6.1-nightly20180709eaea66e3c0-aix-ppc64.tar.gz#56932cde1c4557083475e67fda7f634c41ae6b4492b9b60e83686530e5d648a3"
+binary darwin-x64 "https://nodejs.org/download/nightly/v10.6.1-nightly20180709eaea66e3c0/node-v10.6.1-nightly20180709eaea66e3c0-darwin-x64.tar.gz#2ad407633f779cabf0cf046338aaa0c8d4454fcfbfb1e65d0a4f1c78ae93cef3"
+binary linux-arm64 "https://nodejs.org/download/nightly/v10.6.1-nightly20180709eaea66e3c0/node-v10.6.1-nightly20180709eaea66e3c0-linux-arm64.tar.gz#c13f8cc3183be453fb2927569c21839e109795da80423ea0f44255d78b668ec3"
+binary linux-armv6l "https://nodejs.org/download/nightly/v10.6.1-nightly20180709eaea66e3c0/node-v10.6.1-nightly20180709eaea66e3c0-linux-armv6l.tar.gz#d64655468285cc3aaf83b3964a3dff005cf7fbcfc03c8e59a7f4ddf6198a9573"
+binary linux-armv7l "https://nodejs.org/download/nightly/v10.6.1-nightly20180709eaea66e3c0/node-v10.6.1-nightly20180709eaea66e3c0-linux-armv7l.tar.gz#0ca365d10534b99bdcc69381f4b6f53a2ea0c2a83fa6cc9464e32c39750d010c"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v10.6.1-nightly20180709eaea66e3c0/node-v10.6.1-nightly20180709eaea66e3c0-linux-ppc64le.tar.gz#451ed8a1f8ba5bf28e5428c88066ab8ae0a3efecc730677f10642b8be921836d"
+binary linux-s390x "https://nodejs.org/download/nightly/v10.6.1-nightly20180709eaea66e3c0/node-v10.6.1-nightly20180709eaea66e3c0-linux-s390x.tar.gz#ed755ced1f7718c28920bb74180ec0855f8ae777cd2bd117fe44feb544f02164"
+binary linux-x64 "https://nodejs.org/download/nightly/v10.6.1-nightly20180709eaea66e3c0/node-v10.6.1-nightly20180709eaea66e3c0-linux-x64.tar.gz#2411edf1fad73176b964a9416f3680c1b145b4e1a20c95bdf220b1e624eb2673"
+binary sunos-x64 "https://nodejs.org/download/nightly/v10.6.1-nightly20180709eaea66e3c0/node-v10.6.1-nightly20180709eaea66e3c0-sunos-x64.tar.gz#ff6081a5461155e949c3153306f26b4d2c80bedfe59fa4c6956383f375781201"
+
+install_package "v10.6.1-nightly20180709eaea66e3c0"

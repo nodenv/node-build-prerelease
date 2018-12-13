@@ -1,0 +1,6 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary linux-armv7l "https://nodejs.org/download/nightly/v5.7.2-nightly2016030801c331ea37/node-v5.7.2-nightly2016030801c331ea37-linux-armv7l.tar.gz#9ec8b66a569e12f6143a17c737a2d2e41ad2cdf8dc25ec1ff96d66fc971d0ce7"
+
+install_package "v5.7.2-nightly2016030801c331ea37"
