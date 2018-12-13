@@ -1,0 +1,11 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v7.0.0-nightly20160621ecc48a154d/node-v7.0.0-nightly20160621ecc48a154d-darwin-x64.tar.gz#c06ca03c672a33862a70379367064bc7139e5cf187164a351047d79ede11d94a"
+binary linux-arm64 "https://nodejs.org/download/nightly/v7.0.0-nightly20160621ecc48a154d/node-v7.0.0-nightly20160621ecc48a154d-linux-arm64.tar.gz#6e45a5320384a0d30c12d324c91bc6abe9d580c28b6b27441b1cb9a9ee5460ca"
+binary linux-armv6l "https://nodejs.org/download/nightly/v7.0.0-nightly20160621ecc48a154d/node-v7.0.0-nightly20160621ecc48a154d-linux-armv6l.tar.gz#8df1d330dd5b414518c7c16f446506573450c542b737e5f32cdcb8e722146b28"
+binary linux-armv7l "https://nodejs.org/download/nightly/v7.0.0-nightly20160621ecc48a154d/node-v7.0.0-nightly20160621ecc48a154d-linux-armv7l.tar.gz#c325446b723c78f49d4b078964ce06619781fbac61d7a4b38997cb2f977852f2"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v7.0.0-nightly20160621ecc48a154d/node-v7.0.0-nightly20160621ecc48a154d-linux-ppc64le.tar.gz#bd84824a2d7a7da5617298d2e3ac3bec70128e9432c0a4e82d05ba4af6a764a6"
+binary linux-x64 "https://nodejs.org/download/nightly/v7.0.0-nightly20160621ecc48a154d/node-v7.0.0-nightly20160621ecc48a154d-linux-x64.tar.gz#42bb209395de45a6e505bb9af6f6db9a4a38ab3c41a2be6b8bfa9f794556ea6e"
+binary linux-x86 "https://nodejs.org/download/nightly/v7.0.0-nightly20160621ecc48a154d/node-v7.0.0-nightly20160621ecc48a154d-linux-x86.tar.gz#272c53523bd48a036951b49d91a560d10e6b6a94df08faace101a74efd646250"
+binary sunos-x64 "https://nodejs.org/download/nightly/v7.0.0-nightly20160621ecc48a154d/node-v7.0.0-nightly20160621ecc48a154d-sunos-x64.tar.gz#a5f05373c49e724bf0b4c253e7bb68eecde9fb29a772fd9695d86bf21681879b"
+binary sunos-x86 "https://nodejs.org/download/nightly/v7.0.0-nightly20160621ecc48a154d/node-v7.0.0-nightly20160621ecc48a154d-sunos-x86.tar.gz#e9ead5c9333dcb4570f5ca3016f6ca143f5810538b3b82fb4ebb8c40b701e811"
+
+install_package "node-v7.0.0-nightly20160621ecc48a154d" "https://nodejs.org/download/nightly/v7.0.0-nightly20160621ecc48a154d/node-v7.0.0-nightly20160621ecc48a154d.tar.gz#91dffcf4ad0a0e38a83e884e56d4511f72ac6938784039872fa34741c4c2eb95"

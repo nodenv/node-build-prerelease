@@ -1,0 +1,11 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v7.0.0-nightly20160608779091ffdb/node-v7.0.0-nightly20160608779091ffdb-darwin-x64.tar.gz#fbf1ca9c7d08775b72ae0f312627b848486c75d4cf4258631db4aeb36f0cf577"
+binary linux-arm64 "https://nodejs.org/download/nightly/v7.0.0-nightly20160608779091ffdb/node-v7.0.0-nightly20160608779091ffdb-linux-arm64.tar.gz#6d2cda18069dc75317e8345fae513e8592dfb6bf919888fd3bd3a2e51c7f5f79"
+binary linux-armv7l "https://nodejs.org/download/nightly/v7.0.0-nightly20160608779091ffdb/node-v7.0.0-nightly20160608779091ffdb-linux-armv7l.tar.gz#9d82d7e4bd66f78eb547d3843c88cc7ab717e0aa41aa01445980a1d391aefb9d"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v7.0.0-nightly20160608779091ffdb/node-v7.0.0-nightly20160608779091ffdb-linux-ppc64le.tar.gz#f8ea420471ddf8f4e8f0688aaea48c76f9414572a20a1e69f52b2d8d0b5d2caa"
+binary linux-ppc64 "https://nodejs.org/download/nightly/v7.0.0-nightly20160608779091ffdb/node-v7.0.0-nightly20160608779091ffdb-linux-ppc64.tar.gz#2cf222639c18e3660a14126c1e988e6cb39fd2b79030773034da3ef585934420"
+binary linux-x64 "https://nodejs.org/download/nightly/v7.0.0-nightly20160608779091ffdb/node-v7.0.0-nightly20160608779091ffdb-linux-x64.tar.gz#bb21b6c07a151c982bdee7e653b38cde7de6b7c9acaaf19073372ebd68bb7c0a"
+binary linux-x86 "https://nodejs.org/download/nightly/v7.0.0-nightly20160608779091ffdb/node-v7.0.0-nightly20160608779091ffdb-linux-x86.tar.gz#01a8eec7471a4a5d4dd56c682c08374eaf98c91f30e3d1d3a9dba0fb6fbd2100"
+binary sunos-x64 "https://nodejs.org/download/nightly/v7.0.0-nightly20160608779091ffdb/node-v7.0.0-nightly20160608779091ffdb-sunos-x64.tar.gz#48513047c2e1b16b651bd9fd22604ff446d420cef388def0378584b373f84eb4"
+binary sunos-x86 "https://nodejs.org/download/nightly/v7.0.0-nightly20160608779091ffdb/node-v7.0.0-nightly20160608779091ffdb-sunos-x86.tar.gz#dba57d861c13834783d494404f7337b8bcf41b1bf797189d97718a3673692f75"
+
+install_package "node-v7.0.0-nightly20160608779091ffdb" "https://nodejs.org/download/nightly/v7.0.0-nightly20160608779091ffdb/node-v7.0.0-nightly20160608779091ffdb.tar.gz#e026f39039277bfba1039d9dd2cba34212af95187d4df8ca41f96480f7b3ef8c"

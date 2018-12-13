@@ -1,0 +1,11 @@
+binary darwin-x64 "https://nodejs.org/download/nightly/v7.0.0-nightly20160904dfe1c7e9b8/node-v7.0.0-nightly20160904dfe1c7e9b8-darwin-x64.tar.gz#ab5f0d0e5399e22c84a7043621dc10d785d0642d43485a5289bb509732ea1d6d"
+binary linux-arm64 "https://nodejs.org/download/nightly/v7.0.0-nightly20160904dfe1c7e9b8/node-v7.0.0-nightly20160904dfe1c7e9b8-linux-arm64.tar.gz#ab05ea41f9b567dafc6a66406b707b05ee3a8f49270cb75d8421c57331e720c1"
+binary linux-armv7l "https://nodejs.org/download/nightly/v7.0.0-nightly20160904dfe1c7e9b8/node-v7.0.0-nightly20160904dfe1c7e9b8-linux-armv7l.tar.gz#6d3d292dca7136f57f15353bea19fdb83d55e9b7ff59c1db8571dddb5d850752"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v7.0.0-nightly20160904dfe1c7e9b8/node-v7.0.0-nightly20160904dfe1c7e9b8-linux-ppc64le.tar.gz#b4d5824bd0e4c7794ee059ac65f7c871aef35d6b22ee1916b0fc078e684d3659"
+binary linux-ppc64 "https://nodejs.org/download/nightly/v7.0.0-nightly20160904dfe1c7e9b8/node-v7.0.0-nightly20160904dfe1c7e9b8-linux-ppc64.tar.gz#3ee12cf9b40a40602c512b808e3653d4daca1cce37b53a0f65534feac87ffe7e"
+binary linux-x64 "https://nodejs.org/download/nightly/v7.0.0-nightly20160904dfe1c7e9b8/node-v7.0.0-nightly20160904dfe1c7e9b8-linux-x64.tar.gz#211b60586698803fbeb9752b4c3af2f1c1abb6c84d6199420112417118871983"
+binary linux-x86 "https://nodejs.org/download/nightly/v7.0.0-nightly20160904dfe1c7e9b8/node-v7.0.0-nightly20160904dfe1c7e9b8-linux-x86.tar.gz#f967e88f71063f88b699e047340dacf1781215a37ad1c67447c2ac2012f4be7e"
+binary sunos-x64 "https://nodejs.org/download/nightly/v7.0.0-nightly20160904dfe1c7e9b8/node-v7.0.0-nightly20160904dfe1c7e9b8-sunos-x64.tar.gz#88f480acfd22659771867788dba20bd5a2c890b5c2dc96e4bae3d067e01aa048"
+binary sunos-x86 "https://nodejs.org/download/nightly/v7.0.0-nightly20160904dfe1c7e9b8/node-v7.0.0-nightly20160904dfe1c7e9b8-sunos-x86.tar.gz#a1e12e8bb50228bfdf2dd342a87ede2aed4297748aa87005bde0e41e3b7921f2"
+
+install_package "node-v7.0.0-nightly20160904dfe1c7e9b8" "https://nodejs.org/download/nightly/v7.0.0-nightly20160904dfe1c7e9b8/node-v7.0.0-nightly20160904dfe1c7e9b8.tar.gz#978876069568ca742f42f61df96544d66e0e3003685968ada5c228643acb9d38"
