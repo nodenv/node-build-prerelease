@@ -1,0 +1,11 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v12.0.0-nightly201901025fab50bdaf/node-v12.0.0-nightly201901025fab50bdaf-aix-ppc64.tar.gz#f4158f8d9f39c6919f49ae53cc87c6429f7fe46c5fa18d518b595b65d5f716d5"
+binary darwin-x64 "https://nodejs.org/download/nightly/v12.0.0-nightly201901025fab50bdaf/node-v12.0.0-nightly201901025fab50bdaf-darwin-x64.tar.gz#969585e2a1350792153d5af4b5aae71a670e071ca2bcd9ac17c32e8ad765f64c"
+binary linux-arm64 "https://nodejs.org/download/nightly/v12.0.0-nightly201901025fab50bdaf/node-v12.0.0-nightly201901025fab50bdaf-linux-arm64.tar.gz#18ae9c9079d8802effb089c2cc691caf0dfc15e1f25271ec044bd3bae4317938"
+binary linux-armv6l "https://nodejs.org/download/nightly/v12.0.0-nightly201901025fab50bdaf/node-v12.0.0-nightly201901025fab50bdaf-linux-armv6l.tar.gz#19bb9147516273a307c12920e08ae25a639f97abd433e4fed97c6c9d5d4a4137"
+binary linux-armv7l "https://nodejs.org/download/nightly/v12.0.0-nightly201901025fab50bdaf/node-v12.0.0-nightly201901025fab50bdaf-linux-armv7l.tar.gz#cb0870897c4673ff9385c9d8be8dfebfc7816693d726f51d97d89ac6b46a1fd4"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v12.0.0-nightly201901025fab50bdaf/node-v12.0.0-nightly201901025fab50bdaf-linux-ppc64le.tar.gz#687c411528a51de381d1aaa2c5256cb56684c2d6c74fbb8062aee21ca7a3879c"
+binary linux-s390x "https://nodejs.org/download/nightly/v12.0.0-nightly201901025fab50bdaf/node-v12.0.0-nightly201901025fab50bdaf-linux-s390x.tar.gz#2c892883d9d8227c71aab34b8b144887cf06e23168b246795e86d1888b6f1772"
+binary linux-x64 "https://nodejs.org/download/nightly/v12.0.0-nightly201901025fab50bdaf/node-v12.0.0-nightly201901025fab50bdaf-linux-x64.tar.gz#17014e1bc1697c269c720036407f926e576df56a47b9f417489c917e98567637"
+binary sunos-x64 "https://nodejs.org/download/nightly/v12.0.0-nightly201901025fab50bdaf/node-v12.0.0-nightly201901025fab50bdaf-sunos-x64.tar.gz#3385d4132f59f55c9e9c2006c56cfb0b82e84d46ec2bdd16f04cab4ab96b8099"
+
+install_package "node-v12.0.0-nightly201901025fab50bdaf" "https://nodejs.org/download/nightly/v12.0.0-nightly201901025fab50bdaf/node-v12.0.0-nightly201901025fab50bdaf.tar.gz#59fce209fd5d7fea2bb48f2ab9f0d1a4ee3b0e6ea9842a7cf78cd2a7e3cbd151"
