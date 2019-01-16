@@ -6,6 +6,17 @@ node-build-prerelease is an [nodenv][] plugin (or more precisely, a [node-build]
 
 <!-- toc -->
 
+- [Installation](#installation)
+  * [Installing with Homebrew (for OS X users)](#installing-with-homebrew-for-os-x-users)
+  * [Installing via git-clone](#installing-via-git-clone)
+  * [Installing via npm](#installing-via-npm)
+  * [Installing manually](#installing-manually)
+- [Usage](#usage)
+  * [Setting NODE_BUILD_DEFINITIONS](#setting-node_build_definitions)
+  * [Passing build definition directly](#passing-build-definition-directly)
+
+<!-- tocstop -->
+
 ## Installation
 
 ### Installing with Homebrew (for OS X users)
