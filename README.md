@@ -4,6 +4,8 @@
 
 node-build-prerelease is an [nodenv][] plugin (or more precisely, a [node-build][] plugin) that provides build definitions for nodejs prereleases (primarily release candidates).
 
+<!-- toc -->
+
 ## Installation
 
 ### Installing with Homebrew (for OS X users)
