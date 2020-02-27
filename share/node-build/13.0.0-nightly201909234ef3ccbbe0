@@ -1,0 +1,10 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v13.0.0-nightly201909234ef3ccbbe0/node-v13.0.0-nightly201909234ef3ccbbe0-aix-ppc64.tar.gz#fd88113a3b9ef9e253b8df724a5669e758bb8ae4ab03e47f0944d5959107993d"
+binary darwin-x64 "https://nodejs.org/download/nightly/v13.0.0-nightly201909234ef3ccbbe0/node-v13.0.0-nightly201909234ef3ccbbe0-darwin-x64.tar.gz#5c2be8c82ea81d66bb2af8ea2bc4690473cd93476fb7df2e1c2e2451951270ad"
+binary linux-arm64 "https://nodejs.org/download/nightly/v13.0.0-nightly201909234ef3ccbbe0/node-v13.0.0-nightly201909234ef3ccbbe0-linux-arm64.tar.gz#9a9951881475bd0d931f8bd521a2d568ae29f302f3a641c8d7a628bf8c59ee3c"
+binary linux-armv7l "https://nodejs.org/download/nightly/v13.0.0-nightly201909234ef3ccbbe0/node-v13.0.0-nightly201909234ef3ccbbe0-linux-armv7l.tar.gz#95b1c667fffb0cd9914da5df1a598e62705a2a2c58b36b3f6daf7fda0fbf2b83"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v13.0.0-nightly201909234ef3ccbbe0/node-v13.0.0-nightly201909234ef3ccbbe0-linux-ppc64le.tar.gz#7ebd7a332928217927d7f9692ee51a04b40fb09fad4312a90b37b64472e17daf"
+binary linux-s390x "https://nodejs.org/download/nightly/v13.0.0-nightly201909234ef3ccbbe0/node-v13.0.0-nightly201909234ef3ccbbe0-linux-s390x.tar.gz#391445909546830652a9c9638faa7031bc8a40dcd47eb1d272c3294c0fde8948"
+binary linux-x64 "https://nodejs.org/download/nightly/v13.0.0-nightly201909234ef3ccbbe0/node-v13.0.0-nightly201909234ef3ccbbe0-linux-x64.tar.gz#87f21909e2b79c67f02b035c7bfc8f3048039fe6db27cb16718e91434d7276ea"
+binary sunos-x64 "https://nodejs.org/download/nightly/v13.0.0-nightly201909234ef3ccbbe0/node-v13.0.0-nightly201909234ef3ccbbe0-sunos-x64.tar.gz#26f925668ebbf5e7d34f96965ac455aad0adc5d0e2d71c40295e6d7a1160bb9b"
+
+install_package "node-v13.0.0-nightly201909234ef3ccbbe0" "https://nodejs.org/download/nightly/v13.0.0-nightly201909234ef3ccbbe0/node-v13.0.0-nightly201909234ef3ccbbe0.tar.gz#68ee8aee6579eb2eedaf8508eb131158115baaa822de136480dfdd0b531b747d"

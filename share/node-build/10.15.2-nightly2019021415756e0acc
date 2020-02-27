@@ -1,0 +1,11 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v10.15.2-nightly2019021415756e0acc/node-v10.15.2-nightly2019021415756e0acc-aix-ppc64.tar.gz#0fac8747b83cb815a018a496dc29039b9326e406aaedcb5ff7085367dd8c313a"
+binary darwin-x64 "https://nodejs.org/download/nightly/v10.15.2-nightly2019021415756e0acc/node-v10.15.2-nightly2019021415756e0acc-darwin-x64.tar.gz#25f1ba23eec0641a610b619160dacba19f50500b97c6971875748cba46a93642"
+binary linux-arm64 "https://nodejs.org/download/nightly/v10.15.2-nightly2019021415756e0acc/node-v10.15.2-nightly2019021415756e0acc-linux-arm64.tar.gz#61f61c59a85f53a78302d55e2fac8dfca5533c8f5e190be740d64a374f322552"
+binary linux-armv6l "https://nodejs.org/download/nightly/v10.15.2-nightly2019021415756e0acc/node-v10.15.2-nightly2019021415756e0acc-linux-armv6l.tar.gz#9704cefac83f1fe575affa7707d2384f2cceaa0110658bd6cf3e82bf3b0f01bd"
+binary linux-armv7l "https://nodejs.org/download/nightly/v10.15.2-nightly2019021415756e0acc/node-v10.15.2-nightly2019021415756e0acc-linux-armv7l.tar.gz#9eab3428d20a6ea74033909468cae2f5c44e63e480e0e221165cb6fde2a2b5e0"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v10.15.2-nightly2019021415756e0acc/node-v10.15.2-nightly2019021415756e0acc-linux-ppc64le.tar.gz#d75749dc1a85531302f27e5315a335f307371dfac3b5ac990e6fd795ddfa4a9f"
+binary linux-s390x "https://nodejs.org/download/nightly/v10.15.2-nightly2019021415756e0acc/node-v10.15.2-nightly2019021415756e0acc-linux-s390x.tar.gz#eb37479f5da6329596c19ae8f8aff4ebb8098855b81f265795f1850a300928f6"
+binary linux-x64 "https://nodejs.org/download/nightly/v10.15.2-nightly2019021415756e0acc/node-v10.15.2-nightly2019021415756e0acc-linux-x64.tar.gz#c03cbc0e3ffa5cf6d546a2e26d864213ddea6525c005aadb8b593d80e2b7878d"
+binary sunos-x64 "https://nodejs.org/download/nightly/v10.15.2-nightly2019021415756e0acc/node-v10.15.2-nightly2019021415756e0acc-sunos-x64.tar.gz#69de0040677574086992c3c5355d0f0783d3dad053dfeb1b2fc25ba1a5654421"
+
+install_package "node-v10.15.2-nightly2019021415756e0acc" "https://nodejs.org/download/nightly/v10.15.2-nightly2019021415756e0acc/node-v10.15.2-nightly2019021415756e0acc.tar.gz#84b3821c2e907bad31c962a073f4fcdd3a7ad043835877b97fc254f2b454964b"
