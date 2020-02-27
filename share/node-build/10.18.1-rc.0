@@ -1,0 +1,11 @@
+binary aix-ppc64 "https://nodejs.org/download/rc/v10.18.1-rc.0/node-v10.18.1-rc.0-aix-ppc64.tar.gz#2b02378bcfed108e5e5b40305f167025b106f45272c9972abdc0000ca59e27cf"
+binary darwin-x64 "https://nodejs.org/download/rc/v10.18.1-rc.0/node-v10.18.1-rc.0-darwin-x64.tar.gz#41e2b6ebd3d2dbd40c5ddc30df21058d16e0cbeb63b163f60c4518e63c6b9418"
+binary linux-arm64 "https://nodejs.org/download/rc/v10.18.1-rc.0/node-v10.18.1-rc.0-linux-arm64.tar.gz#39e5cf9156521c85480b18fac57655cefa5dd936c948b6b77d4d020ad09b07d4"
+binary linux-armv6l "https://nodejs.org/download/rc/v10.18.1-rc.0/node-v10.18.1-rc.0-linux-armv6l.tar.gz#85864ac9062cdec96acb236dda54e127df97b4584513f73aed80f54e742c8040"
+binary linux-armv7l "https://nodejs.org/download/rc/v10.18.1-rc.0/node-v10.18.1-rc.0-linux-armv7l.tar.gz#8ee4f2ac30ccb0fe6584f4455613d2422e58d3ba66630c48f00a3ffa9b8cf09f"
+binary linux-ppc64le "https://nodejs.org/download/rc/v10.18.1-rc.0/node-v10.18.1-rc.0-linux-ppc64le.tar.gz#ef1d11e94808828e74f8ec5448cb87277fe03bc044df74382083d5176b13ef77"
+binary linux-s390x "https://nodejs.org/download/rc/v10.18.1-rc.0/node-v10.18.1-rc.0-linux-s390x.tar.gz#1eab9f059e91f549ae6e262cc8818bc3d63c1c875ee8017e6d07917b5f215beb"
+binary linux-x64 "https://nodejs.org/download/rc/v10.18.1-rc.0/node-v10.18.1-rc.0-linux-x64.tar.gz#c65f81baade37ee17bb643326e90fe815ed516621492988a593bc9f88d38b19c"
+binary sunos-x64 "https://nodejs.org/download/rc/v10.18.1-rc.0/node-v10.18.1-rc.0-sunos-x64.tar.gz#e0150f59bf81662490252cb8260523266d15ace4f1c9d06b5675345b7f12a675"
+
+install_package "node-v10.18.1-rc.0" "https://nodejs.org/download/rc/v10.18.1-rc.0/node-v10.18.1-rc.0.tar.gz#354ddfb4b9c9142b9c4ea3c25a88f431b664421a0505020074b07d886dab6b7a"

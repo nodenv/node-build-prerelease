@@ -1,0 +1,4 @@
+binary darwin-x64 "https://nodejs.org/download/chakracore-nightly/v12.0.0-nightly20190203f63a57e0d7/node-v12.0.0-nightly20190203f63a57e0d7-darwin-x64.tar.gz#8dd24a1a84a9129d726b1470cad71a2c65023fe3bfd3f4910682c2bec001e39c"
+binary linux-x64 "https://nodejs.org/download/chakracore-nightly/v12.0.0-nightly20190203f63a57e0d7/node-v12.0.0-nightly20190203f63a57e0d7-linux-x64.tar.gz#1911b757e3f96b364f525f18a4052228dcb98c0941a535584bd2485419f21c17"
+
+install_package "node-v12.0.0-nightly20190203f63a57e0d7" "https://nodejs.org/download/chakracore-nightly/v12.0.0-nightly20190203f63a57e0d7/node-v12.0.0-nightly20190203f63a57e0d7.tar.gz#97b535ef6541cd080dd2fa18a6c11e1ed479ffcc0e5d9bc03143391da5fc86ed"

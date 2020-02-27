@@ -1,0 +1,12 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary aix-ppc64 "https://nodejs.org/download/nightly/v13.0.0-nightly201907241dc458cdd0/node-v13.0.0-nightly201907241dc458cdd0-aix-ppc64.tar.gz#90ca364375aeaf79e664083b751bee2634f4829e00ed7271d23301d20628440b"
+binary darwin-x64 "https://nodejs.org/download/nightly/v13.0.0-nightly201907241dc458cdd0/node-v13.0.0-nightly201907241dc458cdd0-darwin-x64.tar.gz#6ef19d8b0992c0c69601afbe8ffb6dc6527da39f4bad410cba43efed7d109558"
+binary linux-arm64 "https://nodejs.org/download/nightly/v13.0.0-nightly201907241dc458cdd0/node-v13.0.0-nightly201907241dc458cdd0-linux-arm64.tar.gz#19d49588adf6eac7ab9aa16c2c0d89c66c051ea48cb2aaedfce1849fb85f0eba"
+binary linux-armv7l "https://nodejs.org/download/nightly/v13.0.0-nightly201907241dc458cdd0/node-v13.0.0-nightly201907241dc458cdd0-linux-armv7l.tar.gz#d3cf97bea484c8399cb9a0aa18aaeec7cd7d1ea2080e326038909197468da742"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v13.0.0-nightly201907241dc458cdd0/node-v13.0.0-nightly201907241dc458cdd0-linux-ppc64le.tar.gz#af72bdeaab8eaff83222f4153db5486e65b297a6d0140db660db233380a37bca"
+binary linux-s390x "https://nodejs.org/download/nightly/v13.0.0-nightly201907241dc458cdd0/node-v13.0.0-nightly201907241dc458cdd0-linux-s390x.tar.gz#ba9800b653884ba47b756f755ec0e5c022245f503d5956c39b0b2d3a12dee0b5"
+binary sunos-x64 "https://nodejs.org/download/nightly/v13.0.0-nightly201907241dc458cdd0/node-v13.0.0-nightly201907241dc458cdd0-sunos-x64.tar.gz#021348395df9902d683cbbf91a28f178d36148a2840c769c6eadcfcf110e7362"
+
+install_package "v13.0.0-nightly201907241dc458cdd0"

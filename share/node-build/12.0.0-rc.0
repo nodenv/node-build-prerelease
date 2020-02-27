@@ -1,0 +1,11 @@
+binary aix-ppc64 "https://nodejs.org/download/rc/v12.0.0-rc.0/node-v12.0.0-rc.0-aix-ppc64.tar.gz#d38a65ccdad3bb67a67d98a14516b7a45db3daede8c81a6f15f121a5781a6298"
+binary darwin-x64 "https://nodejs.org/download/rc/v12.0.0-rc.0/node-v12.0.0-rc.0-darwin-x64.tar.gz#ee69486533a98f4c3ae2269340349a29c5e1339ec6d6467b2d90e04ce6329e64"
+binary linux-arm64 "https://nodejs.org/download/rc/v12.0.0-rc.0/node-v12.0.0-rc.0-linux-arm64.tar.gz#7402959ff4549913572860acd83224a0860f00a78b03a5ecd5b5efe0d6191a73"
+binary linux-armv6l "https://nodejs.org/download/rc/v12.0.0-rc.0/node-v12.0.0-rc.0-linux-armv6l.tar.gz#43f43983f022ff4e1d6b9539f47637fdcece105963f4aa6a8371a80658ce8bae"
+binary linux-armv7l "https://nodejs.org/download/rc/v12.0.0-rc.0/node-v12.0.0-rc.0-linux-armv7l.tar.gz#7911841585f298891e75d8dc4974d83e30c195f86b2f99570330dece1c1bb0f6"
+binary linux-ppc64le "https://nodejs.org/download/rc/v12.0.0-rc.0/node-v12.0.0-rc.0-linux-ppc64le.tar.gz#b838b3e9e0ec1f7cfd2b936615add0a77f45d3356016673eae7f7a3eb39bc5eb"
+binary linux-s390x "https://nodejs.org/download/rc/v12.0.0-rc.0/node-v12.0.0-rc.0-linux-s390x.tar.gz#97627c33be42b4a7864a69e84975aaf29cd91c0c592e5f82f9d87c4acf8eef6c"
+binary linux-x64 "https://nodejs.org/download/rc/v12.0.0-rc.0/node-v12.0.0-rc.0-linux-x64.tar.gz#97cbece8d0169f648674a21c34afda4d824a15d9c00c483bca331199c819d8d2"
+binary sunos-x64 "https://nodejs.org/download/rc/v12.0.0-rc.0/node-v12.0.0-rc.0-sunos-x64.tar.gz#597fe4878ce0ba35aec57c569242022d5882e52f53aeef17cd3ff7aa8e3f47a7"
+
+install_package "node-v12.0.0-rc.0" "https://nodejs.org/download/rc/v12.0.0-rc.0/node-v12.0.0-rc.0.tar.gz#f9a34d36ccc896972a8f91f0a46b533fb97b1904e3fc10561816f3fdeaba98ec"
