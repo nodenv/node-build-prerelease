@@ -20,13 +20,13 @@
     "test": "test"
   },
   "scripts": {
+    "clean": "git clean -f -- share",
     "postinstall": "script/postinstall",
     "posttest": "npm run lint",
     "lint": "git ls-files bin script **/*.*sh | xargs shellcheck",
-    "verify-definitions": "node_modules/@nodenv/node-build-update-defs/script/verify-definitions",
     "scrape-definitions": "nodenv-update-version-defs --nodejs-pre --chakracore-pre --nodejs-nightly --chakracore-nightly -d $PWD/share/node-build/",
     "submit-definitions": "node_modules/@nodenv/node-build-update-defs/script/submit-definitions",
-    "clean": "git clean -f -- share",
+    "verify-definitions": "node_modules/@nodenv/node-build-update-defs/script/verify-definitions",
     "preversion": "script/preversion",
     "postversion": "npm publish",
     "prepublishOnly": "npm run publish:github && npm run publish:brew",
