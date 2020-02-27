@@ -23,15 +23,15 @@
     "postinstall": "script/postinstall",
     "posttest": "npm run lint",
     "lint": "git ls-files bin script **/*.*sh | xargs shellcheck",
-    "verify-definitions": "scripty",
+    "verify-definitions": "node_modules/@nodenv/node-build-update-defs/script/verify-definitions",
     "scrape-definitions": "nodenv-update-version-defs --nodejs-pre --chakracore-pre --nodejs-nightly --chakracore-nightly -d $PWD/share/node-build/",
-    "submit-definitions": "scripty",
+    "submit-definitions": "node_modules/@nodenv/node-build-update-defs/script/submit-definitions",
     "clean": "git clean -f -- share",
-    "preversion": "scripty",
+    "preversion": "script/preversion",
     "postversion": "npm publish",
     "prepublishOnly": "npm run publish:github && npm run publish:brew",
     "publish:brew": "brew-publish",
-    "publish:github": "scripty"
+    "publish:github": "script/publish/github"
   },
   "devDependencies": {
     "@nodenv/node-build-update-defs": "^2.8.0",
