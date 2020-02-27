@@ -20,28 +20,22 @@
     "test": "test"
   },
   "scripts": {
+    "clean": "git clean -f -- share",
     "postinstall": "script/postinstall",
     "posttest": "npm run lint",
     "lint": "git ls-files bin script **/*.*sh | xargs shellcheck",
-    "verify-definitions": "scripty",
     "scrape-definitions": "nodenv-update-version-defs --nodejs-pre --chakracore-pre --nodejs-nightly --chakracore-nightly -d $PWD/share/node-build/",
-    "submit-definitions": "scripty",
-    "clean": "git clean -f -- share",
-    "preversion": "scripty",
+    "submit-definitions": "node_modules/@nodenv/node-build-update-defs/script/submit-definitions",
+    "verify-definitions": "node_modules/@nodenv/node-build-update-defs/script/verify-definitions",
+    "preversion": "script/preversion",
     "postversion": "npm publish",
     "prepublishOnly": "npm run publish:github && npm run publish:brew",
     "publish:brew": "brew-publish",
-    "publish:github": "scripty"
+    "publish:github": "script/publish/github"
   },
   "devDependencies": {
     "@nodenv/node-build-update-defs": "^2.9.4",
     "bats": "^0.4.2",
-    "brew-publish": "^2.3.1",
-    "scripty": "^2.0.0-0"
-  },
-  "scripty": {
-    "modules": [
-      "@nodenv/node-build-update-defs"
-    ]
+    "brew-publish": "^2.3.1"
   }
 }
