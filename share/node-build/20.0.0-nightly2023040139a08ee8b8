@@ -1,0 +1,8 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v20.0.0-nightly2023040139a08ee8b8/node-v20.0.0-nightly2023040139a08ee8b8-aix-ppc64.tar.gz#08ac1675ece03a85b1ee7ee6418f329949ba7078f91f74d05de9692d3f2348cd"
+binary darwin-arm64 "https://nodejs.org/download/nightly/v20.0.0-nightly2023040139a08ee8b8/node-v20.0.0-nightly2023040139a08ee8b8-darwin-arm64.tar.gz#1876b44cf9018f4d81caae0fbcc8bf97ca76be1563dcee1d993eb118746846e3"
+binary darwin-x64 "https://nodejs.org/download/nightly/v20.0.0-nightly2023040139a08ee8b8/node-v20.0.0-nightly2023040139a08ee8b8-darwin-x64.tar.gz#fd1d5969f4b7f950d33832335093ae690eee30d0f3c942780d05c8bcefff3d9d"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v20.0.0-nightly2023040139a08ee8b8/node-v20.0.0-nightly2023040139a08ee8b8-linux-ppc64le.tar.gz#173613e4b9ae67e17e3b9275b67d57bc7b8cec93b18fb3ae1d931a54e672fa32"
+binary linux-s390x "https://nodejs.org/download/nightly/v20.0.0-nightly2023040139a08ee8b8/node-v20.0.0-nightly2023040139a08ee8b8-linux-s390x.tar.gz#c2c9be8778914f4f8f7e93775058d45c02f0a0690a84f4a48549fa9f183ea1de"
+binary linux-x64 "https://nodejs.org/download/nightly/v20.0.0-nightly2023040139a08ee8b8/node-v20.0.0-nightly2023040139a08ee8b8-linux-x64.tar.gz#1d218fcd8aa72e867d1cc1180a161a805dbe152da5532fb0a1df7882a9a917f8"
+
+install_package "node-v20.0.0-nightly2023040139a08ee8b8" "https://nodejs.org/download/nightly/v20.0.0-nightly2023040139a08ee8b8/node-v20.0.0-nightly2023040139a08ee8b8.tar.gz#48e782ee6a91cec508239d6b2c1c76c4be801a33f640c7699dd0b8d1c5919a79"
