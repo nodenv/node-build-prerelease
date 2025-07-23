@@ -1,8 +1,11 @@
 # node-build-prerelease
 
-[![Build Status](https://travis-ci.org/nodenv/node-build-prerelease.svg?branch=master)](https://travis-ci.org/nodenv/node-build-prerelease)
-
 node-build-prerelease is an [nodenv][] plugin (or more precisely, a [node-build][] plugin) that provides build definitions for Node.js prereleases (primarily release candidates).
+
+[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/node-build-prerelease/test.yml?label=tests&logo=github)](https://github.com/nodenv/node-build-prerelease/actions/workflows/test.yml)
+[![Latest Homebrew Release](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnodenv%2Fhomebrew-nodenv%2Frefs%2Fheads%2Fmain%2FFormula%2Fnode-build-prerelease.rb&logo=homebrew&logoColor=white&label=homebrew-nodenv&color=orange&search=archive%2Frefs%2Ftags%2Fv(%3F%3Cversion%3E%5Cd%2B.*).tar.gz&replace=v%24%3Cversion%3E>)](https://github.com/nodenv/homebrew-nodenv/blob/main/Formula/node-build-prerelease.rb)
+[![Latest GitHub Release](https://img.shields.io/github/v/release/nodenv/node-build-prerelease?label=github&logo=github&sort=semver)](https://github.com/nodenv/node-build-prerelease/releases/latest)
+[![Latest npm Release](https://img.shields.io/npm/v/@nodenv/node-build-prerelease?logo=npm&logoColor=white)](https://www.npmjs.com/package/@nodenv/node-build-prerelease/v/latest)
 
 <!-- toc -->
 
