@@ -7,13 +7,13 @@ node-build-prerelease is an [nodenv][] plugin (or more precisely, a [node-build]
 <!-- toc -->
 
 - [Installation](#installation)
-  * [Installing with Homebrew (for OS X users)](#installing-with-homebrew-for-os-x-users)
-  * [Installing via git-clone](#installing-via-git-clone)
-  * [Installing via npm](#installing-via-npm)
-  * [Installing manually](#installing-manually)
+  - [Installing with Homebrew (for OS X users)](#installing-with-homebrew-for-os-x-users)
+  - [Installing via git-clone](#installing-via-git-clone)
+  - [Installing via npm](#installing-via-npm)
+  - [Installing manually](#installing-manually)
 - [Usage](#usage)
-  * [Setting NODE_BUILD_DEFINITIONS](#setting-node_build_definitions)
-  * [Passing build definition directly](#passing-build-definition-directly)
+  - [Setting NODE_BUILD_DEFINITIONS](#setting-node_build_definitions)
+  - [Passing build definition directly](#passing-build-definition-directly)
 
 <!-- tocstop -->
 
@@ -24,7 +24,7 @@ node-build-prerelease is an [nodenv][] plugin (or more precisely, a [node-build]
 Mac OS X users can install node-build-prerelease with the [Homebrew][].
 Installing via Homebrew will make node-build aware of nodejs prereleases automatically.
 
-*This is the recommended method of installation if you installed nodenv or node-build with Homebrew.*
+_This is the recommended method of installation if you installed nodenv or node-build with Homebrew._
 
     brew install nodenv/nodenv/node-build-prerelease
 
@@ -105,8 +105,6 @@ Both `nodenv install` and `node-build` accept a path to a custom definition file
 Or:
 
     node-build /path/to/node-build-prerelease/share/node-build/8.0.0-rc.2 /dest/path/8.0.0-rc.2
-
-
 
 [homebrew]: http://brew.sh
 [nodenv]: https://github.com/nodenv/nodenv
