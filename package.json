@@ -4,7 +4,7 @@
   "description": "Install NodeJS prerelease versions",
   "homepage": "https://github.com/nodenv/node-build-prerelease#readme",
   "license": "MIT",
-  "author": "Jason Karns <jason@karns.name> (http://jason.karns.name)",
+  "author": "Jason Karns <jason.karns@gmail.com> (http://jasonkarns.com)",
   "repository": {
     "type": "git",
     "url": "https://github.com/nodenv/node-build-prerelease.git"
@@ -21,21 +21,21 @@
   },
   "scripts": {
     "clean": "git clean -f -- share",
-    "postinstall": "script/postinstall",
+    "start": "npm run scrape-definitions",
+    "scrape-definitions": "nodenv-update-version-defs --nodejs-pre --chakracore-pre --nodejs-nightly --chakracore-nightly -d share/node-build/",
+    "commit-definitions": "npm explore @nodenv/node-build-update-defs -- npm run defs:commit --",
+    "submit-definitions": "npm explore @nodenv/node-build-update-defs -- npm run defs:submit --",
+    "test": "bats ${CI:+--tap} test",
     "posttest": "npm run lint",
     "lint": "git ls-files bin script **/*.*sh | xargs shellcheck",
-    "scrape-definitions": "nodenv-update-version-defs --nodejs-pre --chakracore-pre --nodejs-nightly --chakracore-nightly -d $PWD/share/node-build/",
-    "submit-definitions": "node_modules/@nodenv/node-build-update-defs/script/submit-definitions",
-    "verify-definitions": "node_modules/@nodenv/node-build-update-defs/script/verify-definitions",
+    "lint:checksums": "npm explore @nodenv/node-build-update-defs -- npm run defs:verify --",
+    "postinstall": "script/postinstall",
     "preversion": "script/preversion",
-    "postversion": "npm publish",
-    "prepublishOnly": "npm run publish:github && npm run publish:brew",
-    "publish:brew": "brew-publish",
-    "publish:github": "script/publish/github"
+    "postversion": "git push --follow-tags"
   },
   "devDependencies": {
     "@nodenv/node-build-update-defs": "^2.11.1",
     "bats": "^1.12.0",
-    "brew-publish": "^2.3.1"
+    "prettier": "^3.6.2"
   }
 }
