@@ -24,8 +24,9 @@ jobs:
 
       - id: log
         run: |
+          # TODO fix this whole PR body mess
           msg=$(git log --format='- %s' --reverse ${{github.sha}}..)
-          echo "message=${msg//$'\n'/'%0A'}" >> $GITHUB_OUTPUT
+          echo "message=${msg//$'\n'/'%0A'}" >> "$GITHUB_OUTPUT"
       - uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
         with:
           token: ${{ secrets.BOT_TOKEN }}
