@@ -1,0 +1,11 @@
+binary aix-ppc64 "https://nodejs.org/download/rc/v10.22.0-rc.0/node-v10.22.0-rc.0-aix-ppc64.tar.gz#879281a72648dd7391af11f170972448478744188c1a233c9a8c7f013acb290b"
+binary darwin-x64 "https://nodejs.org/download/rc/v10.22.0-rc.0/node-v10.22.0-rc.0-darwin-x64.tar.gz#9c9cfb9fe0163fcd2eb121859bf50efbbb2808bdde740e94ddd52ea360c7b125"
+binary linux-arm64 "https://nodejs.org/download/rc/v10.22.0-rc.0/node-v10.22.0-rc.0-linux-arm64.tar.gz#06263d6e05f76bbdeb8a54dbbfb05d8a2423dbab909044970aa03181df89cebf"
+binary linux-armv6l "https://nodejs.org/download/rc/v10.22.0-rc.0/node-v10.22.0-rc.0-linux-armv6l.tar.gz#a68ef618e79ddca55fa0dadbbbf13a64edd7b48575cf24f9283f1db855b34e6b"
+binary linux-armv7l "https://nodejs.org/download/rc/v10.22.0-rc.0/node-v10.22.0-rc.0-linux-armv7l.tar.gz#e9b27f7646c5843a75f39b5ff1738ad6c423559d692cd72ef8f9380ead6ff9c5"
+binary linux-ppc64le "https://nodejs.org/download/rc/v10.22.0-rc.0/node-v10.22.0-rc.0-linux-ppc64le.tar.gz#45367eb779acfddeacbb20ca4fcdfe2de2261a1f5c67546f87db5e8ef54979a7"
+binary linux-s390x "https://nodejs.org/download/rc/v10.22.0-rc.0/node-v10.22.0-rc.0-linux-s390x.tar.gz#2668bdaf1bf45b7a146b10a29be574776416b07c62934721d07c48f1b0c341ab"
+binary linux-x64 "https://nodejs.org/download/rc/v10.22.0-rc.0/node-v10.22.0-rc.0-linux-x64.tar.gz#64d7be625844f9d540752777307c329148d717c4790860558975c504e5e1dfa8"
+binary sunos-x64 "https://nodejs.org/download/rc/v10.22.0-rc.0/node-v10.22.0-rc.0-sunos-x64.tar.gz#6b8e11eb3d5db99eaa7d97aca99c0f6a07dacdb4c83c4739b63e4d7bb1014828"
+
+install_package "node-v10.22.0-rc.0" "https://nodejs.org/download/rc/v10.22.0-rc.0/node-v10.22.0-rc.0.tar.gz#d6e61f9fc4d468583fd33071f41e14bfeb742787e4cf730b9e0a0373ee5b1278"
