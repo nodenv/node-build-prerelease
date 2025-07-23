@@ -21,59 +21,59 @@ set -euo pipefail
 
 unset verbose strict
 while getopts "ov" opt; do
-  case "$opt" in
-  o) strict=1 ;;
-  v) verbose=1 ;;
-  *) break ;;
-  esac
+	case "$opt" in
+	o) strict=1 ;;
+	v) verbose=1 ;;
+	*) break ;;
+	esac
 done
-shift $((OPTIND-1))
+shift $((OPTIND - 1))
 
 if [ "${1-}" = -- ]; then
-  shift
+	shift
 fi
 
 abort() {
-  echo "Aborting: $1" >&2
-  exit "${2:-1}"
+	echo "Aborting: $1" >&2
+	exit "${2:-1}"
 }
 
 declare -a files
 if [ "$#" -gt 0 ]; then
-  files=("$@")
+	files=("$@")
 else
-  IFS=" " read -r -a files <<<"$(node -p 'require("./package").files.join(" ")')"
+	IFS=" " read -r -a files <<<"$(node -p 'require("./package").files.join(" ")')"
 fi
 
 git fetch --quiet --tags origin main
 
 existing="$(git tag --points-at HEAD)"
 if [ -n "$existing" ]; then
-  abort "HEAD is already tagged as '${existing}'"
+	abort "HEAD is already tagged as '${existing}'"
 fi
 
 current_branch="$(git symbolic-ref --short HEAD)"
 if [ "$current_branch" != main ]; then
-  abort "Not currently on main branch" 2
+	abort "Not currently on main branch" 2
 fi
 
 previous_tag="$(git describe --tags --abbrev=0)"
 if git diff --quiet "${previous_tag}..HEAD" -- "${files[@]}"; then
-  abort "No features to release since '${previous_tag}'"
+	abort "No features to release since '${previous_tag}'"
 fi
 
-allowed_changes=( "${files[@]}" .github script *.md )
-allowed_changes=( "${allowed_changes[@]/#/\':!\'}" ) # prefix pathspecs with git's "ignore"
+allowed_changes=("${files[@]}" .github script *.md)
+allowed_changes=("${allowed_changes[@]/#/\':!\'}") # prefix pathspecs with git's "ignore"
 
 if [ -n "${strict-}" ] &&
-  ! git diff --quiet "${previous_tag}..HEAD" -- "${allowed_changes[@]}"; then
-  {
-    echo "git diff --stat ${previous_tag}..HEAD -- ${allowed_changes[*]}"
-    git diff --stat "${previous_tag}..HEAD" -- "${allowed_changes[@]}"
-  } >&2
-  abort "Changes detected outside '${allowed_changes[*]#:!}'" 2
+	! git diff --quiet "${previous_tag}..HEAD" -- "${allowed_changes[@]}"; then
+	{
+		echo "git diff --stat ${previous_tag}..HEAD -- ${allowed_changes[*]}"
+		git diff --stat "${previous_tag}..HEAD" -- "${allowed_changes[@]}"
+	} >&2
+	abort "Changes detected outside '${allowed_changes[*]#:!}'" 2
 fi
 
 if [ -n "${verbose-}" ]; then
-  git log "$previous_tag"... --oneline -- "${files[@]}"
+	git log "$previous_tag"... --oneline -- "${files[@]}"
 fi
