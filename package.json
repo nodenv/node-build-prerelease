@@ -4,7 +4,7 @@
   "description": "Install NodeJS prerelease versions",
   "homepage": "https://github.com/nodenv/node-build-prerelease#readme",
   "license": "MIT",
-  "author": "Jason Karns <jason@karns.name> (http://jason.karns.name)",
+  "author": "Jason Karns <jason.karns@gmail.com> (http://jasonkarns.com)",
   "repository": {
     "type": "git",
     "url": "https://github.com/nodenv/node-build-prerelease.git"
@@ -36,6 +36,7 @@
   "devDependencies": {
     "@nodenv/node-build-update-defs": "^2.11.1",
     "bats": "^1.12.0",
-    "brew-publish": "^2.3.1"
+    "brew-publish": "^2.3.1",
+    "prettier": "^3.6.2"
   }
 }
