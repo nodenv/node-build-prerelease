@@ -1,0 +1,14 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary aix-ppc64 "https://nodejs.org/download/rc/v10.20.0-rc.0/node-v10.20.0-rc.0-aix-ppc64.tar.gz#0efc018440a82acbdad2da70cbd49f7694f8b6d12de0ae7d2b89e8da1986ca89"
+binary darwin-x64 "https://nodejs.org/download/rc/v10.20.0-rc.0/node-v10.20.0-rc.0-darwin-x64.tar.gz#7d83b41105f776acc6f926e72fcec3118b5534fb0bacab5026e8736f6147ac29"
+binary linux-arm64 "https://nodejs.org/download/rc/v10.20.0-rc.0/node-v10.20.0-rc.0-linux-arm64.tar.gz#58448dd747d4f590624edd1033ffbe222a40a4f9e5c93b733cfdd29813b8d8d5"
+binary linux-armv6l "https://nodejs.org/download/rc/v10.20.0-rc.0/node-v10.20.0-rc.0-linux-armv6l.tar.gz#f64f6778bcc48d6a7cc22c3c04c90fad12b5343da111ff8d017440b7958d4ffc"
+binary linux-armv7l "https://nodejs.org/download/rc/v10.20.0-rc.0/node-v10.20.0-rc.0-linux-armv7l.tar.gz#71c59e2d68a291a182479bf5001184790a20065a9ade5114e0f7067b61d469cd"
+binary linux-ppc64le "https://nodejs.org/download/rc/v10.20.0-rc.0/node-v10.20.0-rc.0-linux-ppc64le.tar.gz#2a8364655d72ebbf366c9e7f03a0357eab10c872caae94db8cc8b57e605d4d14"
+binary linux-s390x "https://nodejs.org/download/rc/v10.20.0-rc.0/node-v10.20.0-rc.0-linux-s390x.tar.gz#953c55ebab83be7b9cc53566a6f8f72a30f31a458406c3fbd6e5ecbe24d80df2"
+binary linux-x64 "https://nodejs.org/download/rc/v10.20.0-rc.0/node-v10.20.0-rc.0-linux-x64.tar.gz#55b527b88d19a00afdeb6cd85ddaf5718287d0c30426dbdf271c254e70710e75"
+binary sunos-x64 "https://nodejs.org/download/rc/v10.20.0-rc.0/node-v10.20.0-rc.0-sunos-x64.tar.gz#290052e3b53e760116f80fbf6ccc0a790d1063e4326ffde3c704f52230540103"
+
+install_package "v10.20.0-rc.0" "https://nodejs.org/download/rc/v10.20.0-rc.0/undefined.tar.gz#"
