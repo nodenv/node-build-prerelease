@@ -1,0 +1,10 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v22.0.0-nightly20240102477d6d7cd5/node-v22.0.0-nightly20240102477d6d7cd5-aix-ppc64.tar.gz#a89efe3a347baa161b8bf0b1ef67229e67f877a6fb443179fc2cef2513034d5e"
+binary darwin-arm64 "https://nodejs.org/download/nightly/v22.0.0-nightly20240102477d6d7cd5/node-v22.0.0-nightly20240102477d6d7cd5-darwin-arm64.tar.gz#52888f0013161f92e157b286fd6eb1d03c5f96006ab4cf2388b16ca064c72f59"
+binary darwin-x64 "https://nodejs.org/download/nightly/v22.0.0-nightly20240102477d6d7cd5/node-v22.0.0-nightly20240102477d6d7cd5-darwin-x64.tar.gz#ed6fd6750f2b793652c9419c4b91b8d0b008f25c186caf1d2af1a02a4d28c56e"
+binary linux-arm64 "https://nodejs.org/download/nightly/v22.0.0-nightly20240102477d6d7cd5/node-v22.0.0-nightly20240102477d6d7cd5-linux-arm64.tar.gz#89627bbe283adab1d8a466b38d867f2b806378ca2f151d5efb5ab2ac6f683a9d"
+binary linux-armv7l "https://nodejs.org/download/nightly/v22.0.0-nightly20240102477d6d7cd5/node-v22.0.0-nightly20240102477d6d7cd5-linux-armv7l.tar.gz#6d0a0bb27ece704af8ba3824379f26d3ac3e177a57cf15861ef67e123cf4320f"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v22.0.0-nightly20240102477d6d7cd5/node-v22.0.0-nightly20240102477d6d7cd5-linux-ppc64le.tar.gz#84a630c99029188c1c0e94e56cfe7a03b55d540b3d50bfee6df0dc8172ec9a6e"
+binary linux-s390x "https://nodejs.org/download/nightly/v22.0.0-nightly20240102477d6d7cd5/node-v22.0.0-nightly20240102477d6d7cd5-linux-s390x.tar.gz#dc8f3f43fbd6bcb92cdeba547486ae2469fee11ca84fa4da508a9d821250cd63"
+binary linux-x64 "https://nodejs.org/download/nightly/v22.0.0-nightly20240102477d6d7cd5/node-v22.0.0-nightly20240102477d6d7cd5-linux-x64.tar.gz#84112fe7cfbf881731ae7366f3b7e5237c5e3a4b85bc678db95b68468d85f4ec"
+
+install_package "node-v22.0.0-nightly20240102477d6d7cd5" "https://nodejs.org/download/nightly/v22.0.0-nightly20240102477d6d7cd5/node-v22.0.0-nightly20240102477d6d7cd5.tar.gz#64185744878a13ed5ac99097f392d4a3a0efea1785bf65819059efa93a7bf764"
