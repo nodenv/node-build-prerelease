@@ -1,0 +1,9 @@
+binary aix-ppc64 "https://nodejs.org/download/rc/v10.17.0-rc.0/node-v10.17.0-rc.0-aix-ppc64.tar.gz#338609053d7f1ec4885c6baab46b388ec6e84bd461910a4ee2eafb3c00703375"
+binary darwin-x64 "https://nodejs.org/download/rc/v10.17.0-rc.0/node-v10.17.0-rc.0-darwin-x64.tar.gz#ebf04d470e54eabc3c7fa5bb14affbcacd92ee507fb48c5cbaac86f8280a1b58"
+binary linux-arm64 "https://nodejs.org/download/rc/v10.17.0-rc.0/node-v10.17.0-rc.0-linux-arm64.tar.gz#91b052d7981ce18f1552a3270ae890842ab0980216426e7dae8bc9fce91ef190"
+binary linux-ppc64le "https://nodejs.org/download/rc/v10.17.0-rc.0/node-v10.17.0-rc.0-linux-ppc64le.tar.gz#581afb8583856b84b858626cd84466d3fc5f4855a7c6b5fc6d1f682e400d1696"
+binary linux-s390x "https://nodejs.org/download/rc/v10.17.0-rc.0/node-v10.17.0-rc.0-linux-s390x.tar.gz#5b0b9eeec0d31f4f397fa0456fa10f29c2c7aed7fad2ede56e1e20770a15adcd"
+binary linux-x64 "https://nodejs.org/download/rc/v10.17.0-rc.0/node-v10.17.0-rc.0-linux-x64.tar.gz#256df170d4adffa3f960043ad1ed0dc0d89958aa81caa5bc10f654cb060b71a2"
+binary sunos-x64 "https://nodejs.org/download/rc/v10.17.0-rc.0/node-v10.17.0-rc.0-sunos-x64.tar.gz#d2d9b64307829a842f842cab98a2ce06d82bb33777d4b031029357c0f014d7cb"
+
+install_package "node-v10.17.0-rc.0" "https://nodejs.org/download/rc/v10.17.0-rc.0/node-v10.17.0-rc.0.tar.gz#3bf6bf5c07e4b159d7f07d8700a499ea312a5aaf488d475a8b3665e611023430"
