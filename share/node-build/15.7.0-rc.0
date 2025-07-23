@@ -1,0 +1,9 @@
+binary aix-ppc64 "https://nodejs.org/download/rc/v15.7.0-rc.0/node-v15.7.0-rc.0-aix-ppc64.tar.gz#7038f5bcb4b9423726dcbd8c4aca0b3a06f0aea3a345a394d447205a22f55aee"
+binary darwin-x64 "https://nodejs.org/download/rc/v15.7.0-rc.0/node-v15.7.0-rc.0-darwin-x64.tar.gz#e23a68f1d69e7849485177c2c6eb54293adc8de37dcb49c29eb386a7bee00cd1"
+binary linux-arm64 "https://nodejs.org/download/rc/v15.7.0-rc.0/node-v15.7.0-rc.0-linux-arm64.tar.gz#4aab50d3539b63142c4da251aa25ec8e9a862224fdc2ab58e12782219cea9790"
+binary linux-armv7l "https://nodejs.org/download/rc/v15.7.0-rc.0/node-v15.7.0-rc.0-linux-armv7l.tar.gz#d6c14048c200fe35d057d4941a8160ffc5f4f167ac2b9751a2b97f4438097625"
+binary linux-ppc64le "https://nodejs.org/download/rc/v15.7.0-rc.0/node-v15.7.0-rc.0-linux-ppc64le.tar.gz#f3c3a526dcbcbeb06a2063b08d3f54ee21c5b99899834331d4b51e253d88c8e0"
+binary linux-s390x "https://nodejs.org/download/rc/v15.7.0-rc.0/node-v15.7.0-rc.0-linux-s390x.tar.gz#b4f08e5594e3776f438af20948ba0597cdcd1994e4232b1c768845e8694a8c67"
+binary linux-x64 "https://nodejs.org/download/rc/v15.7.0-rc.0/node-v15.7.0-rc.0-linux-x64.tar.gz#c694e40880525f8f29dd2aec455f12665f3713e7560666246d6926d656190e0c"
+
+install_package "node-v15.7.0-rc.0" "https://nodejs.org/download/rc/v15.7.0-rc.0/node-v15.7.0-rc.0.tar.gz#2b0fd29e84f79232e6a66f8a2117c28eceb8e56c2848cd92b20e6e955ebf1f8e"
