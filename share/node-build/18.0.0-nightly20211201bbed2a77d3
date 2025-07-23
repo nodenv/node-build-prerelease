@@ -1,0 +1,10 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v18.0.0-nightly20211201bbed2a77d3/node-v18.0.0-nightly20211201bbed2a77d3-aix-ppc64.tar.gz#07679d1a1ddca5e2bbcb5ef7e0a931fc642185d47a99b22929f8a9b7caa70a96"
+binary darwin-arm64 "https://nodejs.org/download/nightly/v18.0.0-nightly20211201bbed2a77d3/node-v18.0.0-nightly20211201bbed2a77d3-darwin-arm64.tar.gz#88b510064c290c7ca17ede130ec16a249182cda0089bf1d765aac3f0a0cd0989"
+binary darwin-x64 "https://nodejs.org/download/nightly/v18.0.0-nightly20211201bbed2a77d3/node-v18.0.0-nightly20211201bbed2a77d3-darwin-x64.tar.gz#6696d222831ca8be4e9935b05391f6741af396e5db7a9aff41933a9f7231656e"
+binary linux-arm64 "https://nodejs.org/download/nightly/v18.0.0-nightly20211201bbed2a77d3/node-v18.0.0-nightly20211201bbed2a77d3-linux-arm64.tar.gz#00dac19f866377e4f9f21c07e9d62074663a90af204cc4a7ed1281754299b3c4"
+binary linux-armv7l "https://nodejs.org/download/nightly/v18.0.0-nightly20211201bbed2a77d3/node-v18.0.0-nightly20211201bbed2a77d3-linux-armv7l.tar.gz#fce4619a2f53350f8b71d706a319d32b1471a40f4e26cdec283230feb7fc9c2d"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v18.0.0-nightly20211201bbed2a77d3/node-v18.0.0-nightly20211201bbed2a77d3-linux-ppc64le.tar.gz#75d9bdea240c866ceea9f2107f3e737bdb4cad0c861a334fd0ffefa81e54cf00"
+binary linux-s390x "https://nodejs.org/download/nightly/v18.0.0-nightly20211201bbed2a77d3/node-v18.0.0-nightly20211201bbed2a77d3-linux-s390x.tar.gz#64b6acfa45b4dca474fce708093d3921cf4c9efe444b1edbc5707511d7342ea4"
+binary linux-x64 "https://nodejs.org/download/nightly/v18.0.0-nightly20211201bbed2a77d3/node-v18.0.0-nightly20211201bbed2a77d3-linux-x64.tar.gz#1ed426e7a2c1b771b4b60734518cec350a7637827bf3783393b88c508fa521a8"
+
+install_package "node-v18.0.0-nightly20211201bbed2a77d3" "https://nodejs.org/download/nightly/v18.0.0-nightly20211201bbed2a77d3/node-v18.0.0-nightly20211201bbed2a77d3.tar.gz#86361adca48c644712bf0309d9e2ed299db8c1c1b65432d7f3051f67564b6d90"
