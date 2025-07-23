@@ -1,6 +1,0 @@
-echo "This package only contains compiled binaries."
-echo "If no binary matches your platform, source compilation will not be attempted."
-
-binary linux-x64 "https://nodejs.org/download/chakracore-nightly/v7.0.0-nightly20161128efeaf88f0c/node-v7.0.0-nightly20161128efeaf88f0c-linux-x64.tar.gz#6e37a7c4799532cf1fa18e9faa488dfc8caa240df4bbcb3b02ba24622cf8eb8b"
-
-install_package "v7.0.0-nightly20161128efeaf88f0c"

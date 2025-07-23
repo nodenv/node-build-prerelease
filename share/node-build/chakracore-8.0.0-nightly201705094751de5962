@@ -1,7 +1,0 @@
-echo "This package only contains compiled binaries."
-echo "If no binary matches your platform, source compilation will not be attempted."
-
-binary darwin-x64 "https://nodejs.org/download/chakracore-nightly/v8.0.0-nightly201705094751de5962/node-v8.0.0-nightly201705094751de5962-darwin-x64.tar.gz#60f100cf698ac3fbf27afc781e5194abc8f03aacdefdd822241e3389f25c69e8"
-binary linux-x64 "https://nodejs.org/download/chakracore-nightly/v8.0.0-nightly201705094751de5962/node-v8.0.0-nightly201705094751de5962-linux-x64.tar.gz#ae459c1dfb50c98fd2e811bf3ae21e24d8a29348ac91727c2fd8353a1a9e638c"
-
-install_package "v8.0.0-nightly201705094751de5962"
