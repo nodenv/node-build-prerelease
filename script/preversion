@@ -42,9 +42,7 @@ declare -a files
 if [ "$#" -gt 0 ]; then
   files=("$@")
 else
-  for file in $(env | grep -E '^npm_package_files_\d' | cut -d= -f1); do
-    files+=("${!file}")
-  done
+  IFS=" " read -r -a files <<<"$(node -p 'require("./package").files.join(" ")')"
 fi
 
 git fetch --quiet --tags origin main
