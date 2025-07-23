@@ -1,0 +1,8 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary darwin-x64 "https://nodejs.org/download/nightly/v21.0.0-nightly20230630951da5282c/node-v21.0.0-nightly20230630951da5282c-darwin-x64.tar.gz#43e5e791be9917e662e6faf18717cb99c9250004d06074adb6d62077c010c11a"
+binary linux-arm64 "https://nodejs.org/download/nightly/v21.0.0-nightly20230630951da5282c/node-v21.0.0-nightly20230630951da5282c-linux-arm64.tar.gz#5e0bd7097cee4184fd360714489aec3431264268b2f1c996ebe0cf26f1a85222"
+binary linux-x64 "https://nodejs.org/download/nightly/v21.0.0-nightly20230630951da5282c/node-v21.0.0-nightly20230630951da5282c-linux-x64.tar.gz#7ffc12364a9b2b3e2a5d4a6052da889c662424249aa41fbea3a8b4ecc9a06057"
+
+install_package "v21.0.0-nightly20230630951da5282c" "https://nodejs.org/download/nightly/v21.0.0-nightly20230630951da5282c/undefined.tar.gz#"
