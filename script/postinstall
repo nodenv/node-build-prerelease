@@ -4,21 +4,21 @@ set -euo pipefail
 IFS=$'\n\t'
 
 installed_by_name() {
-  local pattern='"remain":\["'${npm_package_name-}
+	local pattern='"remain":\["'${npm_package_name-}
 
-  [[ ${npm_config_argv-} =~ $pattern ]]
+	[[ ${npm_config_argv-} =~ $pattern ]]
 }
 
 if [ -n "${npm_config_argv-}" ] && ! installed_by_name; then
-  exit
+	exit
 fi
 
 cat <<-MSG
-====================
-${npm_package_name-} caveats:
+	====================
+	${npm_package_name-} caveats:
 
-For \`node-build\`/\`nodenv install\` to pick up definitions provided by this plugin,
-ensure share/node-build directory exists in NODE_BUILD_DEFINITIONS:
-    export NODE_BUILD_DEFINITIONS="$PWD/share/node-build"
-====================
+	For \`node-build\`/\`nodenv install\` to pick up definitions provided by this plugin,
+	ensure share/node-build directory exists in NODE_BUILD_DEFINITIONS:
+	    export NODE_BUILD_DEFINITIONS="$PWD/share/node-build"
+	====================
 MSG
