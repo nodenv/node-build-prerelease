@@ -1,0 +1,9 @@
+binary darwin-arm64 "https://nodejs.org/download/rc/v19.7.0-rc.0/node-v19.7.0-rc.0-darwin-arm64.tar.gz#9ddd7a5f82c7ab7a665ec8deecefb40b42abf6c249cd3fbf360a50956424c00f"
+binary darwin-x64 "https://nodejs.org/download/rc/v19.7.0-rc.0/node-v19.7.0-rc.0-darwin-x64.tar.gz#82e5abb60363a8864c8e2761ea39dbe6864eb31e70423bd91791273d9dfd9528"
+binary linux-arm64 "https://nodejs.org/download/rc/v19.7.0-rc.0/node-v19.7.0-rc.0-linux-arm64.tar.gz#85742a8a04f329ac4651aee47f32562d04cbc88b56d7c434e44638ec8a160c5f"
+binary linux-armv7l "https://nodejs.org/download/rc/v19.7.0-rc.0/node-v19.7.0-rc.0-linux-armv7l.tar.gz#737e2f793304109662d4cf4c0b56ad516d54cfb880811b8622acda5a3083e4ef"
+binary linux-ppc64le "https://nodejs.org/download/rc/v19.7.0-rc.0/node-v19.7.0-rc.0-linux-ppc64le.tar.gz#6c5613875ef1066aaee375a33edcf0c019acf3077507446885832eb60bf5c059"
+binary linux-s390x "https://nodejs.org/download/rc/v19.7.0-rc.0/node-v19.7.0-rc.0-linux-s390x.tar.gz#c0e636f81085cd574bfd8241632b27975ecf1a0758cd572a8dac9e0418a8702e"
+binary linux-x64 "https://nodejs.org/download/rc/v19.7.0-rc.0/node-v19.7.0-rc.0-linux-x64.tar.gz#5b438a2a505b01c697baff9819b20573b8e6a78124927b71f9c720a669c841fc"
+
+install_package "node-v19.7.0-rc.0" "https://nodejs.org/download/rc/v19.7.0-rc.0/node-v19.7.0-rc.0.tar.gz#491d6f4fa9e3346440041b1739340b0ec6fa8460a9b2a4a37e49e06cfbb39e0f"
