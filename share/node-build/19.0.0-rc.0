@@ -1,0 +1,10 @@
+binary aix-ppc64 "https://nodejs.org/download/rc/v19.0.0-rc.0/node-v19.0.0-rc.0-aix-ppc64.tar.gz#cac42d9f817be7b4455e81480ae5065ba4f50a60bd40e14be2ad58d4cc21f8b6"
+binary darwin-arm64 "https://nodejs.org/download/rc/v19.0.0-rc.0/node-v19.0.0-rc.0-darwin-arm64.tar.gz#cc1cfd16fc7e203165f88d525d8d7e71b055264fcedf7eaf828f6a5e3c47ddab"
+binary darwin-x64 "https://nodejs.org/download/rc/v19.0.0-rc.0/node-v19.0.0-rc.0-darwin-x64.tar.gz#9485c7a9d486e9a6afe47d6144219e8d614f7b58e79e96700f8e45fa9789e0a3"
+binary linux-arm64 "https://nodejs.org/download/rc/v19.0.0-rc.0/node-v19.0.0-rc.0-linux-arm64.tar.gz#bfb367adbd7aec032f4042ef95d0fc1282c11dae3aa696650139fc5a7cbf8714"
+binary linux-armv7l "https://nodejs.org/download/rc/v19.0.0-rc.0/node-v19.0.0-rc.0-linux-armv7l.tar.gz#be797e81e54b7bf6b7868faea96919781fecf20c47c9443c13434bf50a2992fe"
+binary linux-ppc64le "https://nodejs.org/download/rc/v19.0.0-rc.0/node-v19.0.0-rc.0-linux-ppc64le.tar.gz#9a2498c76980ce5f9f4f2b9fdcbff726e3decb3b28453e41b23fce67e32231b2"
+binary linux-s390x "https://nodejs.org/download/rc/v19.0.0-rc.0/node-v19.0.0-rc.0-linux-s390x.tar.gz#f26cfa3c51a66653d9aea49976f6ee61431986357ca705cae2772277697f5eda"
+binary linux-x64 "https://nodejs.org/download/rc/v19.0.0-rc.0/node-v19.0.0-rc.0-linux-x64.tar.gz#c8552b86268aba927201c879aa6c47074b6f798b50a3a004db5961889b4ddff4"
+
+install_package "node-v19.0.0-rc.0" "https://nodejs.org/download/rc/v19.0.0-rc.0/node-v19.0.0-rc.0.tar.gz#c86a8ab639406cdfe632a7c436614c4479042a069e92b0fc908f2e30cc0f35f9"
