@@ -2,12 +2,12 @@
 
 [![Build Status](https://travis-ci.org/nodenv/node-build-prerelease.svg?branch=master)](https://travis-ci.org/nodenv/node-build-prerelease)
 
-node-build-prerelease is an [nodenv][] plugin (or more precisely, a [node-build][] plugin) that provides build definitions for nodejs prereleases (primarily release candidates).
+node-build-prerelease is an [nodenv][] plugin (or more precisely, a [node-build][] plugin) that provides build definitions for Node.js prereleases (primarily release candidates).
 
 <!-- toc -->
 
 - [Installation](#installation)
-  - [Installing with Homebrew (for OS X users)](#installing-with-homebrew-for-os-x-users)
+  - [Installing with Homebrew (for macOS users)](#installing-with-homebrew-for-macos-users)
   - [Installing via git-clone](#installing-via-git-clone)
   - [Installing via npm](#installing-via-npm)
   - [Installing manually](#installing-manually)
@@ -19,17 +19,17 @@ node-build-prerelease is an [nodenv][] plugin (or more precisely, a [node-build]
 
 ## Installation
 
-### Installing with Homebrew (for OS X users)
+### Installing with Homebrew (for macOS users)
 
-Mac OS X users can install node-build-prerelease with the [Homebrew][].
-Installing via Homebrew will make node-build aware of nodejs prereleases automatically.
+MacOS users can install node-build-prerelease with the [Homebrew][].
+Installing via Homebrew will make node-build aware of Node.js prereleases automatically.
 
 _This is the recommended method of installation if you installed nodenv or node-build with Homebrew._
 
     brew install nodenv/nodenv/node-build-prerelease
 
-There is the added delay between when a new version of node-build-prerelease is released, and when the homebrew formula is updated to point to it.
-Typically this additional delay is only a matter of days and is well worth the simplicity of using homebrew to manage nodenv plugins.
+There is the added delay between when a new version of node-build-prerelease is released, and when the Homebrew formula is updated to point to it.
+Typically this additional delay is only a matter of days and is well worth the simplicity of using Homebrew to manage nodenv plugins.
 
 (And if you _really_ want to be on the bleeding edge of node-build, you can skip waiting on node-build/node-build-prerelease to update and scrape new node releases yourself with [node-build-update-defs][].)
 
