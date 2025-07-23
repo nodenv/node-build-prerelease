@@ -1,0 +1,9 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v16.0.0-nightly202012012dc6bf0d12/node-v16.0.0-nightly202012012dc6bf0d12-aix-ppc64.tar.gz#8a0cd5efd17f7decc28512db5c38a5331e1f852c21a2fe892d8560a88ca734b6"
+binary darwin-x64 "https://nodejs.org/download/nightly/v16.0.0-nightly202012012dc6bf0d12/node-v16.0.0-nightly202012012dc6bf0d12-darwin-x64.tar.gz#d9b51b7b4353893f9f27e78121577672e6efebcaef16f9d23759d49fb60790cf"
+binary linux-arm64 "https://nodejs.org/download/nightly/v16.0.0-nightly202012012dc6bf0d12/node-v16.0.0-nightly202012012dc6bf0d12-linux-arm64.tar.gz#75e56195311a8dd27a5b9cd7471771fb16b70568af258f8c2c24b7db856aceda"
+binary linux-armv7l "https://nodejs.org/download/nightly/v16.0.0-nightly202012012dc6bf0d12/node-v16.0.0-nightly202012012dc6bf0d12-linux-armv7l.tar.gz#775512f1ad4835b38df1f9a5a9daeee73c0c2c27b4dd0fe5228ae3feea8a21cb"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v16.0.0-nightly202012012dc6bf0d12/node-v16.0.0-nightly202012012dc6bf0d12-linux-ppc64le.tar.gz#cc6ad27fadfac2eba7a2916a9c42cf612895ea48051e189d485032e44b5fc899"
+binary linux-s390x "https://nodejs.org/download/nightly/v16.0.0-nightly202012012dc6bf0d12/node-v16.0.0-nightly202012012dc6bf0d12-linux-s390x.tar.gz#da0c2e31fe67c0bf0576010f97b6bc2b76c93096c4c5bfa9129e805ee0edac87"
+binary linux-x64 "https://nodejs.org/download/nightly/v16.0.0-nightly202012012dc6bf0d12/node-v16.0.0-nightly202012012dc6bf0d12-linux-x64.tar.gz#65c336b2ecf50e14eff9fc0557f8105ac67a0a4333f261ac1b050f50bbb2521d"
+
+install_package "node-v16.0.0-nightly202012012dc6bf0d12" "https://nodejs.org/download/nightly/v16.0.0-nightly202012012dc6bf0d12/node-v16.0.0-nightly202012012dc6bf0d12.tar.gz#b3713538773b764e5286a1e29ec163d2d67ef7d45213fda6c86c5d31f50d674c"
