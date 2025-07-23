@@ -1,0 +1,6 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary darwin-arm64 "https://nodejs.org/download/nightly/v25.0.0-nightly20250610b5984c54da/node-v25.0.0-nightly20250610b5984c54da-darwin-arm64.tar.gz#c018a2aa1b87c3b4154679b04c509963abb7e068ce1dcfda28eb6c4d1761ceb9"
+
+install_package "v25.0.0-nightly20250610b5984c54da" "https://nodejs.org/download/nightly/v25.0.0-nightly20250610b5984c54da/undefined.tar.gz#"

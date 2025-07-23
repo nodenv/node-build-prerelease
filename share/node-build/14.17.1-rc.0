@@ -1,0 +1,9 @@
+binary aix-ppc64 "https://nodejs.org/download/rc/v14.17.1-rc.0/node-v14.17.1-rc.0-aix-ppc64.tar.gz#0cbe9bb32d9e9a96e2febbbc0b9620ee4dcf6b85e9a2ab0e1f9b42642d897932"
+binary darwin-x64 "https://nodejs.org/download/rc/v14.17.1-rc.0/node-v14.17.1-rc.0-darwin-x64.tar.gz#31df0c6ff23b3bc14a2ffd81a479200e2964b66afb7d5da5e29906f7a1fe8720"
+binary linux-arm64 "https://nodejs.org/download/rc/v14.17.1-rc.0/node-v14.17.1-rc.0-linux-arm64.tar.gz#f1718dbdd80aa8626437cd14728ffc9669267a5fe2e96f324da28c3a92de966f"
+binary linux-armv7l "https://nodejs.org/download/rc/v14.17.1-rc.0/node-v14.17.1-rc.0-linux-armv7l.tar.gz#10066573a8a84185d76555305e1bd74b6a4fc87cb34f3b0f9d819f5bff410b93"
+binary linux-ppc64le "https://nodejs.org/download/rc/v14.17.1-rc.0/node-v14.17.1-rc.0-linux-ppc64le.tar.gz#483b6f39449adb9709aa6c0a8059c907d98d85abab9c81d4d3e9ff510f82912e"
+binary linux-s390x "https://nodejs.org/download/rc/v14.17.1-rc.0/node-v14.17.1-rc.0-linux-s390x.tar.gz#a2b18b4d84e11f9a061c2d5da9163965ccb19d32f6cc47c5c9647a60f8f2ba1a"
+binary linux-x64 "https://nodejs.org/download/rc/v14.17.1-rc.0/node-v14.17.1-rc.0-linux-x64.tar.gz#5f2d5d08b04d26adf4774477c41f13b5645e6ca81289513c98d538f9f3511437"
+
+install_package "node-v14.17.1-rc.0" "https://nodejs.org/download/rc/v14.17.1-rc.0/node-v14.17.1-rc.0.tar.gz#3c055860c531ab372f779d48cdc14089e4c98ffd5a648a845e8d52fe9c0417f8"

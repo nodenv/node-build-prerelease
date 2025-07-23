@@ -1,0 +1,8 @@
+binary darwin-x64 "https://nodejs.org/download/rc/v14.15.5-rc.0/node-v14.15.5-rc.0-darwin-x64.tar.gz#62a49715947e89179229e98bce7e745b05d3c88419e812ae8acf82d97ab123e9"
+binary linux-arm64 "https://nodejs.org/download/rc/v14.15.5-rc.0/node-v14.15.5-rc.0-linux-arm64.tar.gz#465e33c30a96a71e5e52c2f41dfbbf03d282a2698c10f84ef3979471d4844460"
+binary linux-armv7l "https://nodejs.org/download/rc/v14.15.5-rc.0/node-v14.15.5-rc.0-linux-armv7l.tar.gz#40f6abd130f8c1b0ae04f84129967d4b5a73c6dfbe2b0d100395a93d16c6a99b"
+binary linux-ppc64le "https://nodejs.org/download/rc/v14.15.5-rc.0/node-v14.15.5-rc.0-linux-ppc64le.tar.gz#efa030b3de49ad875978a253b18f2d0dc0d2f5a8c94d54a799747335f2e6e204"
+binary linux-s390x "https://nodejs.org/download/rc/v14.15.5-rc.0/node-v14.15.5-rc.0-linux-s390x.tar.gz#935d71ee47cad02b88148a39510a2b4d77a9e4a84d80edfebc9836eea2e96d35"
+binary linux-x64 "https://nodejs.org/download/rc/v14.15.5-rc.0/node-v14.15.5-rc.0-linux-x64.tar.gz#8719935137a1e612b0cf497a466824f900314adebf1da22a4a3caa31a00d5674"
+
+install_package "node-v14.15.5-rc.0" "https://nodejs.org/download/rc/v14.15.5-rc.0/node-v14.15.5-rc.0.tar.gz#0aca5d7ff72f489ea33e38ae8d1c22faa53b221482a24be7824c07500d69d657"

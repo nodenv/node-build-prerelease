@@ -1,0 +1,9 @@
+binary aix-ppc64 "https://nodejs.org/download/rc/v14.16.0-rc.0/node-v14.16.0-rc.0-aix-ppc64.tar.gz#256e304a4ebd6428261c6d216bcb1581292e054a1463af864678d6a716c24120"
+binary darwin-x64 "https://nodejs.org/download/rc/v14.16.0-rc.0/node-v14.16.0-rc.0-darwin-x64.tar.gz#ee89026262badb12905068b7d5375a4d669490ce95da050c45b6786b043d80fd"
+binary linux-arm64 "https://nodejs.org/download/rc/v14.16.0-rc.0/node-v14.16.0-rc.0-linux-arm64.tar.gz#37ebdf96108a40ba995134b2db8f14b90400c5b869f037924a56ffb7fe72ad60"
+binary linux-armv7l "https://nodejs.org/download/rc/v14.16.0-rc.0/node-v14.16.0-rc.0-linux-armv7l.tar.gz#6da48d8175a5a9f57b1687e07ff0cd53a70090022ee0010b889365a87ed7eb16"
+binary linux-ppc64le "https://nodejs.org/download/rc/v14.16.0-rc.0/node-v14.16.0-rc.0-linux-ppc64le.tar.gz#4416f302e7bc15250b986eac7a97e0d524a7733257e61c21f268928297ea5bd1"
+binary linux-s390x "https://nodejs.org/download/rc/v14.16.0-rc.0/node-v14.16.0-rc.0-linux-s390x.tar.gz#5613ba3215857c232a41fba1d01ae1179fb4846ef564bb96e366038f95532ce7"
+binary linux-x64 "https://nodejs.org/download/rc/v14.16.0-rc.0/node-v14.16.0-rc.0-linux-x64.tar.gz#56b66e10133e13cde7c8071a5465d624254db85f9a3fb728a44447f112b1ba70"
+
+install_package "node-v14.16.0-rc.0" "https://nodejs.org/download/rc/v14.16.0-rc.0/node-v14.16.0-rc.0.tar.gz#8e752e0d23acaee227a96766a40b13c60fe03a38e4abdaa62865a6ed5a741c78"

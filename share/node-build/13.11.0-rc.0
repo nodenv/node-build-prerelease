@@ -1,0 +1,7 @@
+binary linux-arm64 "https://nodejs.org/download/rc/v13.11.0-rc.0/node-v13.11.0-rc.0-linux-arm64.tar.gz#469d28fee782c9dfc71a7f9aeeccf092a89ab3f4ba37c4e8426db1b40ba75517"
+binary linux-armv7l "https://nodejs.org/download/rc/v13.11.0-rc.0/node-v13.11.0-rc.0-linux-armv7l.tar.gz#1f11319129ce0d67cea3dbb6b495fe0dca593fd576c8cf216762e52d7ee495d0"
+binary linux-ppc64le "https://nodejs.org/download/rc/v13.11.0-rc.0/node-v13.11.0-rc.0-linux-ppc64le.tar.gz#378e05a42f9fb7c61c6ed5ba6cf828352ae163f0165aece1d1ae5552a88e6d5d"
+binary linux-x64 "https://nodejs.org/download/rc/v13.11.0-rc.0/node-v13.11.0-rc.0-linux-x64.tar.gz#87947702323e886d4e681dcfd899bb3d1967f37764b12033266980b11beacb77"
+binary sunos-x64 "https://nodejs.org/download/rc/v13.11.0-rc.0/node-v13.11.0-rc.0-sunos-x64.tar.gz#786ea355986fb62aeec6ea21e9258c6f279db19ec48c5d68c7c3fe86b988dbe1"
+
+install_package "node-v13.11.0-rc.0" "https://nodejs.org/download/rc/v13.11.0-rc.0/node-v13.11.0-rc.0.tar.gz#0b4806bd8ee3885807c14c0948ba656da35d3c6385b44becedbeb522f0165008"

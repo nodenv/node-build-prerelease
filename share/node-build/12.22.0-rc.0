@@ -1,0 +1,10 @@
+binary aix-ppc64 "https://nodejs.org/download/rc/v12.22.0-rc.0/node-v12.22.0-rc.0-aix-ppc64.tar.gz#e4663bcb0c50c722bc8255f03d49c1a7fdf893e7aff43b5d692b68fcc1f88e80"
+binary darwin-x64 "https://nodejs.org/download/rc/v12.22.0-rc.0/node-v12.22.0-rc.0-darwin-x64.tar.gz#d99f7be35d29bf83ce5cd32bd6f705d10523945c9f3f656e26141d88e4c9bf3a"
+binary linux-arm64 "https://nodejs.org/download/rc/v12.22.0-rc.0/node-v12.22.0-rc.0-linux-arm64.tar.gz#6fa92010b7f5cdb0e98bf532f59a6140bc85be28e45deb1c18280238538cc513"
+binary linux-armv7l "https://nodejs.org/download/rc/v12.22.0-rc.0/node-v12.22.0-rc.0-linux-armv7l.tar.gz#57693c5776e95eb87edd98010d624aa81c33eb9304ab6dbf414e5105b2006e1c"
+binary linux-ppc64le "https://nodejs.org/download/rc/v12.22.0-rc.0/node-v12.22.0-rc.0-linux-ppc64le.tar.gz#6062b64c3a9aeec344b3cf120821cea040d0294243330ad4bdf2486d3d03daa6"
+binary linux-s390x "https://nodejs.org/download/rc/v12.22.0-rc.0/node-v12.22.0-rc.0-linux-s390x.tar.gz#0d9453b7cfe3e7936b8b75319839d53bd00bbfbacf2b63dd7c77ca14b8a0d5b8"
+binary linux-x64 "https://nodejs.org/download/rc/v12.22.0-rc.0/node-v12.22.0-rc.0-linux-x64.tar.gz#e6f6b8d1fd19bd217c2e174d0094b008f610998a3424b4aea36b6bd7819a92c6"
+binary sunos-x64 "https://nodejs.org/download/rc/v12.22.0-rc.0/node-v12.22.0-rc.0-sunos-x64.tar.gz#aa5eaf8b6a530e0ba4df96f11827fc32650c3048d20e8b3cd24062cce45f5f08"
+
+install_package "node-v12.22.0-rc.0" "https://nodejs.org/download/rc/v12.22.0-rc.0/node-v12.22.0-rc.0.tar.gz#bc3ecc72c7df82408d8234b356dbe772db9f47ee631cd7e1452ffe6496e7b547"

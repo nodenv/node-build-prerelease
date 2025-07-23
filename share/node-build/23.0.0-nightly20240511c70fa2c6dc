@@ -1,0 +1,9 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary aix-ppc64 "https://nodejs.org/download/nightly/v23.0.0-nightly20240511c70fa2c6dc/node-v23.0.0-nightly20240511c70fa2c6dc-aix-ppc64.tar.gz#7a786babc23a471262410a645ef7d2462ee8ec49bb7e335c864544576b0c860b"
+binary darwin-arm64 "https://nodejs.org/download/nightly/v23.0.0-nightly20240511c70fa2c6dc/node-v23.0.0-nightly20240511c70fa2c6dc-darwin-arm64.tar.gz#adf887c59b74063fab9cb06c5213b4fc0351acf72860201e46ce0dc8493ee2b1"
+binary darwin-x64 "https://nodejs.org/download/nightly/v23.0.0-nightly20240511c70fa2c6dc/node-v23.0.0-nightly20240511c70fa2c6dc-darwin-x64.tar.gz#268f0d03b7697d6d08fe659f76c053ff4bc5ce17580ca6951a99351819f49a6f"
+binary linux-armv7l "https://nodejs.org/download/nightly/v23.0.0-nightly20240511c70fa2c6dc/node-v23.0.0-nightly20240511c70fa2c6dc-linux-armv7l.tar.gz#6a67ad54580ebe49b5e0f8878204992e9637ce27e80ff29bc63cb249d326e17a"
+
+install_package "v23.0.0-nightly20240511c70fa2c6dc" "https://nodejs.org/download/nightly/v23.0.0-nightly20240511c70fa2c6dc/undefined.tar.gz#"

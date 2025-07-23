@@ -1,0 +1,7 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary aix-ppc64 "https://nodejs.org/download/nightly/v25.0.0-nightly20250507b21574d63b/node-v25.0.0-nightly20250507b21574d63b-aix-ppc64.tar.gz#da6fca2a97d2979d200f7f2bddbbd387614ae31cbec9ab146f3c8dab654ab208"
+binary darwin-arm64 "https://nodejs.org/download/nightly/v25.0.0-nightly20250507b21574d63b/node-v25.0.0-nightly20250507b21574d63b-darwin-arm64.tar.gz#01cec7ecab692766c98395eaa6d1b745d1a9784387ef8c35dd1734d41b4363e3"
+
+install_package "v25.0.0-nightly20250507b21574d63b" "https://nodejs.org/download/nightly/v25.0.0-nightly20250507b21574d63b/undefined.tar.gz#"
