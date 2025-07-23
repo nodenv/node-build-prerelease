@@ -12,18 +12,18 @@ git fetch --quiet --tags origin master
 
 existing="$(git tag --points-at HEAD)"
 if [ -n "$existing" ]; then
-  echo "Aborting: HEAD is already tagged as '${existing}'" >&2
-  exit 1
+	echo "Aborting: HEAD is already tagged as '${existing}'" >&2
+	exit 1
 fi
 
 current_branch="$(git symbolic-ref --short HEAD)"
 if [ "$current_branch" != master ]; then
-  echo "Aborting: Not currently on master branch" >&2
-  exit 1
+	echo "Aborting: Not currently on master branch" >&2
+	exit 1
 fi
 
 previous_tag="$(git describe --tags --abbrev=0)"
 if git diff --quiet "${previous_tag}..HEAD" -- bin share; then
-  echo "Aborting: No features to release since '${previous_tag}'" >&2
-  exit 1
+	echo "Aborting: No features to release since '${previous_tag}'" >&2
+	exit 1
 fi
