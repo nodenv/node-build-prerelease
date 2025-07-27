@@ -7,13 +7,14 @@ permissions: {}
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    permissions: { contents: read }
+    permissions: { contents: write }
     steps:
       - uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
         with: { egress-policy: audit }
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - run: npm ci
 
+      - run: git checkout -b "scrape/definitions"
       - run: npm run scrape-definitions
       - run: npm run commit-definitions
         env:
@@ -22,10 +23,10 @@ jobs:
           GIT_COMMITTER_NAME: ${{ vars.GHA_BOT_NAME }}
           GIT_COMMITTER_EMAIL: ${{ vars.GHA_BOT_EMAIL }}
 
-      - run: git log --format='- %s' --reverse ${{github.sha}}.. >> ${{ runner.temp }}/pr-body
-      - uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
-        with:
-          token: ${{ secrets.BOT_TOKEN }}
-          branch: latest-scraped-definitions
-          title: "Scraped latest definitions"
-          body-path: ${{ runner.temp }}/pr-body
+      - name: gh pr create
+        run: |
+          git push -fu origin HEAD
+          gh pr create --fill -t "Scraped definitions"
+          gh pr merge --auto
+        env:
+          GH_TOKEN: ${{ secrets.BOT_TOKEN }}
