@@ -27,6 +27,6 @@ jobs:
         run: |
           git push -fu origin HEAD
           gh pr create --fill -t "Scraped definitions"
-          gh pr merge --auto
+          gh pr merge --auto --merge
         env:
           GH_TOKEN: ${{ secrets.BOT_TOKEN }}
