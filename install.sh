@@ -8,7 +8,7 @@ set -e
 cd "$(dirname "$0")"
 
 if [ -z "${PREFIX}" ]; then
-	PREFIX="/usr/local"
+  PREFIX="/usr/local"
 fi
 
 SHARE_PATH="${PREFIX}/share/node-build"
