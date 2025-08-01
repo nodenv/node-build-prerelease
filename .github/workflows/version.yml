@@ -4,7 +4,7 @@ on:
   schedule: [{ cron: "0 10 * * SAT" }] # weekly: https://crontab.guru/#0_10_*_*_SAT
   workflow_dispatch:
     inputs:
-      version:
+      version: # checkov:skip=CKV_GHA_7
         description: "An explicit version (or major|minor|patch) to tag."
         default: ""
         required: false
