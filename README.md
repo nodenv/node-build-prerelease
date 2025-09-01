@@ -1,6 +1,6 @@
 # node-build-prerelease
 
-[nodenv][] plugin (technically, a [node-build][] plugin) providing build definitions for Node.js prereleases (primarily release candidates)
+A [nodenv][] plugin providing [node-build][] definitions for Node.js prereleases.
 
 [![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/node-build-prerelease/test.yml?label=tests&logo=github)](https://github.com/nodenv/node-build-prerelease/actions/workflows/test.yml)
 [![Latest GitHub Release](https://img.shields.io/github/v/release/nodenv/node-build-prerelease?label=github&logo=github&sort=semver)](https://github.com/nodenv/node-build-prerelease/releases/latest)
