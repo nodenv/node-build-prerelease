@@ -1,0 +1,7 @@
+binary aix-ppc64 "https://nodejs.org/download/rc/v25.0.0-rc.0/node-v25.0.0-rc.0-aix-ppc64.tar.gz#cc8476b4da82c2fb6b065a1ad8883fd14f92c0003d47cb813f386c28833a471f"
+binary linux-arm64 "https://nodejs.org/download/rc/v25.0.0-rc.0/node-v25.0.0-rc.0-linux-arm64.tar.gz#0d189684c6d24f5b4f5af7af9e850c810b7baccf928a0c4b2929fa746a4667fd"
+binary linux-ppc64le "https://nodejs.org/download/rc/v25.0.0-rc.0/node-v25.0.0-rc.0-linux-ppc64le.tar.gz#44af2c7f6e897cd7862b17d0e4ae42058fb3f854d02f15eb7127ef2fcac9a251"
+binary linux-s390x "https://nodejs.org/download/rc/v25.0.0-rc.0/node-v25.0.0-rc.0-linux-s390x.tar.gz#8397e73e0656e7f01daa5ab8112a913f1edfec20befd434e4969a0f60cc0af77"
+binary linux-x64 "https://nodejs.org/download/rc/v25.0.0-rc.0/node-v25.0.0-rc.0-linux-x64.tar.gz#bd70577e37d7386ef91fa5faabeb28eb49ea6d7ddce09be608aa5cbcd21762d4"
+
+install_package "node-v25.0.0-rc.0" "https://nodejs.org/download/rc/v25.0.0-rc.0/node-v25.0.0-rc.0.tar.gz#4c3256d342b89e49833f3250667063316857f26a00193907aaeb85acfd733a95"
