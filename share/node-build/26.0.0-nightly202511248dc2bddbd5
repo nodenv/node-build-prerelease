@@ -1,0 +1,9 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v26.0.0-nightly202511248dc2bddbd5/node-v26.0.0-nightly202511248dc2bddbd5-aix-ppc64.tar.gz#1fa1ff25fd3f70a4b3ca0ffa7dee1b869fbe9952b8952b2821fc3557ca5fa2ad"
+binary darwin-arm64 "https://nodejs.org/download/nightly/v26.0.0-nightly202511248dc2bddbd5/node-v26.0.0-nightly202511248dc2bddbd5-darwin-arm64.tar.gz#c740336df604d443cefb6b0cee4b22b3121ae8f7061a6cf332141b106deed410"
+binary darwin-x64 "https://nodejs.org/download/nightly/v26.0.0-nightly202511248dc2bddbd5/node-v26.0.0-nightly202511248dc2bddbd5-darwin-x64.tar.gz#ae4cdfe31fb898a989567112068aa2390891160720bd21d0fdf3b4dc8e095005"
+binary linux-arm64 "https://nodejs.org/download/nightly/v26.0.0-nightly202511248dc2bddbd5/node-v26.0.0-nightly202511248dc2bddbd5-linux-arm64.tar.gz#f2051c2fda61d1c2ee21d50410a39b4afad4ef6e7cc4af91de82deca054197dc"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v26.0.0-nightly202511248dc2bddbd5/node-v26.0.0-nightly202511248dc2bddbd5-linux-ppc64le.tar.gz#a24316a696c9406ac44ae0fefaad3139f9597587e4ceeb2e681089910ab782a2"
+binary linux-s390x "https://nodejs.org/download/nightly/v26.0.0-nightly202511248dc2bddbd5/node-v26.0.0-nightly202511248dc2bddbd5-linux-s390x.tar.gz#84af682685ba171280e351b0a8c4476e372dddeaf9eeeaf8e18271e8a208699f"
+binary linux-x64 "https://nodejs.org/download/nightly/v26.0.0-nightly202511248dc2bddbd5/node-v26.0.0-nightly202511248dc2bddbd5-linux-x64.tar.gz#b1b0215046c3513461f93bb992c43615e68ff0f8439c53432d214df89c25be91"
+
+install_package "node-v26.0.0-nightly202511248dc2bddbd5" "https://nodejs.org/download/nightly/v26.0.0-nightly202511248dc2bddbd5/node-v26.0.0-nightly202511248dc2bddbd5.tar.gz#104d2138ee7ef2612d5ed067a6d391afcb9a7bb815fc45c19a906cdb59daca04"
