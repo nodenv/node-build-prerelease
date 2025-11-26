@@ -1,0 +1,8 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary darwin-arm64 "https://nodejs.org/download/nightly/v26.0.0-nightly202511264451309e99/node-v26.0.0-nightly202511264451309e99-darwin-arm64.tar.gz#4e4715c40ac3cf529be7202478a3a51ce746e858e03120d2cff6bbc861f3b86c"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v26.0.0-nightly202511264451309e99/node-v26.0.0-nightly202511264451309e99-linux-ppc64le.tar.gz#4d85fb581adca7edef2c94986750aa290cbc5f0403bce03809a01d533852f14b"
+binary linux-s390x "https://nodejs.org/download/nightly/v26.0.0-nightly202511264451309e99/node-v26.0.0-nightly202511264451309e99-linux-s390x.tar.gz#c4bd991dd8187b853c55e65d5654e0cad9c49c46061b0e3403fb89a3b7403c7f"
+
+install_package "v26.0.0-nightly202511264451309e99" "https://nodejs.org/download/nightly/v26.0.0-nightly202511264451309e99/undefined.tar.gz#"
