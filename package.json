@@ -34,8 +34,8 @@
     "postversion": "git push --follow-tags"
   },
   "devDependencies": {
-    "@nodenv/node-build-update-defs": "^2.11",
-    "bats": "^1.13",
+    "@nodenv/node-build-update-defs": "2",
+    "bats": "1",
     "prettier": "3"
   }
 }
