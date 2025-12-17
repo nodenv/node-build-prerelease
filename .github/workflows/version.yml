@@ -21,6 +21,7 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.BOT_TOKEN }}
+          persist-credentials: true # need creds for subsequent git ops
 
       - if: ${{ !inputs.version }}
         run: |-
@@ -32,9 +33,10 @@ jobs:
           esac
 
       - if: ${{ inputs.version || env.bump }}
-        run: npm version ${{ inputs.version || env.bump }}
+        run: npm version "$NEWVERSION"
         env:
           GIT_AUTHOR_NAME: ${{ vars.NODENV_BOT_NAME }}
           GIT_AUTHOR_EMAIL: ${{ vars.NODENV_BOT_EMAIL }}
           GIT_COMMITTER_NAME: ${{ vars.GHA_BOT_NAME }}
           GIT_COMMITTER_EMAIL: ${{ vars.GHA_BOT_EMAIL }}
+          NEWVERSION: ${{ inputs.version || env.bump }}
