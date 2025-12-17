@@ -30,6 +30,6 @@ jobs:
 
         # FIXME workaround https://github.com/actions/checkout/issues/910
       - if: github.event_name == 'pull_request'
-        run: npm run lint:checksums -- origin/${{github.base_ref}}
+        run: npm run lint:checksums -- "origin/${GITHUB_BASE_REF}"
       - run: npm run lint:checksums -- HEAD^
         if: github.event_name == 'push'
