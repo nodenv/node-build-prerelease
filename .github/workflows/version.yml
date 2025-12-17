@@ -21,6 +21,7 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.BOT_TOKEN }}
+          persist-credentials: true # need creds for subsequent git ops
 
       - if: ${{ !inputs.version }}
         run: |-
