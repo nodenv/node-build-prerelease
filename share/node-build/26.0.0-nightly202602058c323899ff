@@ -1,0 +1,7 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary linux-ppc64le "https://nodejs.org/download/nightly/v26.0.0-nightly202602058c323899ff/node-v26.0.0-nightly202602058c323899ff-linux-ppc64le.tar.gz#d8a342d69ed711a466bc65b01289f9188d5b9410c203215c64892b3e9796b6d2"
+binary linux-s390x "https://nodejs.org/download/nightly/v26.0.0-nightly202602058c323899ff/node-v26.0.0-nightly202602058c323899ff-linux-s390x.tar.gz#ae1f7254540872e013e5d57c0411cbf2bcf6dc2508ec0bdb7b7221a2c3645b69"
+
+install_package "v26.0.0-nightly202602058c323899ff" "https://nodejs.org/download/nightly/v26.0.0-nightly202602058c323899ff/undefined.tar.gz#"
