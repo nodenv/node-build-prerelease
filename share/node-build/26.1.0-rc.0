@@ -1,0 +1,9 @@
+binary aix-ppc64 "https://nodejs.org/download/rc/v26.1.0-rc.0/node-v26.1.0-rc.0-aix-ppc64.tar.gz#bb98a0ad47aa5f205d288ea2dabc4cf329323de4bf4eda4ff9c34d9968361244"
+binary darwin-arm64 "https://nodejs.org/download/rc/v26.1.0-rc.0/node-v26.1.0-rc.0-darwin-arm64.tar.gz#bb6ae1382b8d6695401fe387614255ca5492d776bcbfec8cdd5e51c2c81f71cf"
+binary darwin-x64 "https://nodejs.org/download/rc/v26.1.0-rc.0/node-v26.1.0-rc.0-darwin-x64.tar.gz#fd2443a26ca172cc2cf0065694e11352c568aa742b1328f1b1ed37599c7ec312"
+binary linux-arm64 "https://nodejs.org/download/rc/v26.1.0-rc.0/node-v26.1.0-rc.0-linux-arm64.tar.gz#b5fb6d387905117cc86cd59c54a51f012ae687ad5dd33bee7c06205861622cc8"
+binary linux-ppc64le "https://nodejs.org/download/rc/v26.1.0-rc.0/node-v26.1.0-rc.0-linux-ppc64le.tar.gz#6804f033328f42919f22c7621f6e54affe855460d8247548dd8feddb63e3f74c"
+binary linux-s390x "https://nodejs.org/download/rc/v26.1.0-rc.0/node-v26.1.0-rc.0-linux-s390x.tar.gz#aa0d3b88463298678d6d06c3eb8bb44fd832ad00af0b80f5c20ebeadce049f6a"
+binary linux-x64 "https://nodejs.org/download/rc/v26.1.0-rc.0/node-v26.1.0-rc.0-linux-x64.tar.gz#d450680b2937c21e0d78ef65449ca0b979bd35987543ae80685df7c26b4885a5"
+
+install_package "node-v26.1.0-rc.0" "https://nodejs.org/download/rc/v26.1.0-rc.0/node-v26.1.0-rc.0.tar.gz#ceb3d4c90b3799ce7762f5fa494d6bd1c6489195cbe64259378c2e99a2d98949"

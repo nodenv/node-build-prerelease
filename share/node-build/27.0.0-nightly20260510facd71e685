@@ -1,0 +1,9 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v27.0.0-nightly20260510facd71e685/node-v27.0.0-nightly20260510facd71e685-aix-ppc64.tar.gz#9ef1e95682b824c295f03a4c23881cb7a12c5a0ddf77ee8e5fdc0dc2524eb0a5"
+binary darwin-arm64 "https://nodejs.org/download/nightly/v27.0.0-nightly20260510facd71e685/node-v27.0.0-nightly20260510facd71e685-darwin-arm64.tar.gz#e0657c6f20f76057f9620be064d13753d77d17806cff95fab170affcd7f0ee88"
+binary darwin-x64 "https://nodejs.org/download/nightly/v27.0.0-nightly20260510facd71e685/node-v27.0.0-nightly20260510facd71e685-darwin-x64.tar.gz#3bb2880859ac360b8c23e085ca242415b5abee7e7d1ab8b2df8c14e1586947a3"
+binary linux-arm64 "https://nodejs.org/download/nightly/v27.0.0-nightly20260510facd71e685/node-v27.0.0-nightly20260510facd71e685-linux-arm64.tar.gz#90060657d942ca3085cebd378d9e62e7f7608aae69ed38019fee9c1d63796dbb"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v27.0.0-nightly20260510facd71e685/node-v27.0.0-nightly20260510facd71e685-linux-ppc64le.tar.gz#db1abc8274d8bfbe5dc2474bfd452bec021814a179c24d07b694de1f01e4b65f"
+binary linux-s390x "https://nodejs.org/download/nightly/v27.0.0-nightly20260510facd71e685/node-v27.0.0-nightly20260510facd71e685-linux-s390x.tar.gz#30d33cf13b904fbaf6c8f6830d64e6e0d80a887b97c1437b73e770012ba4b5e1"
+binary linux-x64 "https://nodejs.org/download/nightly/v27.0.0-nightly20260510facd71e685/node-v27.0.0-nightly20260510facd71e685-linux-x64.tar.gz#6ee175d7a692ee26f9e2e751ece0cbf3ed8e828468c0788ef64ffa17c44cebef"
+
+install_package "node-v27.0.0-nightly20260510facd71e685" "https://nodejs.org/download/nightly/v27.0.0-nightly20260510facd71e685/node-v27.0.0-nightly20260510facd71e685.tar.gz#ac7e336ebdfabe9be2c95a85710fda3b188d7c4e30993d2f06697f2d598b065e"
