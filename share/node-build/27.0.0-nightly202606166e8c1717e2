@@ -1,0 +1,10 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+binary darwin-arm64 "https://nodejs.org/download/nightly/v27.0.0-nightly202606166e8c1717e2/node-v27.0.0-nightly202606166e8c1717e2-darwin-arm64.tar.gz#c048669ca01c73df10adcb38df218ad36dae52d3dd037f48eeb9c4e7cee71fe4"
+binary linux-arm64 "https://nodejs.org/download/nightly/v27.0.0-nightly202606166e8c1717e2/node-v27.0.0-nightly202606166e8c1717e2-linux-arm64.tar.gz#700bcf1c02a5f7ff890db06878116341ff2c0beb6e0681fb613894d6ad904404"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v27.0.0-nightly202606166e8c1717e2/node-v27.0.0-nightly202606166e8c1717e2-linux-ppc64le.tar.gz#8b7b7256f803ef843bea35fef1d69da68aa1c28ad8e25bb4e5c83a0ac4270663"
+binary linux-s390x "https://nodejs.org/download/nightly/v27.0.0-nightly202606166e8c1717e2/node-v27.0.0-nightly202606166e8c1717e2-linux-s390x.tar.gz#e7f888a9b47e0024c657824731c3f6c7a9149716b3d7d0d05b910aef256ce58a"
+binary linux-x64 "https://nodejs.org/download/nightly/v27.0.0-nightly202606166e8c1717e2/node-v27.0.0-nightly202606166e8c1717e2-linux-x64.tar.gz#7cefe3e541927910e0dca9b251534803b22fc114587e9192a253055050a94412"
+
+install_package "v27.0.0-nightly202606166e8c1717e2" "https://nodejs.org/download/nightly/v27.0.0-nightly202606166e8c1717e2/undefined.tar.gz#"
