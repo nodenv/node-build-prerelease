@@ -1,0 +1,4 @@
+binary linux-ppc64le "https://nodejs.org/download/nightly/v27.0.0-nightly20260717a27fe2198a/node-v27.0.0-nightly20260717a27fe2198a-linux-ppc64le.tar.gz#1416b10082a941514c77b1737dad8ebac44c494983f9b4a9a9a5135f0bd7241b"
+binary linux-s390x "https://nodejs.org/download/nightly/v27.0.0-nightly20260717a27fe2198a/node-v27.0.0-nightly20260717a27fe2198a-linux-s390x.tar.gz#952e9eeaf36244f84bc17c42a6df90a6c8466ef7e7b0261c826600e7fc3c6374"
+
+install_package "node-v27.0.0-nightly20260717a27fe2198a" "https://nodejs.org/download/nightly/v27.0.0-nightly20260717a27fe2198a/node-v27.0.0-nightly20260717a27fe2198a.tar.gz#36a7fc5ebb5360d92608ff6b44fc8952d535f1edbd61b33dcfac0121568ef1d5"
