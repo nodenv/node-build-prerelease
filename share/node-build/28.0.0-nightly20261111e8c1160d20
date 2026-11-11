@@ -1,0 +1,7 @@
+binary aix-ppc64 "https://nodejs.org/download/nightly/v28.0.0-nightly20261111e8c1160d20/node-v28.0.0-nightly20261111e8c1160d20-aix-ppc64.tar.gz#c094cfac3e8ab00d203b7222bb2fe10c6fab9154b221fe0898435b2332ca6013"
+binary darwin-arm64 "https://nodejs.org/download/nightly/v28.0.0-nightly20261111e8c1160d20/node-v28.0.0-nightly20261111e8c1160d20-darwin-arm64.tar.gz#4cd396b76959cd211efdb47d1c5a488b458da24644858b9372f5ec82d99974f4"
+binary linux-arm64 "https://nodejs.org/download/nightly/v28.0.0-nightly20261111e8c1160d20/node-v28.0.0-nightly20261111e8c1160d20-linux-arm64.tar.gz#13c4d657c5fa600f3709c15c4de3eb8f288c74c47d2774265bc5e84a94ea43b9"
+binary linux-ppc64le "https://nodejs.org/download/nightly/v28.0.0-nightly20261111e8c1160d20/node-v28.0.0-nightly20261111e8c1160d20-linux-ppc64le.tar.gz#0ece8c39426fd98494c84091f6271171aa8d427d72dd64d004a9a46dcff94390"
+binary linux-x64 "https://nodejs.org/download/nightly/v28.0.0-nightly20261111e8c1160d20/node-v28.0.0-nightly20261111e8c1160d20-linux-x64.tar.gz#a5cf220cf3019485f3d685ae91dd1d4dcd0b56b0c61a82d41e7bbfe5511da203"
+
+install_package "node-v28.0.0-nightly20261111e8c1160d20" "https://nodejs.org/download/nightly/v28.0.0-nightly20261111e8c1160d20/node-v28.0.0-nightly20261111e8c1160d20.tar.gz#8afb4c30d445a70d0485c93b5ea9469c2b0845874f22840aaaf1b77622be4bbf"
